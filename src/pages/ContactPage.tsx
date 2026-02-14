@@ -1,0 +1,102 @@
+import { useState } from "react";
+import FadeInSection from "../components/FadeInSection";
+
+const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: "", email: "", company: "", eventType: "Sensory Salon", message: "",
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    window.location.href = `mailto:helena@helenasips.com?subject=Enquiry from ${formData.name}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\nEvent Type: ${formData.eventType}\n\n${formData.message}`
+    )}`;
+  };
+
+  return (
+    <div className="pt-20">
+      <section className="section-padding bg-background">
+        <div className="max-w-4xl mx-auto">
+          <FadeInSection>
+            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Connect</p>
+            <h1 className="text-center mb-4">Let's Connect</h1>
+            <p className="text-center text-foreground/70 max-w-2xl mx-auto mb-16">
+              Whether you want to be part of a sensory salon, get your liquid on customer lips or are interested in a content partnership, I'd love to hear from you.
+            </p>
+          </FadeInSection>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <FadeInSection>
+              <h2 className="text-2xl mb-6">Book a Discovery Call</h2>
+              <p className="text-foreground/70 mb-8">Schedule a 15-minute call to discuss your event or partnership.</p>
+              <a href="#" className="inline-block px-8 py-3 bg-accent text-primary font-heading tracking-wider hover:bg-accent/90 transition-all">
+                Schedule on Calendly
+              </a>
+
+              <div className="mt-12">
+                <h3 className="text-xl mb-4">Or Get In Touch Directly</h3>
+                <a href="mailto:helena@helenasips.com" className="text-accent hover:text-accent/80 transition-colors text-lg">
+                  helena@helenasips.com
+                </a>
+                <p className="mt-4 text-foreground/60">
+                  <a href="https://instagram.com/helenasips" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                    @helenasips
+                  </a>
+                </p>
+              </div>
+            </FadeInSection>
+
+            <FadeInSection delay={0.2}>
+              <h2 className="text-2xl mb-6">Send an Enquiry</h2>
+              <form onSubmit={handleSubmit} className="space-y-5">
+                {[
+                  { label: "Name", key: "name", type: "text" },
+                  { label: "Email", key: "email", type: "email" },
+                  { label: "Company / Organisation", key: "company", type: "text" },
+                ].map(({ label, key, type }) => (
+                  <div key={key}>
+                    <label className="block text-sm font-heading tracking-wider text-foreground/70 mb-2">{label}</label>
+                    <input
+                      type={type}
+                      value={formData[key as keyof typeof formData]}
+                      onChange={(e) => setFormData({ ...formData, [key]: e.target.value })}
+                      className="w-full px-4 py-3 bg-secondary border border-border text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-accent"
+                      required={key !== "company"}
+                    />
+                  </div>
+                ))}
+                <div>
+                  <label className="block text-sm font-heading tracking-wider text-foreground/70 mb-2">Event Type</label>
+                  <select
+                    value={formData.eventType}
+                    onChange={(e) => setFormData({ ...formData, eventType: e.target.value })}
+                    className="w-full px-4 py-3 bg-secondary border border-border text-foreground focus:outline-none focus:border-accent"
+                  >
+                    {["Sensory Salon", "Supper Club", "Speaking", "Brand Partnership", "Other"].map((opt) => (
+                      <option key={opt} value={opt}>{opt}</option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-sm font-heading tracking-wider text-foreground/70 mb-2">Message</label>
+                  <textarea
+                    value={formData.message}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                    rows={5}
+                    className="w-full px-4 py-3 bg-secondary border border-border text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-accent resize-none"
+                    required
+                  />
+                </div>
+                <button type="submit" className="w-full px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                  Send Enquiry
+                </button>
+              </form>
+            </FadeInSection>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default ContactPage;

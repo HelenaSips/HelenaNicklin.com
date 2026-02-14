@@ -1,0 +1,111 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import FadeInSection from "../components/FadeInSection";
+import salonInterior from "@/assets/salon-interior.jpg";
+import supperClub from "@/assets/supper-club.jpg";
+import brandEvent from "@/assets/brand-event.jpg";
+import heroLifestyle from "@/assets/hero-lifestyle.jpg";
+
+const previousClients = [
+  "D.O. Rueda", "Symington Family Estates", "Toro Loco Wine", "D.O. Rías Baixas",
+  "Vins de Bordeaux", "Rémy Martin", "Courvoisier", "Guinness", "Jameson Whiskey",
+  "Waterford Whisky", "The Dalmore", "Glenmorangie", "Celliers Les Dauphins",
+  "Fenjiu Baijiu", "Akashi-Tai Sake",
+];
+
+const EventsPage = () => {
+  const [eventType, setEventType] = useState("Sensory Salon");
+
+  return (
+    <div className="pt-20">
+      {/* Hero */}
+      <section className="relative min-h-[60vh] flex items-end">
+        <div className="absolute inset-0">
+          <img src={heroLifestyle} alt="Salon experience" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pb-16 w-full">
+          <FadeInSection>
+            <h1 className="text-primary-foreground mb-4">Sensory Salons & Drinks Masterclasses</h1>
+            <p className="text-primary-foreground/70 text-lg max-w-2xl">
+              Curated, consumer-facing experiences for drinks and luxury brands, hotels, festivals and cultural venues
+            </p>
+          </FadeInSection>
+        </div>
+      </section>
+
+      {/* Three Services */}
+      {[
+        {
+          img: salonInterior,
+          title: "Sensory Salons",
+          copy: "Helena's salons are curated experiences where wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more. Hosted in luxury hotels, private venues and cultural spaces for brand partnerships and discerning private clients.",
+          perfect: "Luxury hotel guest experiences, brand activations and launches, private client gatherings & cultural venue programming.",
+          format: "90-120 minutes, fully hosted with drinks, sensory elements provided and where relevant, special guest speakers invited.",
+        },
+        {
+          img: supperClub,
+          title: "Bottles & Bites Masterclasses",
+          copy: "Wine education perfectly paired with food. Helena guides guests through carefully selected wines, sharing stories, techniques and cultural context in an accessible, sophisticated and importantly, memorable way.",
+          perfect: "Private dining experiences, corporate entertaining, VIP client events & special celebrations.",
+        },
+        {
+          img: brandEvent,
+          title: "Brand Ambassador Partnerships",
+          copy: "Helena brings 23 years of drinks expertise and broadcast experience to stages, festivals and panels, offering wine & spirits masterclass hosting.",
+        },
+      ].map((service, i) => (
+        <section key={service.title} className={`section-padding ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
+          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
+              <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />
+            </FadeInSection>
+            <FadeInSection delay={0.2} className={i % 2 !== 0 ? "lg:order-1" : ""}>
+              <h2 className="mb-6">{service.title}</h2>
+              <p className="text-foreground/80 mb-6 leading-relaxed">{service.copy}</p>
+              {service.perfect && (
+                <p className="text-foreground/70 mb-4"><strong className="text-foreground">Perfect for:</strong> {service.perfect}</p>
+              )}
+              {service.format && (
+                <p className="text-foreground/70 mb-4"><strong className="text-foreground">Format:</strong> {service.format}</p>
+              )}
+            </FadeInSection>
+          </div>
+        </section>
+      ))}
+
+      {/* Previous Clients */}
+      <section className="section-padding bg-background">
+        <div className="max-w-5xl mx-auto">
+          <FadeInSection>
+            <h2 className="text-center mb-12">Previous Clients Include</h2>
+            <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+              {previousClients.map((client) => (
+                <span key={client} className="font-heading text-base md:text-lg tracking-wider text-foreground/40">{client}</span>
+              ))}
+            </div>
+          </FadeInSection>
+        </div>
+      </section>
+
+      {/* Contact Form CTA */}
+      <section className="section-padding bg-primary text-primary-foreground text-center">
+        <div className="max-w-3xl mx-auto">
+          <FadeInSection>
+            <h2 className="text-primary-foreground mb-6">Let's Create Something Extraordinary</h2>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+              <Link to="/contact" className="inline-block px-8 py-4 bg-accent text-primary font-heading text-lg tracking-wider hover:bg-accent/90 transition-all">
+                Book a Discovery Call
+              </Link>
+              <a href="mailto:helena@helenasips.com" className="inline-block px-8 py-4 border border-primary-foreground/30 text-primary-foreground font-heading text-lg tracking-wider hover:bg-primary-foreground/10 transition-all">
+                Send an Enquiry
+              </a>
+            </div>
+          </FadeInSection>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default EventsPage;
