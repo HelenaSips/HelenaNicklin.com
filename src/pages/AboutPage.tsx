@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
-import wineCloseup from "@/assets/wine-closeup.jpg";
+import helenaHeadshot from "@/assets/helena-headshot.jpg";
 
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
@@ -24,7 +24,7 @@ const AboutPage = () => {
       <section className="section-padding bg-background">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <FadeInSection>
-            <img src={wineCloseup} alt="Helena Nicklin" className="w-full max-w-md mx-auto aspect-[3/4] object-cover" />
+            <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full max-w-md mx-auto aspect-[3/4] object-cover object-top" />
           </FadeInSection>
           <FadeInSection delay={0.2}>
             <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">About</p>
