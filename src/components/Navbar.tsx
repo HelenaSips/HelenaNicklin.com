@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import logoWhite from "@/assets/helenasips-logo-white.png";
 
 const navLinks = [
-  { label: "About", href: "/about" },
+  { label: "About Helena", href: "/about" },
   { label: "Salons & Events", href: "/events" },
   { label: "Content Creation", href: "/content-creation" },
   { label: "Podcast", href: "/podcast" },
