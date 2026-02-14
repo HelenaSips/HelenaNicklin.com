@@ -47,6 +47,9 @@ export default {
           DEFAULT: "hsl(var(--plum))",
           foreground: "hsl(var(--plum-foreground))",
         },
+        magenta: {
+          DEFAULT: "hsl(var(--magenta))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",

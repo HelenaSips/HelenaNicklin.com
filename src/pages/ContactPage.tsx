@@ -18,7 +18,7 @@ const ContactPage = () => {
       <section className="section-padding bg-background">
         <div className="max-w-4xl mx-auto">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Connect</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Connect</p>
             <h1 className="text-center mb-4">Let's Connect</h1>
             <p className="text-center text-foreground/70 max-w-2xl mx-auto mb-16">
               Whether you want to be part of a sensory salon, get your liquid on customer lips or are interested in a content partnership, I'd love to hear from you.

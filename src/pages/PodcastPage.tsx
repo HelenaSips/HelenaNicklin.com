@@ -18,7 +18,7 @@ const PodcastPage = () => {
           <FadeInSection>
             <div className="aspect-square bg-primary-foreground/5 border border-accent/20 flex items-center justify-center">
               <div className="text-center p-8">
-                <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">Podcast</p>
+                <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Podcast</p>
                 <h2 className="text-primary-foreground font-heading text-4xl md:text-5xl mb-4">The HelenaSips Podcast</h2>
                 <p className="font-heading text-lg text-primary-foreground/50 italic">Cover art coming soon</p>
               </div>

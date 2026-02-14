@@ -25,7 +25,7 @@ const MagazinePage = () => {
       <section className="section-padding bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">Read</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Read</p>
             <h1 className="mb-4">The HelenaSips Magazine</h1>
             <p className="font-heading text-xl text-foreground/60 italic mb-6">
               A Cultural Magazine on Wine, Drinks & The Art of Living

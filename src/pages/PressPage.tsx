@@ -7,7 +7,7 @@ const PressPage = () => {
       <section className="section-padding bg-background">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Authority</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Authority</p>
             <h1 className="text-center mb-14">Published & Featured</h1>
           </FadeInSection>
 

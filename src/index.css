@@ -29,6 +29,9 @@
     --accent: 40 50% 59%;
     --accent-foreground: 153 37% 17%;
 
+    /* Magenta accent #db258f */
+    --magenta: 328 72% 50%;
+
     /* Plum accent #9b6b7f */
     --plum: 336 19% 51%;
     --plum-foreground: 36 38% 95%;

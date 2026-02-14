@@ -27,7 +27,7 @@ const AboutPage = () => {
             <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full mx-auto aspect-[4/3] object-cover object-top" />
           </FadeInSection>
           <FadeInSection delay={0.2}>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">About</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
             <h1 className="mb-8">Where Wine Meets Culture</h1>
             <p className="text-foreground/80 mb-6 leading-relaxed">
               Helena Nicklin is a multi-award-winning drinks writer, broadcaster and cultural host with 23 years in wine, spirits and no-lo.

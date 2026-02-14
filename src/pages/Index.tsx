@@ -53,7 +53,7 @@ const Index = () => {
               <img src={helenaYellowDress} alt="Helena Nicklin" className="w-full mx-auto lg:mx-0 aspect-[4/3] object-cover object-top" />
             </FadeInSection>
             <FadeInSection delay={0.2}>
-              <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
+              <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
               <h2 className="mb-8">Where Wine Meets Culture</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Helena Nicklin is a multi-award-winning drinks writer, broadcaster and cultural host with 23 years in wine, spirits and no-lo.
@@ -79,7 +79,7 @@ const Index = () => {
       <section className="section-padding bg-background">
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Experiences</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Experiences</p>
             <h2 className="text-center mb-6">Sensory Salons</h2>
             <p className="text-center max-w-3xl mx-auto text-foreground/80 mb-16 leading-relaxed">
               Helena's salons are curated experiences where wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more.
@@ -125,7 +125,7 @@ const Index = () => {
       <section className="section-padding bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Listen</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Listen</p>
             <h2 className="text-center mb-4">The HelenaSips Podcast</h2>
             <p className="font-heading text-xl text-primary-foreground/70 italic text-center mb-6">
               Intimate conversations with creative minds on the art of living well
@@ -166,7 +166,7 @@ const Index = () => {
       <section className="section-padding bg-background">
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Authority</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Authority</p>
             <h2 className="text-center mb-14">Published & Featured In</h2>
           </FadeInSection>
           <FadeInSection delay={0.2}>
@@ -186,7 +186,7 @@ const Index = () => {
       <section className="section-padding bg-secondary/50">
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
-            <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4 text-center">Praise</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Praise</p>
             <h2 className="text-center mb-14">What Clients Say</h2>
           </FadeInSection>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -211,7 +211,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeInSection>
-              <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">Read</p>
+              <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Read</p>
               <h2 className="mb-4">The HelenaSips Magazine</h2>
               <p className="font-heading text-xl text-foreground/60 italic mb-6">
                 A magazine-style Substack exploring wine, drinks and the art of living well
