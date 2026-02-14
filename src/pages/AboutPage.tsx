@@ -1,5 +1,6 @@
 import { useState } from "react";
 import FadeInSection from "../components/FadeInSection";
+import PublicationLogos from "../components/PublicationLogos";
 import wineCloseup from "@/assets/wine-closeup.jpg";
 
 const awards = [
@@ -13,11 +14,6 @@ const awards = [
   "Gourmand Award Best Beginner's Wine Book 2015",
 ];
 
-const publications = [
-  "Daily Mail", "The Sun", "Luxury Lifestyle Magazine", "Decanter", "The Tonic",
-  "BA High Life", "Delicious Magazine", "Talk TV", "BBC Radio 4", "BBC 5 Live",
-  "Amazon Prime", "Bottoms Up! with Alan Carr", "Style of Wight", "Isle of Wight Literary Festival",
-];
 
 const AboutPage = () => {
   const [expanded, setExpanded] = useState(false);
@@ -83,11 +79,7 @@ const AboutPage = () => {
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
             <h2 className="text-center mb-12">Publications</h2>
-            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
-              {publications.map((pub) => (
-                <span key={pub} className="font-heading text-base md:text-lg tracking-wider text-foreground/40">{pub}</span>
-              ))}
-            </div>
+            <PublicationLogos />
           </FadeInSection>
         </div>
       </section>
