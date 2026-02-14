@@ -54,6 +54,9 @@ const AboutPage = () => {
                     </li>
                   ))}
                 </ul>
+
+                <h3 className="mt-8 mb-4">Publications</h3>
+                <PublicationLogos />
               </div>
             )}
 
@@ -63,16 +66,6 @@ const AboutPage = () => {
             >
               {expanded ? "Show Less" : "Read Full Bio"}
             </button>
-          </FadeInSection>
-        </div>
-      </section>
-
-      {/* Publications */}
-      <section className="section-padding bg-background">
-        <div className="max-w-5xl mx-auto">
-          <FadeInSection>
-            <h2 className="text-center mb-12">Publications</h2>
-            <PublicationLogos />
           </FadeInSection>
         </div>
       </section>
