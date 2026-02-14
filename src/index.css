@@ -25,8 +25,8 @@
     --muted: 36 20% 92%;
     --muted-foreground: 153 10% 40%;
 
-    /* Accent: gold #c9a961 */
-    --accent: 40 50% 59%;
+    /* Accent: blush #fcd8cc */
+    --accent: 13 90% 89%;
     --accent-foreground: 153 37% 17%;
 
     /* Magenta accent #db258f */
@@ -47,12 +47,12 @@
 
     --sidebar-background: 153 37% 17%;
     --sidebar-foreground: 36 38% 95%;
-    --sidebar-primary: 40 50% 59%;
+    --sidebar-primary: 13 90% 89%;
     --sidebar-primary-foreground: 153 37% 17%;
     --sidebar-accent: 153 30% 22%;
     --sidebar-accent-foreground: 36 38% 95%;
     --sidebar-border: 153 25% 25%;
-    --sidebar-ring: 40 50% 59%;
+    --sidebar-ring: 13 90% 89%;
   }
 }
 
