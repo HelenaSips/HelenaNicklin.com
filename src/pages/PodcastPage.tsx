@@ -41,7 +41,7 @@ const PodcastPage = () => {
               <Link to="/contact" className="inline-block px-8 py-3 bg-accent text-primary font-heading tracking-wider hover:bg-accent/90 transition-all text-center">
                 Sponsor the Podcast
               </Link>
-              <a href="#" className="inline-block px-8 py-3 border border-primary-foreground/30 text-primary-foreground font-heading tracking-wider hover:bg-primary-foreground/10 transition-all text-center">
+              <a href="https://helenasips.com" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 border border-primary-foreground/30 text-primary-foreground font-heading tracking-wider hover:bg-primary-foreground/10 transition-all text-center">
                 Listen on Substack
               </a>
             </div>

@@ -60,7 +60,7 @@ const MagazinePage = () => {
                   <div className="w-full aspect-[3/2] bg-secondary mb-6" />
                   <h3 className="text-xl mb-3">{post.title}</h3>
                   <p className="text-foreground/60 mb-4">{post.excerpt}</p>
-                  <span className="text-accent font-heading tracking-wider text-sm">Read More →</span>
+                  <a href="https://helenasips.com" target="_blank" rel="noopener noreferrer" className="text-accent font-heading tracking-wider text-sm">Read More →</a>
                 </div>
               </FadeInSection>
             ))}
