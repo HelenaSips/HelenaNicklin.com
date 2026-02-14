@@ -44,6 +44,16 @@ const AboutPage = () => {
                 <p>
                   You can see Helena in action in her three global, drinks and food travel series, 'The Three Drinkers' on Amazon Prime, which she co-produced and co-presented. She is also currently a wine expert guest on Alan Carr & Lee Peart's video podcast Bottoms Up!
                 </p>
+
+                <h3 className="mt-8 mb-4">Awards & Accolades</h3>
+                <ul className="space-y-3">
+                  {awards.map((award, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <span className="text-accent mt-1">✦</span>
+                      <span className="text-foreground/80">{award}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
 
@@ -53,23 +63,6 @@ const AboutPage = () => {
             >
               {expanded ? "Show Less" : "Read Full Bio"}
             </button>
-          </FadeInSection>
-        </div>
-      </section>
-
-      {/* Awards */}
-      <section className="section-padding bg-secondary/50">
-        <div className="max-w-4xl mx-auto">
-          <FadeInSection>
-            <h2 className="text-center mb-12">Awards & Accolades</h2>
-            <ul className="space-y-4">
-              {awards.map((award, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="text-accent mt-1">✦</span>
-                  <span className="text-foreground/80">{award}</span>
-                </li>
-              ))}
-            </ul>
           </FadeInSection>
         </div>
       </section>
