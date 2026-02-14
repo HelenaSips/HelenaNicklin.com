@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
+import PublicationLogos from "../components/PublicationLogos";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 import salonInterior from "@/assets/salon-interior.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
@@ -168,11 +169,7 @@ const Index = () => {
             <h2 className="text-center mb-14">Published & Featured In</h2>
           </FadeInSection>
           <FadeInSection delay={0.2}>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-14 opacity-60">
-              {["Daily Mail", "Decanter", "BA High Life", "The Sun", "Delicious Magazine", "BBC Radio 4", "Amazon Prime", "Luxury Lifestyle"].map((pub) => (
-                <span key={pub} className="font-heading text-lg md:text-xl tracking-wider text-foreground/50">{pub}</span>
-              ))}
-            </div>
+            <PublicationLogos subset={["Daily Mail", "Decanter", "BA High Life", "The Sun", "Delicious Magazine", "BBC Radio 4", "Amazon Prime", "Luxury Lifestyle Magazine"]} />
           </FadeInSection>
           <FadeInSection>
             <div className="text-center mt-12">

@@ -1,9 +1,5 @@
 import FadeInSection from "../components/FadeInSection";
-
-const publications = [
-  "BA High Life Magazine", "Decanter", "Daily Mail", "The Sun",
-  "Luxury Lifestyle Magazine", "Style of Wight Magazine", "Delicious Magazine",
-];
+import PublicationLogos from "../components/PublicationLogos";
 
 const PressPage = () => {
   return (
@@ -16,11 +12,7 @@ const PressPage = () => {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-14 mb-20">
-              {publications.map((pub) => (
-                <span key={pub} className="font-heading text-lg md:text-xl tracking-wider text-foreground/40 hover:text-foreground/70 transition-colors">{pub}</span>
-              ))}
-            </div>
+            <PublicationLogos className="mb-20" />
           </FadeInSection>
 
           <FadeInSection>
