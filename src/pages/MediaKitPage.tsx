@@ -23,7 +23,7 @@ const MediaKitPage = () => {
         <div className="max-w-md w-full mx-auto p-6">
           <FadeInSection>
             <div className="text-center mb-10">
-              <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">Press</p>
+              <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Press</p>
               <h1>Media Kit</h1>
               <p className="text-foreground/60 mt-4">This area is password protected. Please enter the password to access Helena's media kit.</p>
             </div>
