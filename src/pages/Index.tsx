@@ -50,7 +50,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeInSection>
-              <img src={helenaYellowDress} alt="Helena Nicklin" className="w-full max-w-md mx-auto lg:mx-0 aspect-[3/4] object-cover object-top" />
+              <img src={helenaYellowDress} alt="Helena Nicklin" className="w-full mx-auto lg:mx-0 aspect-[4/3] object-cover object-top" />
             </FadeInSection>
             <FadeInSection delay={0.2}>
               <p className="text-accent font-heading tracking-widest uppercase text-sm mb-4">About</p>
