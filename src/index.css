@@ -120,3 +120,12 @@ html {
   letter-spacing: 0.05em;
   font-size: 16px;
 }
+
+/* Hide scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
