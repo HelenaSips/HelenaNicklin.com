@@ -76,6 +76,9 @@ const AboutPage = () => {
                 {expanded ? "Show Less" : "Read Full Bio"}
               </button>
             </div>
+            <div className="mt-6">
+              <div className="gold-divider" />
+            </div>
           </FadeInSection>
         </div>
       </section>
