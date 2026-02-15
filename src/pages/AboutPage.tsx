@@ -153,6 +153,9 @@ const AboutPage = () => {
                 FIND OUT MORE
               </a>
             </div>
+            <div className="mt-6">
+              <div className="gold-divider" />
+            </div>
           </FadeInSection>
         </div>
       </section>
