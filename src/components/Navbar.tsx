@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logoWhite from "@/assets/helenasips-logo-white.png";
+import logoWhite from "@/assets/helenasips-logo-no-tagline-cream.png";
 
 const navLinks = [
   { label: "About Helena", href: "/about" },
@@ -31,9 +31,9 @@ const Navbar = () => {
       }`}
     >
       {/* Top bar with logo */}
-      <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-center h-14 md:h-16">
+      <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-center h-20 md:h-24">
         <Link to="/" className="flex items-center">
-          <img src={logoWhite} alt="HelenaSips" className="h-8 md:h-11 w-auto" />
+          <img src={logoWhite} alt="HelenaSips" className="h-16 md:h-20 w-auto" />
         </Link>
       </div>
 
