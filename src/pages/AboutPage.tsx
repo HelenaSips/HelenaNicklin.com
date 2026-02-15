@@ -28,7 +28,7 @@ const AboutPage = () => {
           Cultural Connector. Sensory Host.<br />Drinks Expert.
         </p>
       </section>
-      <div className="w-full h-[3px] bg-magenta" />
+      <div className="w-full h-[6px] bg-magenta" />
 
       {/* Bio */}
       <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 bg-background">
