@@ -33,7 +33,7 @@ const AboutPage = () => {
       <div className="w-full h-[6px] bg-magenta" />
 
       {/* Bio */}
-      <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 bg-background">
+      <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 !pb-6 md:!pb-8 lg:!pb-10 bg-background">
         <div className="max-w-4xl mx-auto">
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
