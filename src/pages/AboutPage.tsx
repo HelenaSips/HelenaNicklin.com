@@ -22,7 +22,7 @@ const AboutPage = () => {
     <div>
       <section className="relative pt-20">
         <div className="w-full aspect-[21/9] overflow-hidden">
-          <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full h-full object-cover" style={{ objectPosition: 'center 25%' }} />
+          <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full h-full object-cover" style={{ objectPosition: 'center 35%' }} />
         </div>
         <h1 className="absolute bottom-6 left-6 md:left-12 text-white font-heading drop-shadow-lg">Helena Nicklin</h1>
       </section>
