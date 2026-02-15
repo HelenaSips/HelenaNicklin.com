@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logoWhite from "@/assets/helenasips-logo-no-tagline-cream.png";
+import logoWhite from "@/assets/helenasips-logo-new.png";
 
 const navLinks = [
   { label: "About Helena", href: "/about" },
