@@ -35,11 +35,11 @@ const ContactPage = () => {
 
               <div className="mt-12">
                 <h3 className="text-xl mb-4">Or Get In Touch Directly</h3>
-                <a href="mailto:helena@helenasips.com" className="text-accent hover:text-accent/80 transition-colors text-lg">
+                <a href="mailto:helena@helenasips.com" className="text-magenta hover:text-magenta/80 transition-colors text-lg">
                   helena@helenasips.com
                 </a>
-                <p className="mt-4 text-foreground/60">
-                  <a href="https://instagram.com/helenasips" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                <p className="mt-4">
+                  <a href="https://instagram.com/helenasips" target="_blank" rel="noopener noreferrer" className="text-magenta hover:text-magenta/80 transition-colors">
                     @helenasips
                   </a>
                 </p>
