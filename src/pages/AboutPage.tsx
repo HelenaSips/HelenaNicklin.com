@@ -2,7 +2,9 @@ import { useState } from "react";
 import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
 import helenaHeadshot from "@/assets/helena-hero-about.jpg";
-
+import salonInterior from "@/assets/salon-interior.jpg";
+import supperClub from "@/assets/supper-club.jpg";
+import brandEvent from "@/assets/brand-event.jpg";
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
   "Shortlisted: IWSC Global Wine Communicator of the Year 2026",
@@ -72,6 +74,65 @@ const AboutPage = () => {
             >
               {expanded ? "Show Less" : "Read Full Bio"}
             </button>
+          </FadeInSection>
+        </div>
+      </section>
+
+      {/* Salons & Events Section */}
+      <section className="section-padding bg-[#f7f3ed]">
+        <div className="max-w-6xl mx-auto">
+          <FadeInSection>
+            <div className="text-center mb-16 max-w-3xl mx-auto">
+              <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Experiences</p>
+              <h2 className="text-4xl md:text-5xl font-heading mb-6">Salons & Events</h2>
+              <p className="text-foreground/80 leading-relaxed text-lg">
+                Helena's salons are curated experiences where wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Card 1 */}
+              <div className="group cursor-pointer">
+                <div className="aspect-[4/3] overflow-hidden mb-6">
+                  <img 
+                    src={salonInterior} 
+                    alt="Sensory Salons" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                  Sensory Salons
+                </h3>
+              </div>
+
+              {/* Card 2 */}
+              <div className="group cursor-pointer">
+                <div className="aspect-[4/3] overflow-hidden mb-6">
+                  <img 
+                    src={supperClub} 
+                    alt="Bottles & Bites Masterclasses" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                  Bottles & Bites <br/>Masterclasses
+                </h3>
+              </div>
+
+              {/* Card 3 */}
+              <div className="group cursor-pointer">
+                <div className="aspect-[4/3] overflow-hidden mb-6">
+                  <img 
+                    src={brandEvent} 
+                    alt="Brand Ambassador Partnerships" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                  Brand Ambassador <br/>Partnerships
+                </h3>
+              </div>
+            </div>
           </FadeInSection>
         </div>
       </section>
