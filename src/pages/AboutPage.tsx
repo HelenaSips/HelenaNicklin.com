@@ -123,7 +123,7 @@ const AboutPage = () => {
                   Bottles & Bites <br/>Masterclasses
                 </h3>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
-                  Entertaining drinks masterclasses with perfectly paired dishes.
+                  Entertaining drinks masterclasses with perfectly paired dishes. Supper club style.
                 </p>
               </div>
 
