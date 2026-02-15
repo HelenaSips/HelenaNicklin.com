@@ -25,7 +25,7 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <FadeInSection>
             <div className="relative">
-              <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full mx-auto aspect-[3/2] object-cover object-[center_20%]" />
+              <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full mx-auto aspect-[4/3] object-cover object-top" />
               <h1 className="absolute bottom-4 left-4 text-white font-heading drop-shadow-lg">Helena Nicklin</h1>
             </div>
           </FadeInSection>
