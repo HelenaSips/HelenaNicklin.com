@@ -22,7 +22,7 @@ const AboutPage = () => {
     <div>
       {/* Hero Photo - full width */}
       <section className="relative pt-20">
-        <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full object-cover" />
+        <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full max-h-[60vh] object-cover object-center" />
         <h1 className="absolute bottom-6 left-6 md:left-12 text-white font-heading drop-shadow-lg">Helena Nicklin</h1>
       </section>
 
