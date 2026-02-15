@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
-import helenaHeadshot from "@/assets/helena-headshot-wide.jpg";
+import helenaHeadshot from "@/assets/helena-green-dress.jpg";
 
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
@@ -20,9 +20,8 @@ const AboutPage = () => {
 
   return (
     <div>
-      {/* Hero Photo - full width */}
-      <section className="relative pt-20">
-        <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full max-h-[60vh] object-cover object-top" />
+      <section className="relative pt-20 bg-[#8B7355]">
+        <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full max-h-[70vh] object-contain object-right" />
         <h1 className="absolute bottom-6 left-6 md:left-12 text-white font-heading drop-shadow-lg">Helena Nicklin</h1>
       </section>
 
