@@ -85,9 +85,6 @@ const AboutPage = () => {
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Experiences</p>
               <h2 className="text-4xl md:text-5xl font-heading mb-6">Salons & Events</h2>
-              <p className="text-foreground/80 leading-relaxed text-lg">
-                Helena's salons are curated experiences where wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more.
-              </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
