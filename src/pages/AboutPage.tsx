@@ -145,7 +145,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div className="flex justify-center mt-12">
+            <div className="flex justify-center mt-6">
               <a
                 href="/events"
                 className="px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
