@@ -140,7 +140,7 @@ const AboutPage = () => {
                   Brand Ambassador <br/>Partnerships
                 </h3>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
-                  Brand ambassador roles at festivals and events for drinks brands, regions and wine producers.
+                  Have wine, will travel! Let Helena come to you for brand ambassador roles and hosted tastings.
                 </p>
               </div>
             </div>
