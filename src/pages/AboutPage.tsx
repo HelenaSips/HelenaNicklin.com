@@ -102,6 +102,9 @@ const AboutPage = () => {
                 <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Sensory Salons
                 </h3>
+                <p className="mt-3 text-foreground/70 leading-relaxed">
+                  Curated experiences exploring wine and other drinks alongside sensory elements such as fragrance, books & chocolate.
+                </p>
               </div>
 
               {/* Card 2 */}
@@ -116,6 +119,9 @@ const AboutPage = () => {
                 <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Bottles & Bites <br/>Masterclasses
                 </h3>
+                <p className="mt-3 text-foreground/70 leading-relaxed">
+                  Entertaining drinks masterclasses with perfectly paired dishes.
+                </p>
               </div>
 
               {/* Card 3 */}
@@ -130,6 +136,9 @@ const AboutPage = () => {
                 <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Brand Ambassador <br/>Partnerships
                 </h3>
+                <p className="mt-3 text-foreground/70 leading-relaxed">
+                  Brand ambassador roles, hosted wine tastings and cultural events for luxury brands and venues.
+                </p>
               </div>
             </div>
           </FadeInSection>
