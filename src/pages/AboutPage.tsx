@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
-import helenaHeadshot from "@/assets/helena-headshot.jpg";
+import helenaHeadshot from "@/assets/helena-headshot-wide.jpg";
 
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
