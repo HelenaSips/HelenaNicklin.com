@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoWhite from "@/assets/helenasips-logo-white.png";
+import logoWhite from "@/assets/helenasips-logo-no-tagline-cream.png";
 
 const footerLinks = [
   { label: "About", href: "/about" },
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
           {/* Brand */}
           <div>
-            <img src={logoWhite} alt="HelenaSips" className="h-14 w-auto mb-4" />
+            <img src={logoWhite} alt="HelenaSips" className="h-24 w-auto mb-4" />
             <p className="font-heading text-lg text-primary-foreground/70 italic">
               Cultural Connector. Sensory Host. Drinks Expert.
             </p>
