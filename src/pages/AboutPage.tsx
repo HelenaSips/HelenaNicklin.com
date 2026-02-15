@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
 import helenaHeadshot from "@/assets/helena-hero-about.jpg";
@@ -102,9 +103,9 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                <Link to="/events#sensory-salons" className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Sensory Salons
-                </h3>
+                </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Curated experiences exploring wine and other drinks alongside sensory elements such as fragrance, books & chocolate.
                 </p>
@@ -119,9 +120,9 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                <Link to="/events#bottles-and-bites" className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Bottles & Bites <br/>Masterclasses
-                </h3>
+                </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Entertaining drinks masterclasses with perfectly paired dishes. Supper club style.
                 </p>
@@ -136,9 +137,9 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <h3 className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                <Link to="/events#brand-ambassador" className="text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Brand Ambassador <br/>Partnerships
-                </h3>
+                </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Have wine, will travel! Let Helena come to you for brand ambassador roles and hosted tastings.
                 </p>

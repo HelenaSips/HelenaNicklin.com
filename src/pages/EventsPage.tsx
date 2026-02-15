@@ -37,6 +37,7 @@ const EventsPage = () => {
       {/* Three Services */}
       {[
         {
+          id: "sensory-salons",
           img: salonInterior,
           title: "Sensory Salons",
           copy: "Helena's salons are curated experiences where wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more. Hosted in luxury hotels, private venues and cultural spaces for brand partnerships and discerning private clients.",
@@ -44,18 +45,20 @@ const EventsPage = () => {
           format: "90-120 minutes, fully hosted with drinks, sensory elements provided and where relevant, special guest speakers invited.",
         },
         {
+          id: "bottles-and-bites",
           img: supperClub,
           title: "Bottles & Bites Masterclasses",
           copy: "Wine education perfectly paired with food. Helena guides guests through carefully selected wines, sharing stories, techniques and cultural context in an accessible, sophisticated and importantly, memorable way.",
           perfect: "Private dining experiences, corporate entertaining, VIP client events & special celebrations.",
         },
         {
+          id: "brand-ambassador",
           img: brandEvent,
           title: "Brand Ambassador Partnerships",
           copy: "Helena brings 23 years of drinks expertise and broadcast experience to stages, festivals and panels, offering wine & spirits masterclass hosting.",
         },
       ].map((service, i) => (
-        <section key={service.title} className={`section-padding ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
+        <section key={service.title} id={service.id} className={`section-padding ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
               <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />
