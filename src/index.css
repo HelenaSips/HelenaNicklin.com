@@ -71,7 +71,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Libre Baskerville', serif;
     letter-spacing: 0.02em;
     line-height: 1.2;
   }
@@ -106,7 +106,7 @@ html {
   border-left: 3px solid hsl(336 19% 51%);
   padding-left: 1.5rem;
   font-style: italic;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.25rem;
   color: hsl(336 19% 51%);
 }
@@ -118,7 +118,7 @@ html {
 
 /* Nav font */
 .nav-font {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 500;
   letter-spacing: 0.05em;
   font-size: 16px;

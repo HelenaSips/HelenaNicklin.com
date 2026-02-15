@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['"Cormorant Garamond"', 'serif'],
+        heading: ['"Libre Baskerville"', 'serif'],
         body: ['"Lora"', 'serif'],
       },
       colors: {
