@@ -68,12 +68,14 @@ const AboutPage = () => {
               </div>
             )}
 
-            <button
-              onClick={() => setExpanded(!expanded)}
-              className="px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
-            >
-              {expanded ? "Show Less" : "Read Full Bio"}
-            </button>
+            <div className="flex justify-end -mt-4">
+              <button
+                onClick={() => setExpanded(!expanded)}
+                className="px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
+              >
+                {expanded ? "Show Less" : "Read Full Bio"}
+              </button>
+            </div>
           </FadeInSection>
         </div>
       </section>
