@@ -39,7 +39,7 @@ const App = () => (
         <Navbar />
         <Suspense fallback={<Loading />}>
           <Routes>
-            <Route path="/" element={<Index />} />
+            <Route path="/" element={<AboutPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/podcast" element={<PodcastPage />} />
