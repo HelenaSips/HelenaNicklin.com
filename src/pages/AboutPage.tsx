@@ -163,6 +163,18 @@ const AboutPage = () => {
           </FadeInSection>
         </div>
       </section>
+
+      {/* Podcast Section */}
+      <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 bg-background">
+        <div className="max-w-4xl mx-auto">
+          <FadeInSection>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">The HelenaSips Podcast</p>
+            <p className="text-foreground/80 leading-relaxed">
+              Intimate conversations with successful creatives exploring how they structure their lives for joy through the lens of their personal rituals.
+            </p>
+          </FadeInSection>
+        </div>
+      </section>
     </div>
   );
 };
