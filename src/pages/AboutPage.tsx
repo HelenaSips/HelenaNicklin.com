@@ -6,6 +6,11 @@ import helenaHeadshot from "@/assets/helena-hero-about.jpg";
 import salonInterior from "@/assets/salon-interior.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import brandEvent from "@/assets/brand-event.jpg";
+import guestSamNeill from "@/assets/guest-sam-neill.jpg";
+import guestJoanneHarris from "@/assets/guest-joanne-harris.jpg";
+import guestCathKidston from "@/assets/guest-cath-kidston.png";
+import guestVassosAlexander from "@/assets/guest-vassos-alexander.jpg";
+import guestAlexWatson from "@/assets/guest-alex-watson.jpg";
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
   "Shortlisted: IWSC Global Wine Communicator of the Year 2026",
@@ -175,15 +180,15 @@ const AboutPage = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">
               {[
-                { name: "Sam Neill", role: "Actor" },
-                { name: "Joanne Harris", role: "Author" },
-                { name: "Cath Kidston", role: "Designer" },
-                { name: "Vassos Alexander", role: "Broadcaster & Writer" },
-                { name: "Alex Watson", role: "Gin Maker" },
+                { name: "Sam Neill", role: "Actor", img: guestSamNeill },
+                { name: "Joanne Harris", role: "Author", img: guestJoanneHarris },
+                { name: "Cath Kidston", role: "Designer", img: guestCathKidston },
+                { name: "Vassos Alexander", role: "Broadcaster & Writer", img: guestVassosAlexander },
+                { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson },
               ].map((guest, i) => (
                 <div key={i} className="group text-center">
                   <div className="aspect-[4/3] overflow-hidden mb-4 bg-muted">
-                    <div className="w-full h-full bg-muted" />
+                    <img src={guest.img} alt={guest.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   </div>
                   <p className="font-heading tracking-widest uppercase text-sm group-hover:text-magenta transition-colors">{guest.name}</p>
                   <p className="font-body text-foreground/70 mt-1">{guest.role}</p>
