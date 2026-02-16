@@ -93,7 +93,7 @@ const AboutPage = () => {
       </section>
 
       {/* Salons & Events Section */}
-      <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 !pb-2 md:!pb-4 lg:!pb-6 bg-[#f7f3ed]">
+      <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 !pb-8 md:!pb-12 lg:!pb-14 bg-[#f7f3ed]">
         <div className="max-w-6xl mx-auto">
           <FadeInSection>
             <div className="text-center mb-16 max-w-3xl mx-auto">
