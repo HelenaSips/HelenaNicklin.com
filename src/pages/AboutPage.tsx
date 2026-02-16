@@ -172,6 +172,24 @@ const AboutPage = () => {
             <p className="text-foreground/80 leading-relaxed">
               Intimate conversations with successful creatives exploring how they structure their lives for joy through the lens of their personal rituals.
             </p>
+
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">
+              {[
+                { name: "Sam Neill", role: "Actor" },
+                { name: "Joanne Harris", role: "Author" },
+                { name: "Cath Kidston", role: "Designer" },
+                { name: "Vassos Alexander", role: "Broadcaster & Writer" },
+                { name: "Alex Watson", role: "Gin Maker" },
+              ].map((guest, i) => (
+                <div key={i} className="group text-center">
+                  <div className="aspect-[4/3] overflow-hidden mb-4 bg-muted">
+                    <div className="w-full h-full bg-muted" />
+                  </div>
+                  <p className="font-heading tracking-widest uppercase text-sm group-hover:text-magenta transition-colors">{guest.name}</p>
+                  <p className="font-body text-foreground/70 mt-1">{guest.role}</p>
+                </div>
+              ))}
+            </div>
           </FadeInSection>
         </div>
       </section>
