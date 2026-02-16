@@ -27,9 +27,12 @@ const AboutPage = () => {
         <div className="w-full aspect-[21/9] overflow-hidden">
           <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full h-full object-cover" style={{ objectPosition: 'center 62%' }} />
         </div>
-        <p className="absolute bottom-6 left-6 md:left-12 font-heading text-xl md:text-2xl text-primary-foreground/80 italic tracking-wide drop-shadow-lg max-w-lg">
-          Cultural Connector. Sensory Host.<br />Drinks Expert.
-        </p>
+        <div className="absolute bottom-6 left-6 md:left-12 drop-shadow-lg max-w-lg">
+          <p className="font-heading text-2xl md:text-3xl text-primary-foreground/80 italic tracking-wide font-bold mb-1">Helena Nicklin</p>
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/80 italic tracking-wide">
+            Cultural Connector. Sensory Host.<br />Drinks Expert.
+          </p>
+        </div>
       </section>
       <div className="w-full h-[6px] bg-magenta" />
 
