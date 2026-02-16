@@ -170,7 +170,7 @@ const AboutPage = () => {
       </section>
 
       {/* Podcast Section */}
-      <section className="section-padding !pt-3 md:!pt-4 lg:!pt-5 bg-background">
+      <section className="section-padding !pt-1 md:!pt-2 lg:!pt-3 bg-background">
         <div className="max-w-4xl mx-auto">
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">The HelenaSips Podcast</p>
