@@ -187,7 +187,7 @@ const AboutPage = () => {
                 { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson },
               ].map((guest, i) => (
                 <div key={i} className="group text-center">
-                  <div className="aspect-[4/3] overflow-hidden mb-4 bg-muted">
+                  <div className="aspect-[4/3] overflow-hidden mb-4 bg-muted border-2 border-magenta">
                     <img src={guest.img} alt={guest.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   </div>
                   <p className="font-heading tracking-widest uppercase text-sm group-hover:text-magenta transition-colors">{guest.name}</p>
