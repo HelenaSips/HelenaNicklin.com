@@ -74,6 +74,20 @@ const PodcastPage = () => {
                   <path d="M10.5 9.5v5l4-2.5-4-2.5z" fill="white"/>
                 </svg>
               </a>
+              <a href="#" target="_blank" rel="noopener noreferrer" title="TuneIn" className="hover:opacity-80 transition-opacity">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="5.4" fill="#14D8CC"/>
+                  <path d="M12 5a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm0 1.2a5.8 5.8 0 1 1 0 11.6 5.8 5.8 0 0 1 0-11.6zm-1.5 3.3v5l4.5-2.5-4.5-2.5z" fill="white"/>
+                </svg>
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer" title="Alexa" className="hover:opacity-80 transition-opacity">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="5.4" fill="#31C4F3"/>
+                  <path d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0 1.5a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z" fill="white"/>
+                  <circle cx="12" cy="12" r="2.5" fill="white"/>
+                  <path d="M12 6v2M12 16v2M6 12h2M16 12h2" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
+                </svg>
+              </a>
             </div>
           </FadeInSection>
         </div>
