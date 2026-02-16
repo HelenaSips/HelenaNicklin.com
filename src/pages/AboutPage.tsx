@@ -39,7 +39,7 @@ const AboutPage = () => {
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
             <p className="text-foreground/80 mb-6 leading-relaxed">
-              Helena Nicklin is a multi-award-winning drinks writer, broadcaster and cultural host with 23 years in wine, spirits and no-lo.
+              Helena Nicklin is a multi-award-winning drinks writer, broadcaster and cultural host with 23 years in wine, spirits and no-lo. She is the voice behind HelenaSips: a sensory-led drinks and culture platform blending expertise, storytelling and live experiences.
             </p>
             <p className="text-foreground/80 mb-6 leading-relaxed">
               An accomplished speaker with broadcast experience across major platforms and a writing portfolio spanning national and luxury publications, Helena is known for her engaging presenting style and love of combining drinks with the best things in life from fragrance and books to chocolate. She brings authority and warmth to every experience she curates.
