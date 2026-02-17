@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import FadeInSection from "../components/FadeInSection";
 import magazineHero from "@/assets/magazine-hero.png";
+import postChampagne from "@/assets/post-champagne.jpg";
 
 const MagazinePage = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -55,16 +56,20 @@ const MagazinePage = () => {
           </FadeInSection>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "The Art of the Aperitivo", excerpt: "Why the ritual of the pre-dinner drink is about so much more than what's in the glass..." },
-              { title: "Wine, Words & Wildflowers", excerpt: "A sensory journey through the vineyards of Provence, where every sip tells a story..." },
-              { title: "The Champagne Effect", excerpt: "How the world's most celebrated wine teaches us about patience, craft, and celebration..." },
+              { title: "How the English 'invented' Champagne", excerpt: "The real story behind sparkling wine — from Admiral Mansell's coal furnaces to Dom Pérignon's 'devil's wine'...", image: postChampagne, link: "https://www.helenasips.com/p/how-the-english-invented-champagne" },
+              { title: "Wine, Words & Wildflowers", excerpt: "A sensory journey through the vineyards of Provence, where every sip tells a story...", image: null, link: "https://helenasips.com" },
+              { title: "The Champagne Effect", excerpt: "How the world's most celebrated wine teaches us about patience, craft, and celebration...", image: null, link: "https://helenasips.com" },
             ].map((post, i) => (
               <FadeInSection key={i} delay={i * 0.15}>
                 <div className="bg-background p-8 border border-border hover:shadow-lg transition-shadow">
-                  <div className="w-full aspect-[3/2] bg-secondary mb-6" />
+                  {post.image ? (
+                    <img src={post.image} alt={post.title} className="w-full aspect-[3/2] object-cover mb-6" />
+                  ) : (
+                    <div className="w-full aspect-[3/2] bg-secondary mb-6" />
+                  )}
                   <h3 className="text-xl mb-3">{post.title}</h3>
                   <p className="text-foreground/60 mb-4">{post.excerpt}</p>
-                  <a href="https://helenasips.com" target="_blank" rel="noopener noreferrer" className="text-accent font-heading tracking-wider text-sm">Read More →</a>
+                  <a href={post.link} target="_blank" rel="noopener noreferrer" className="text-accent font-heading tracking-wider text-sm">Read More →</a>
                 </div>
               </FadeInSection>
             ))}
