@@ -61,6 +61,18 @@ const MagazinePage = () => {
               </FadeInSection>
             ))}
           </div>
+          <FadeInSection>
+            <div className="text-center mt-12">
+              <a
+                href="https://www.helenasips.com/subscribe"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-2.5 bg-accent text-white font-heading tracking-wider text-sm hover:bg-accent/90 transition-all"
+              >
+                Subscribe Now
+              </a>
+            </div>
+          </FadeInSection>
         </div>
       </section>
     </div>
