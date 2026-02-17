@@ -31,7 +31,7 @@ const MagazinePage = () => {
               A Cultural Magazine on Wine, Drinks & The Art of Living
             </p>
             <p className="text-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Subscribe for regular essays and drinks inspiration, delivered to your inbox every week.
+              Subscribe for regular drinks wisdom, inspiration and recommendations, delivered to your inbox every week.
             </p>
             <button
               onClick={() => setShowPopup(true)}
