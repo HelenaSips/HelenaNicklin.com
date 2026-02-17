@@ -8,6 +8,7 @@ import sunDryJanImg from "../assets/sun-dry-january.jpg";
 import sunCheapFizzImg from "../assets/sun-cheap-fizz.jpg";
 import threeDrinkersCognacImg from "../assets/three-drinkers-cognac.jpg";
 import threeDrinkersWhiskyImg from "../assets/three-drinkers-whisky.jpg";
+import bornToRumImg from "../assets/born-to-rum.png";
 
 const PressPage = () => {
   return (
@@ -42,6 +43,9 @@ const PressPage = () => {
             <div className="mt-4 flex gap-4">
               <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-1/2 rounded-md object-contain" />
               <img src={sunCheapFizzImg} alt="The Sun - Cheap Fizz champagne alternatives feature" className="w-1/2 rounded-md object-contain" />
+            </div>
+            <div className="mt-4">
+              <img src={bornToRumImg} alt="Born to Rum - Helena Nicklin rum tasting feature" className="w-full rounded-md" />
             </div>
           </FadeInSection>
         </div>
