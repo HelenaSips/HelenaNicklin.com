@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import FadeInSection from "../components/FadeInSection";
+import magazineHero from "@/assets/magazine-hero.png";
 
 const MagazinePage = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -33,6 +34,9 @@ const MagazinePage = () => {
             <p className="text-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               Subscribe for regular drinks wisdom, inspiration and recommendations, delivered to your inbox every week.
             </p>
+            <div className="mt-8 mb-10">
+              <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg" />
+            </div>
             <button
               onClick={() => setShowPopup(true)}
               className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
