@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import FadeInSection from "../components/FadeInSection";
 import magazineHero from "@/assets/magazine-hero.png";
 import postChampagne from "@/assets/post-champagne.jpg";
@@ -6,24 +5,6 @@ import postDryJanuary from "@/assets/post-dry-january.jpg";
 import postGoldenMilk from "@/assets/post-golden-milk.jpg";
 
 const MagazinePage = () => {
-  const [showPopup, setShowPopup] = useState(false);
-  const [email, setEmail] = useState("");
-  const [agreed, setAgreed] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setShowPopup(true), 4000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email && agreed) {
-      setSubmitted(true);
-      setTimeout(() => setShowPopup(false), 2000);
-    }
-  };
-
   return (
     <div className="pt-20">
       <section className="section-padding pb-7 md:pb-10 lg:pb-12 bg-background">
@@ -42,12 +23,14 @@ const MagazinePage = () => {
                 <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg hover:opacity-90 transition-opacity" />
               </a>
             </div>
-            <button
-              onClick={() => setShowPopup(true)}
+            <a
+              href="https://www.helenasips.com/subscribe"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
             >
               Subscribe Now
-            </button>
+            </a>
           </FadeInSection>
         </div>
       </section>
@@ -80,55 +63,6 @@ const MagazinePage = () => {
           </div>
         </div>
       </section>
-
-      {/* Newsletter Popup */}
-      {showPopup && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/40 backdrop-blur-sm p-6">
-          <div className="bg-background max-w-md w-full p-10 relative shadow-2xl">
-            <button
-              onClick={() => setShowPopup(false)}
-              className="absolute top-4 right-4 text-foreground/40 hover:text-foreground transition-colors text-xl"
-            >
-              ×
-            </button>
-            {submitted ? (
-              <div className="text-center py-8">
-                <p className="font-heading text-2xl text-foreground mb-4">Thank You!</p>
-                <p className="text-foreground/60">Welcome to the HelenaSips community.</p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubscribe}>
-                <h3 className="text-2xl mb-2 text-center">Subscribe to HelenaSips</h3>
-                <p className="text-center text-foreground/60 mb-8">Weekly insights on wine, other drinks & culture</p>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Your email address"
-                  className="w-full px-4 py-3 bg-secondary border border-border text-foreground placeholder:text-foreground/40 mb-4 focus:outline-none focus:border-accent"
-                  required
-                />
-                <label className="flex items-start gap-3 mb-6 cursor-pointer text-sm text-foreground/60">
-                  <input
-                    type="checkbox"
-                    checked={agreed}
-                    onChange={(e) => setAgreed(e.target.checked)}
-                    className="mt-1"
-                    required
-                  />
-                  I agree to receive emails from HelenaSips and understand I can unsubscribe at any time.
-                </label>
-                <button
-                  type="submit"
-                  className="w-full px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
-                >
-                  Subscribe
-                </button>
-              </form>
-            )}
-          </div>
-        </div>
-      )}
     </div>
   );
 };
