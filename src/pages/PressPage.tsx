@@ -6,6 +6,8 @@ import samNeillImg from "../assets/delicious-sam-neill.jpg";
 import dailyMailImg from "../assets/daily-mail-easter.jpg";
 import sunDryJanImg from "../assets/sun-dry-january.jpg";
 import sunCheapFizzImg from "../assets/sun-cheap-fizz.jpg";
+import threeDrinkersCognacImg from "../assets/three-drinkers-cognac.jpg";
+import threeDrinkersWhiskyImg from "../assets/three-drinkers-whisky.jpg";
 
 const PressPage = () => {
   return (
@@ -32,6 +34,10 @@ const PressPage = () => {
             </div>
             <div className="mt-4">
               <img src={dailyMailImg} alt="Daily Mail Easter Wine Guide by Helena Nicklin" className="w-full rounded-md" />
+            </div>
+            <div className="mt-4 flex gap-4">
+              <img src={threeDrinkersCognacImg} alt="The Three Drinkers in Cognac - Amazon Prime" className="w-1/2 rounded-md object-cover" />
+              <img src={threeDrinkersWhiskyImg} alt="The Three Drinkers Do Scotch Whisky" className="w-1/2 rounded-md object-cover" />
             </div>
             <div className="mt-4 flex gap-4">
               <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-1/2 rounded-md object-cover" />
