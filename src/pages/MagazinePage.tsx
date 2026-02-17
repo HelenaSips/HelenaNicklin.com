@@ -15,22 +15,22 @@ const MagazinePage = () => {
             <p className="font-heading text-xl text-foreground/60 italic mb-6">
               A Cultural Magazine on Wine, Drinks & The Art of Living
             </p>
-            <p className="text-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
               Subscribe for regular drinks wisdom, inspiration and recommendations, delivered to your inbox every week.
             </p>
-            <div className="mt-8 mb-10">
-              <a href="https://www.helenasips.com/" target="_blank" rel="noopener noreferrer">
-                <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg hover:opacity-90 transition-opacity" />
-              </a>
-            </div>
             <a
               href="https://www.helenasips.com/subscribe"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
+              className="inline-block px-8 py-3 mb-10 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
             >
               Subscribe Now
             </a>
+            <div className="mt-2">
+              <a href="https://www.helenasips.com/" target="_blank" rel="noopener noreferrer">
+                <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg hover:opacity-90 transition-opacity" />
+              </a>
+            </div>
           </FadeInSection>
         </div>
       </section>
