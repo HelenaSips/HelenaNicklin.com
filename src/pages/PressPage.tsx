@@ -3,6 +3,7 @@ import PublicationLogos from "../components/PublicationLogos";
 import bottomsUpImg from "../assets/bottoms-up-alan-carr.jpg";
 import baHighLifeImg from "../assets/ba-high-life.jpg";
 import samNeillImg from "../assets/delicious-sam-neill.jpg";
+import dailyMailImg from "../assets/daily-mail-easter.jpg";
 
 const PressPage = () => {
   return (
@@ -26,6 +27,9 @@ const PressPage = () => {
             <div className="mt-8 flex justify-start gap-4">
               <img src={baHighLifeImg} alt="BA High Life Magazine feature" className="w-1/2 rounded-md object-cover" />
               <img src={samNeillImg} alt="Sam Neill Delicious magazine feature" className="w-1/2 rounded-md object-contain" />
+            </div>
+            <div className="mt-4">
+              <img src={dailyMailImg} alt="Daily Mail Easter Wine Guide by Helena Nicklin" className="w-full rounded-md" />
             </div>
           </FadeInSection>
         </div>
