@@ -16,7 +16,7 @@ const PressPage = () => {
           </FadeInSection>
 
           <FadeInSection>
-            <h2 className="text-center mb-12">Featured Articles</h2>
+            <h2 className="text-center mb-12">Featured Press</h2>
             <div className="space-y-8">
               {[1, 2, 3].map((i) => (
                 <div key={i} className="bg-card p-8 border border-border">
