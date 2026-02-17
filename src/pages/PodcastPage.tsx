@@ -4,12 +4,13 @@ import podcastCover from "../assets/hspodcast-logo.jpg";
 import guestSamNeill from "@/assets/guest-sam-neill.jpg";
 import guestJoanneHarris from "@/assets/guest-joanne-harris.jpg";
 import guestCathKidston from "@/assets/guest-cath-kidston.png";
+import guestAlexWatson from "@/assets/guest-alex-watson.jpg";
 
 const guests = [
   { name: "Sam Neill", role: "Actor", img: guestSamNeill },
   { name: "Joanne Harris", role: "Author", img: guestJoanneHarris },
   { name: "Cath Kidston", role: "Designer", img: guestCathKidston },
-  { name: "Alex Watson", role: "Gin Maker", img: null },
+  { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson },
   { name: "Vitalie Taittinger", role: "Champagne CEO", img: null },
 ];
 
