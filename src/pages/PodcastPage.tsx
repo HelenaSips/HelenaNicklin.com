@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 import podcastCover from "../assets/hspodcast-logo.jpg";
+import guestSamNeill from "@/assets/guest-sam-neill.jpg";
+import guestJoanneHarris from "@/assets/guest-joanne-harris.jpg";
+import guestCathKidston from "@/assets/guest-cath-kidston.png";
 
 const guests = [
-  { name: "Sam Neill", role: "Actor" },
-  { name: "Joanne Harris", role: "Author" },
-  { name: "Cath Kidston", role: "Designer" },
-  { name: "Alex Watson", role: "Gin Maker" },
-  { name: "Vitalie Taittinger", role: "Champagne CEO" },
+  { name: "Sam Neill", role: "Actor", img: guestSamNeill },
+  { name: "Joanne Harris", role: "Author", img: guestJoanneHarris },
+  { name: "Cath Kidston", role: "Designer", img: guestCathKidston },
+  { name: "Alex Watson", role: "Gin Maker", img: null },
+  { name: "Vitalie Taittinger", role: "Champagne CEO", img: null },
 ];
 
 const PodcastPage = () => {
@@ -100,9 +103,13 @@ const PodcastPage = () => {
             {guests.map((guest, i) => (
               <FadeInSection key={guest.name} delay={i * 0.1}>
                 <div className="bg-card p-8 border border-border hover:shadow-lg transition-shadow duration-300 group">
-                  <div className="w-20 h-20 rounded-full bg-secondary border border-accent/20 flex items-center justify-center mb-6 mx-auto">
-                    <span className="font-heading text-3xl text-accent">{guest.name[0]}</span>
-                  </div>
+                   {guest.img ? (
+                     <img src={guest.img} alt={guest.name} className="w-20 h-20 rounded-full object-cover mb-6 mx-auto" />
+                   ) : (
+                     <div className="w-20 h-20 rounded-full bg-secondary border border-accent/20 flex items-center justify-center mb-6 mx-auto">
+                       <span className="font-heading text-3xl text-accent">{guest.name[0]}</span>
+                     </div>
+                   )}
                   <h3 className="text-center text-xl mb-2">{guest.name}</h3>
                   <p className="text-center text-muted-foreground text-sm font-heading tracking-wider mb-4">{guest.role}</p>
                   <p className="text-center text-foreground/60 italic font-heading mb-6">
