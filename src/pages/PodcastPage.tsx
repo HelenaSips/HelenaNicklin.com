@@ -18,10 +18,12 @@ const PodcastPage = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-6 text-center lg:text-left">Podcast</p>
-            <img src={podcastBannerImg} alt="HelenaSips The Podcast" className="w-full rounded-md" />
+            <div className="relative">
+              <img src={podcastBannerImg} alt="HelenaSips The Podcast" className="w-full rounded-md" />
+              <h1 className="absolute top-1/2 right-[15%] -translate-y-1/2 text-primary-foreground font-heading italic">Coming Soon...</h1>
+            </div>
           </FadeInSection>
           <FadeInSection delay={0.2}>
-            <h1 className="text-primary-foreground mb-4">The HelenaSips Podcast</h1>
             <p className="font-heading text-xl text-primary-foreground/70 italic mb-6">
               Intimate Conversations with Creative Minds on the Art of Living
             </p>
