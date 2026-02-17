@@ -23,7 +23,7 @@ const MagazinePage = () => {
 
   return (
     <div className="pt-20">
-      <section className="section-padding bg-background">
+      <section className="section-padding pb-7 md:pb-10 lg:pb-12 bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Read</p>
@@ -48,7 +48,7 @@ const MagazinePage = () => {
       </section>
 
       {/* Recent Posts */}
-      <section className="section-padding bg-secondary/50">
+      <section className="section-padding pt-7 md:pt-10 lg:pt-12 bg-secondary/50">
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
             <h2 className="text-center mb-14">Recent Posts</h2>
