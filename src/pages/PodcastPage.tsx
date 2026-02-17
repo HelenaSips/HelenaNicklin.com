@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
-import podcastBannerImg from "../assets/podcast-banner.jpg";
 
 const guests = [
   { name: "Sam Neill", role: "Actor" },
@@ -17,13 +16,16 @@ const PodcastPage = () => {
       <section className="section-padding bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <FadeInSection>
-            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-6 text-center lg:text-left">Podcast</p>
-            <div className="relative">
-              <img src={podcastBannerImg} alt="HelenaSips The Podcast" className="w-full rounded-md" />
-              <h1 className="absolute top-1/2 right-[15%] -translate-y-1/2 text-primary-foreground font-heading italic">Coming Soon...</h1>
+            <div className="aspect-square bg-primary-foreground/5 border border-accent/20 flex items-center justify-center">
+              <div className="text-center p-8">
+                <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Podcast</p>
+                <h2 className="text-primary-foreground font-heading text-4xl md:text-5xl mb-4">The HelenaSips Podcast</h2>
+                <p className="font-heading text-lg text-primary-foreground/50 italic">Cover art coming soon</p>
+              </div>
             </div>
           </FadeInSection>
           <FadeInSection delay={0.2}>
+            <h1 className="text-primary-foreground mb-4">The HelenaSips Podcast</h1>
             <p className="font-heading text-xl text-primary-foreground/70 italic mb-6">
               Intimate Conversations with Creative Minds on the Art of Living
             </p>
