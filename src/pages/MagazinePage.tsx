@@ -1,5 +1,5 @@
 import FadeInSection from "../components/FadeInSection";
-import magazineHero from "@/assets/magazine-hero.png";
+import magazineHero from "@/assets/magazine-hero-new.jpg";
 import postChampagne from "@/assets/post-champagne.jpg";
 import postDryJanuary from "@/assets/post-dry-january.jpg";
 import postGoldenMilk from "@/assets/post-golden-milk.jpg";
