@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import FadeInSection from "../components/FadeInSection";
 import magazineHero from "@/assets/magazine-hero.png";
 import postChampagne from "@/assets/post-champagne.jpg";
+import postDryJanuary from "@/assets/post-dry-january.jpg";
 
 const MagazinePage = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -57,7 +58,7 @@ const MagazinePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { title: "How the English 'invented' Champagne", excerpt: "The real story behind sparkling wine — from Admiral Mansell's coal furnaces to Dom Pérignon's 'devil's wine'...", image: postChampagne, link: "https://www.helenasips.com/p/how-the-english-invented-champagne" },
-              { title: "Wine, Words & Wildflowers", excerpt: "A sensory journey through the vineyards of Provence, where every sip tells a story...", image: null, link: "https://helenasips.com" },
+              { title: "Beyond Dry January", excerpt: "More sober sips to try — delicious non-alcoholic drinks that aren't packed full of sugar...", image: postDryJanuary, link: "https://www.helenasips.com/p/beyond-dry-january" },
               { title: "The Champagne Effect", excerpt: "How the world's most celebrated wine teaches us about patience, craft, and celebration...", image: null, link: "https://helenasips.com" },
             ].map((post, i) => (
               <FadeInSection key={i} delay={i * 0.15}>
