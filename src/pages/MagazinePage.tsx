@@ -58,8 +58,8 @@ const MagazinePage = () => {
           </FadeInSection>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "How the English 'invented' Champagne", excerpt: "The real story behind sparkling wine — from Admiral Mansell's coal furnaces to Dom Pérignon's 'devil's wine'...", image: postChampagne, link: "https://www.helenasips.com/p/how-the-english-invented-champagne" },
-              { title: "Beyond Dry January", excerpt: "More sober sips to try — delicious non-alcoholic drinks that aren't packed full of sugar...", image: postDryJanuary, link: "https://www.helenasips.com/p/beyond-dry-january" },
+              { title: "How the English 'invented' Champagne", excerpt: "The real story behind sparkling wine, from Admiral Mansell's coal furnaces to Dom Pérignon's 'devil's wine'...", image: postChampagne, link: "https://www.helenasips.com/p/how-the-english-invented-champagne" },
+              { title: "Beyond Dry January", excerpt: "More sober sips to try: delicious non-alcoholic drinks that aren't packed full of sugar...", image: postDryJanuary, link: "https://www.helenasips.com/p/beyond-dry-january" },
               { title: "Need Something Wholesome? Try Golden Milk", excerpt: "The recipe, the ritual and the history of a drink that's been offering goodness for over 3,000 years...", image: postGoldenMilk, link: "https://www.helenasips.com/p/need-something-wholesome-try-golden" },
             ].map((post, i) => (
               <FadeInSection key={i} delay={i * 0.15}>
