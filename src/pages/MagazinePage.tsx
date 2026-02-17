@@ -38,7 +38,9 @@ const MagazinePage = () => {
               Subscribe for regular drinks wisdom, inspiration and recommendations, delivered to your inbox every week.
             </p>
             <div className="mt-8 mb-10">
-              <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg" />
+              <a href="https://www.helenasips.com/" target="_blank" rel="noopener noreferrer">
+                <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg hover:opacity-90 transition-opacity" />
+              </a>
             </div>
             <button
               onClick={() => setShowPopup(true)}
