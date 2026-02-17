@@ -4,6 +4,8 @@ import bottomsUpImg from "../assets/bottoms-up-alan-carr.jpg";
 import baHighLifeImg from "../assets/ba-high-life.jpg";
 import samNeillImg from "../assets/delicious-sam-neill.jpg";
 import dailyMailImg from "../assets/daily-mail-easter.jpg";
+import sunDryJanImg from "../assets/sun-dry-january.jpg";
+import sunCheapFizzImg from "../assets/sun-cheap-fizz.jpg";
 
 const PressPage = () => {
   return (
@@ -30,6 +32,10 @@ const PressPage = () => {
             </div>
             <div className="mt-4">
               <img src={dailyMailImg} alt="Daily Mail Easter Wine Guide by Helena Nicklin" className="w-full rounded-md" />
+            </div>
+            <div className="mt-4 flex gap-4">
+              <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-1/2 rounded-md object-cover" />
+              <img src={sunCheapFizzImg} alt="The Sun - Cheap Fizz champagne alternatives feature" className="w-1/2 rounded-md object-cover" />
             </div>
           </FadeInSection>
         </div>
