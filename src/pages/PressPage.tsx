@@ -29,19 +29,19 @@ const PressPage = () => {
               <img src={bottomsUpImg} alt="Bottoms Up with Alan Carr" className="w-full h-auto hover:scale-105 transition-transform duration-500" />
             </a>
             <div className="mt-8 flex justify-start gap-4">
-              <img src={baHighLifeImg} alt="BA High Life Magazine feature" className="w-1/2 rounded-md object-cover" />
+              <img src={baHighLifeImg} alt="BA High Life Magazine feature" className="w-1/2 rounded-md object-contain" />
               <img src={samNeillImg} alt="Sam Neill Delicious magazine feature" className="w-1/2 rounded-md object-contain" />
             </div>
             <div className="mt-4">
               <img src={dailyMailImg} alt="Daily Mail Easter Wine Guide by Helena Nicklin" className="w-full rounded-md" />
             </div>
             <div className="mt-4 flex gap-4">
-              <img src={threeDrinkersCognacImg} alt="The Three Drinkers in Cognac - Amazon Prime" className="w-1/2 rounded-md object-cover" />
-              <img src={threeDrinkersWhiskyImg} alt="The Three Drinkers Do Scotch Whisky" className="w-1/2 rounded-md object-cover" />
+              <img src={threeDrinkersCognacImg} alt="The Three Drinkers in Cognac - Amazon Prime" className="w-1/2 rounded-md object-contain" />
+              <img src={threeDrinkersWhiskyImg} alt="The Three Drinkers Do Scotch Whisky" className="w-1/2 rounded-md object-contain" />
             </div>
             <div className="mt-4 flex gap-4">
-              <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-1/2 rounded-md object-cover" />
-              <img src={sunCheapFizzImg} alt="The Sun - Cheap Fizz champagne alternatives feature" className="w-1/2 rounded-md object-cover" />
+              <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-1/2 rounded-md object-contain" />
+              <img src={sunCheapFizzImg} alt="The Sun - Cheap Fizz champagne alternatives feature" className="w-1/2 rounded-md object-contain" />
             </div>
           </FadeInSection>
         </div>
