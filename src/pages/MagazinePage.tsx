@@ -31,6 +31,14 @@ const MagazinePage = () => {
                 <img src={magazineHero} alt="Helena holding a glass of red wine" className="w-full rounded-lg hover:opacity-90 transition-opacity" />
               </a>
             </div>
+            <a
+              href="https://helenasips.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 px-8 py-3 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
+            >
+              Read Magazine
+            </a>
           </FadeInSection>
         </div>
       </section>
