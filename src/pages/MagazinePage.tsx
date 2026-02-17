@@ -35,7 +35,7 @@ const MagazinePage = () => {
             </p>
             <button
               onClick={() => setShowPopup(true)}
-              className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
+              className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
             >
               Subscribe Now
             </button>
