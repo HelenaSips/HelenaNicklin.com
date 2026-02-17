@@ -2,7 +2,7 @@ import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
 import bottomsUpImg from "../assets/bottoms-up-alan-carr.jpg";
 import baHighLifeImg from "../assets/ba-high-life.jpg";
-import samNeillImg from "../assets/sam-neill-magazine.png";
+import samNeillImg from "../assets/delicious-sam-neill.jpg";
 
 const PressPage = () => {
   return (
@@ -25,7 +25,7 @@ const PressPage = () => {
             </a>
             <div className="mt-8 flex justify-start gap-4">
               <img src={baHighLifeImg} alt="BA High Life Magazine feature" className="w-1/2 rounded-md object-cover" />
-              <img src={samNeillImg} alt="Sam Neill magazine feature" className="w-1/2 rounded-md object-cover" />
+              <img src={samNeillImg} alt="Sam Neill Delicious magazine feature" className="w-1/2 rounded-md object-contain" />
             </div>
           </FadeInSection>
         </div>
