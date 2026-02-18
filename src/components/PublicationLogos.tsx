@@ -10,7 +10,7 @@ const publications: Publication[] = [
   { name: "BA High Life", logo: "/logos/british-airways.svg" },
   { name: "Delicious Magazine" },
   { name: "BBC Radio 4", logo: "/logos/bbc.svg" },
-  { name: "BBC 5 Live", logo: "/logos/bbc.svg" },
+  { name: "GB News", logo: "/logos/gb-news.png" },
   { name: "Talk TV" },
   { name: "Amazon Prime", logo: "/logos/amazon-prime.svg" },
   { name: "Luxury Lifestyle Magazine" },
