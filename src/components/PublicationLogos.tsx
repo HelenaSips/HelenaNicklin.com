@@ -16,7 +16,7 @@ const publications: Publication[] = [
   { name: "Luxury Lifestyle Magazine" },
   { name: "The Tonic" },
   { name: "Bottoms Up! with Alan Carr" },
-  { name: "Style of Wight" },
+  { name: "Style of Wight", logo: "/logos/style-of-wight.jpeg" },
   { name: "Isle of Wight Literary Festival" },
 ];
 
