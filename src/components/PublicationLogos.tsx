@@ -32,7 +32,7 @@ const PublicationLogos = ({ subset, className = "" }: PublicationLogosProps) => 
     : publications;
 
   return (
-    <div className={`flex flex-wrap justify-center items-center gap-4 md:gap-6 ${className}`}>
+    <div className={`flex flex-wrap justify-center items-center gap-3 md:gap-4 ${className}`}>
       {items.map((pub) =>
         pub.logo ? (
           <div key={pub.name} className={`flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity ${pub.name === "The Sun" ? "h-8 md:h-10" : (pub.name === "Bottoms Up! with Alan Carr" || pub.name === "Luxury Lifestyle Magazine") ? "h-20 md:h-24" : pub.name === "Daily Mail" ? "h-20 md:h-24" : pub.name === "Amazon Prime" ? "h-16 md:h-20" : pub.name === "BA High Life" ? "h-14 md:h-16" : "h-10 md:h-12"}`} title={pub.name}>
