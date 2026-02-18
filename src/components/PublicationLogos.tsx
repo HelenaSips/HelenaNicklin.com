@@ -7,7 +7,7 @@ const publications: Publication[] = [
   { name: "Daily Mail", logo: "/logos/daily-mail.svg" },
   { name: "The Sun", logo: "/logos/the-sun.jpg" },
   { name: "Decanter", logo: "/logos/decanter.png" },
-  { name: "BA High Life", logo: "/logos/british-airways.svg" },
+  { name: "BA High Life", logo: "/logos/british-airways.png" },
   { name: "Delicious Magazine", logo: "/logos/delicious.png" },
   { name: "BBC Radio 4", logo: "/logos/bbc.svg" },
   { name: "GB News", logo: "/logos/gb-news.png" },
