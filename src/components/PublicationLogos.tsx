@@ -35,11 +35,11 @@ const PublicationLogos = ({ subset, className = "" }: PublicationLogosProps) => 
     <div className={`flex flex-wrap justify-center items-center gap-4 md:gap-6 ${className}`}>
       {items.map((pub) =>
         pub.logo ? (
-          <div key={pub.name} className={`flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity ${pub.name === "The Sun" ? "h-8 md:h-10" : "h-10 md:h-12"}`} title={pub.name}>
+          <div key={pub.name} className={`flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity ${pub.name === "The Sun" ? "h-8 md:h-10" : pub.name === "Bottoms Up! with Alan Carr" ? "h-20 md:h-24" : "h-10 md:h-12"}`} title={pub.name}>
             <img
               src={pub.logo}
               alt={pub.name}
-              className={`h-full w-auto object-contain ${pub.name === "The Sun" ? "max-w-[100px]" : "max-w-[140px]"}`}
+              className={`h-full w-auto object-contain ${pub.name === "The Sun" ? "max-w-[100px]" : pub.name === "Bottoms Up! with Alan Carr" ? "max-w-[200px]" : "max-w-[140px]"}`}
             />
           </div>
         ) : (
