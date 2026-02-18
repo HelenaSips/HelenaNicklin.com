@@ -14,7 +14,7 @@ const publications: Publication[] = [
   { name: "Talk TV", logo: "/logos/talktv.jpeg" },
   { name: "Amazon Prime", logo: "/logos/amazon-prime.svg" },
   { name: "Luxury Lifestyle Magazine", logo: "/logos/luxury-lifestyle.png" },
-  { name: "The Tonic" },
+  { name: "The Tonic", logo: "/logos/the-tonic.png" },
   { name: "Bottoms Up! with Alan Carr", logo: "/logos/bottoms-up.png" },
   { name: "Style of Wight", logo: "/logos/style-of-wight.jpeg" },
   { name: "Isle of Wight Literary Festival" },
