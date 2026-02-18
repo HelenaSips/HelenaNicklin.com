@@ -6,7 +6,7 @@ interface Publication {
 const publications: Publication[] = [
   { name: "Daily Mail", logo: "/logos/daily-mail.svg" },
   { name: "The Sun", logo: "/logos/the-sun.jpg" },
-  { name: "Decanter" },
+  { name: "Decanter", logo: "/logos/decanter.png" },
   { name: "BA High Life", logo: "/logos/british-airways.svg" },
   { name: "Delicious Magazine" },
   { name: "BBC Radio 4", logo: "/logos/bbc.svg" },
