@@ -11,7 +11,7 @@ const publications: Publication[] = [
   { name: "Delicious Magazine" },
   { name: "BBC Radio 4", logo: "/logos/bbc.svg" },
   { name: "GB News", logo: "/logos/gb-news.png" },
-  { name: "Talk TV" },
+  { name: "Talk TV", logo: "/logos/talktv.jpeg" },
   { name: "Amazon Prime", logo: "/logos/amazon-prime.svg" },
   { name: "Luxury Lifestyle Magazine" },
   { name: "The Tonic" },
