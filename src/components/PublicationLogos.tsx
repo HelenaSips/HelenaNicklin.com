@@ -15,7 +15,7 @@ const publications: Publication[] = [
   { name: "Amazon Prime", logo: "/logos/amazon-prime.svg" },
   { name: "Luxury Lifestyle Magazine" },
   { name: "The Tonic" },
-  { name: "Bottoms Up! with Alan Carr" },
+  { name: "Bottoms Up! with Alan Carr", logo: "/logos/bottoms-up.png" },
   { name: "Style of Wight", logo: "/logos/style-of-wight.jpeg" },
   { name: "Isle of Wight Literary Festival" },
 ];
