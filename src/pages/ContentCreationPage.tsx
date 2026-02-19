@@ -22,7 +22,7 @@ const ContentCreationPage = () => {
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Helena brings an editorial eye and deep drinks knowledge to every collaboration. From long-form features and tasting notes to social content and video series, she crafts stories that educate and inspire.
               </p>
-              <h3 className="text-xl mb-4">Services include:</h3>
+              <h3 className="mb-4">Services include:</h3>
               <ul className="space-y-3 text-foreground/70">
                 {[
                   "Wine and spirits writing for publications and brands",
