@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 
 import detailSetting from "@/assets/detail-setting.jpg";
+import handshakeImage from "@/assets/handshake-final.png";
 
 const ContentCreationPage = () => {
   return (
@@ -14,6 +15,12 @@ const ContentCreationPage = () => {
             <p className="text-center max-w-3xl mx-auto text-foreground/70 mb-16">
               Helena brings an editorial eye and deep drinks knowledge to every content collaboration. From long-form features and newsletters on helenasips.com, to still and video social content and live tasting events, she brings a unique energy that both educates inspires.
             </p>
+          </FadeInSection>
+
+          <FadeInSection>
+            <div className="flex justify-center mb-16">
+              <img src={handshakeImage} alt="Brand partnerships handshake illustration" className="max-w-md w-full" />
+            </div>
           </FadeInSection>
 
           <div className="max-w-3xl mx-auto mb-20">
