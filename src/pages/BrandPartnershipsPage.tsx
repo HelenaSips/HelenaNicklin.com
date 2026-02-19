@@ -27,7 +27,7 @@ const ContentCreationPage = () => {
             <FadeInSection>
               <h2 className="mb-6">Content Creation</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">
-                Helena brings an editorial eye and deep drinks knowledge to every collaboration. From long-form features and tasting notes to social content and video series, she crafts stories that educate and inspire.
+                Work with Helena to create a bespoke campaign taking in some – or all – of the following:
               </p>
               <h3 className="mb-4">Services include:</h3>
               <ul className="space-y-3 text-foreground/70">
