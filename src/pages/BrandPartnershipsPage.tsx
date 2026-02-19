@@ -11,7 +11,7 @@ const ContentCreationPage = () => {
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Collaborate</p>
-            <h1 className="text-center mb-6">Brand Partnerships</h1>
+            <h1 className="text-center mb-6 font-bold">Brand Partnerships</h1>
             <p className="text-justify max-w-3xl mx-auto text-foreground/70 mb-10">
               Helena brings an editorial eye and deep drinks knowledge to every content collaboration. From long-form features and newsletters on helenasips.com, to still and video social content and live tasting events, she brings a unique energy that both educates inspires.
             </p>
@@ -25,7 +25,7 @@ const ContentCreationPage = () => {
 
           <div className="max-w-3xl mx-auto mb-20">
             <FadeInSection>
-              <h2 className="mb-6">Content Creation</h2>
+              <h2 className="mb-6 font-bold">Content Creation</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Work with Helena to create a bespoke campaign taking in some – or all – of the following:
               </p>
@@ -52,7 +52,7 @@ const ContentCreationPage = () => {
               <img src={detailSetting} alt="Writing and editorial" className="w-full aspect-square object-cover" />
             </FadeInSection>
             <FadeInSection className="lg:order-1">
-              <h2 className="mb-6">Writing & Broadcasting</h2>
+              <h2 className="mb-6 font-bold">Writing & Broadcasting</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Helena's writing and presenting style is accessible, intelligent and filled with sensory detail. She makes complex topics feel effortless and always finds the human story behind the bottle.
               </p>
