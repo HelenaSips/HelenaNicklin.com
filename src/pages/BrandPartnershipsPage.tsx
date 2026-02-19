@@ -29,7 +29,7 @@ const ContentCreationPage = () => {
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Work with Helena to create a bespoke campaign taking in some – or all – of the following:
               </p>
-              <h3 className="mb-4">Services include:</h3>
+              
               <ul className="space-y-3 text-foreground/70">
                 {[
                   "Wine and spirits writing for publications and brands",
