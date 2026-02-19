@@ -18,7 +18,7 @@ const publications: Publication[] = [
   { name: "Bottoms Up! with Alan Carr", logo: "/logos/bottoms-up.png" },
   { name: "Style of Wight", logo: "/logos/style-of-wight.jpeg" },
   { name: "Cowes Fringe", logo: "/logos/cowes-fringe.png" },
-  { name: "Isle of Wight Literary Festival" },
+  { name: "Isle of Wight Literary Festival", logo: "/logos/iow-literary-festival.png" },
 ];
 
 interface PublicationLogosProps {
