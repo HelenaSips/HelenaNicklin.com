@@ -18,7 +18,7 @@ const ContentCreationPage = () => {
 
           <div className="max-w-3xl mx-auto mb-20">
             <FadeInSection>
-              <h2 className="mb-6">Editorial & Brand Partnerships</h2>
+              <h2 className="mb-6">Content Creation</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Helena brings an editorial eye and deep drinks knowledge to every collaboration. From long-form features and tasting notes to social content and video series, she crafts stories that educate and inspire.
               </p>
