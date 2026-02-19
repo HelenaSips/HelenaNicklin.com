@@ -12,6 +12,7 @@ const publications: Publication[] = [
   { name: "BBC Radio 4", logo: "/logos/bbc.svg" },
   { name: "GB News", logo: "/logos/gb-news.png" },
   { name: "Talk TV", logo: "/logos/talktv.jpeg" },
+  { name: "Virgin Radio", logo: "/logos/virgin-radio.png" },
   { name: "Amazon Prime", logo: "/logos/amazon-prime.svg" },
   { name: "Luxury Lifestyle Magazine", logo: "/logos/luxury-lifestyle.png" },
   { name: "The Tonic", logo: "/logos/the-tonic.png" },
