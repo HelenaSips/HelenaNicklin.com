@@ -17,7 +17,7 @@ const PressPage = lazy(() => import("./pages/PressPage"));
 const MagazinePage = lazy(() => import("./pages/MagazinePage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
 const MediaKitPage = lazy(() => import("./pages/MediaKitPage"));
-const ContentCreationPage = lazy(() => import("./pages/ContentCreationPage"));
+const BrandPartnershipsPage = lazy(() => import("./pages/BrandPartnershipsPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
 
@@ -47,7 +47,7 @@ const App = () => (
             <Route path="/magazine" element={<MagazinePage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/media-kit" element={<MediaKitPage />} />
-            <Route path="/content-creation" element={<ContentCreationPage />} />
+            <Route path="/brand-partnerships" element={<BrandPartnershipsPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/terms" element={<TermsPage />} />
             <Route path="*" element={<NotFound />} />
