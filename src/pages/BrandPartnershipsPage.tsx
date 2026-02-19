@@ -9,8 +9,8 @@ const ContentCreationPage = () => {
       <section className="section-padding bg-background">
         <div className="max-w-7xl mx-auto">
           <FadeInSection>
-            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Create</p>
-            <h1 className="text-center mb-6">Content Creation</h1>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Collaborate</p>
+            <h1 className="text-center mb-6">Brand Partnerships</h1>
             <p className="text-center max-w-3xl mx-auto text-foreground/70 mb-16">
               Helena brings an editorial eye and deep drinks knowledge to every content collaboration. From long-form features and newsletters on helenasips.com, to still and video social content, she crafts stories that both educate inspire.
             </p>
