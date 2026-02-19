@@ -17,6 +17,7 @@ const publications: Publication[] = [
   { name: "The Tonic", logo: "/logos/the-tonic.png" },
   { name: "Bottoms Up! with Alan Carr", logo: "/logos/bottoms-up.png" },
   { name: "Style of Wight", logo: "/logos/style-of-wight.jpeg" },
+  { name: "Cowes Fringe", logo: "/logos/cowes-fringe.png" },
   { name: "Isle of Wight Literary Festival" },
 ];
 
