@@ -27,6 +27,7 @@ const PodcastPage = () => {
             </div>
           </FadeInSection>
           <FadeInSection delay={0.2}>
+            <p className="font-heading tracking-widest text-sm mb-3" style={{ color: '#fcd8cc' }}>COMING SOON!</p>
             <h1 className="text-primary-foreground mb-4">The HelenaSips Podcast</h1>
             <p className="font-heading text-xl text-primary-foreground/70 italic mb-6">
               Intimate Conversations with Creative Minds on the Art of Living
