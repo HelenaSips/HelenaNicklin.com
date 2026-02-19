@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
-import wineCloseup from "@/assets/wine-closeup.jpg";
+
 import detailSetting from "@/assets/detail-setting.jpg";
 
 const ContentCreationPage = () => {
@@ -16,11 +16,8 @@ const ContentCreationPage = () => {
             </p>
           </FadeInSection>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-20">
+          <div className="max-w-3xl mx-auto mb-20">
             <FadeInSection>
-              <img src={wineCloseup} alt="Content creation" className="w-full aspect-[3/4] object-cover" />
-            </FadeInSection>
-            <FadeInSection delay={0.2}>
               <h2 className="mb-6">Editorial & Brand Partnerships</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 Helena brings an editorial eye and deep drinks knowledge to every collaboration. From long-form features and tasting notes to social content and video series, she crafts stories that educate and inspire.
