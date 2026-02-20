@@ -97,7 +97,7 @@ const pastEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "A Portuguese Sips Safari",
+    title: "Bottles & Bites: A Portuguese Sips Safari",
     date: "12 December 2025",
     venue: "Cowes, Isle of Wight",
     description:
