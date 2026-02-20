@@ -30,7 +30,7 @@ interface EventItem {
 const upcomingEvents: EventItem[] = [
   {
     title: "An Italian Wine & Food Story",
-    date: "Saturday, 28 February 2026",
+    date: "Saturday, 28 February 2026 · 7:30 PM",
     venue: "RT Café Grill, Ryde, Isle of Wight",
     price: "£150",
     description:
