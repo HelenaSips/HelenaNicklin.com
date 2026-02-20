@@ -105,26 +105,6 @@ const pastEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "Orange Wine Discovery",
-    date: "18 November 2025",
-    venue: "Rochelle Canteen, Shoreditch",
-    description:
-      "Skin-contact wines from Georgia, Slovenia, and beyond with seasonal autumn plates.",
-    image: threeDrinkersCognac,
-    imageAlt: "Helena Sips Orange Wine Discovery - Rochelle Canteen, Shoreditch",
-    status: "available",
-  },
-  {
-    title: "Harvest Supper Club",
-    date: "3 October 2025",
-    venue: "The Laughing Heart, Hackney",
-    description:
-      "Celebrating English wine harvest with a six-course tasting menu and small-batch wines.",
-    image: brandEvent,
-    imageAlt: "Helena Sips Harvest Supper Club - The Laughing Heart, Hackney",
-    status: "available",
-  },
-  {
     title: "Rosé & Roses Salon",
     date: "21 August 2025",
     venue: "Petersham Nurseries, Richmond",
