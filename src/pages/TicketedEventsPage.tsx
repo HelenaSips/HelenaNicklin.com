@@ -248,7 +248,7 @@ const TicketedEventsPage = () => {
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <FadeInSection>
             <h1 className="text-primary-foreground mb-4">Upcoming Events</h1>
-            <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto font-body">
+            <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto font-body font-bold">
               Join me for curated wine experiences across the UK — from intimate
               tastings to festival fabulousness!
             </p>
