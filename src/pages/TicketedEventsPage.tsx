@@ -120,7 +120,7 @@ const pastEvents: EventItem[] = [
     date: "20 June 2025",
     venue: "Monterey Egypt Point, Cowes",
     description:
-      "A Bloomsbury-inspired afternoon with natural wines, English cheese, and conversation.",
+      "Enjoy a masterclass in the great Verdejo wines of the Spanish region of Rueda, served with paired nibbles.",
     image: rueda,
     imageAlt: "Bottles & Bites: Discover Rueda - Monterey Egypt Point, Cowes",
     status: "available",
