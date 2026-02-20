@@ -4,6 +4,7 @@ import FadeInSection from "../components/FadeInSection";
 import eventsHero from "@/assets/events-hero.jpg";
 import salonInterior from "@/assets/salon-interior.jpg";
 import wineCloseup from "@/assets/wine-closeup.jpg";
+import italianWineEvent from "@/assets/italian-wine-event.jpeg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
@@ -33,9 +34,9 @@ const upcomingEvents: EventItem[] = [
     venue: "RT Café Grill, Ryde, Isle of Wight",
     price: "£150",
     description:
-      "Chef Robert Thompson X HelenaSips — Join us for an Italian extravaganza featuring 7 courses and 5 wines.",
-    image: salonInterior,
-    imageAlt: "Helena Sips An Italian Wine & Food Story - RT Café Grill, Ryde",
+      "Chef Robert Thompson X HelenaSips — Join us for an Italian fine wine and fine food extravaganza, featuring 7 courses and a flight of 5 wines.",
+    image: italianWineEvent,
+    imageAlt: "Helena Nicklin and Chef Robert Thompson - Italian Wine & Food Story",
     bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
     status: "available",
   },
