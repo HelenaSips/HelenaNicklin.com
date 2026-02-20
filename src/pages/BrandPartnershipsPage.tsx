@@ -22,7 +22,7 @@ const ContentCreationPage = () => {
             </div>
           </FadeInSection>
 
-          <div className="max-w-3xl mx-auto mb-20 space-y-8">
+          <div className="max-w-3xl mx-auto mb-10 space-y-8">
             <FadeInSection>
               <h3 className="mb-4 font-bold">Social Media</h3>
               <p className="text-foreground/70 leading-relaxed">
@@ -67,14 +67,13 @@ const ContentCreationPage = () => {
 
             <FadeInSection>
               <div className="text-center mt-10">
-                <p className="text-foreground/70 mb-4">Contact Helena to discuss your project</p>
+                <p className="text-foreground/70 mb-4 font-bold">Contact Helena to discuss your project</p>
                 <Link to="/contact" className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-widest uppercase hover:bg-magenta/90 transition-all">
                   CONTACT
                 </Link>
               </div>
             </FadeInSection>
           </div>
-
         </div>
       </section>
     </div>
