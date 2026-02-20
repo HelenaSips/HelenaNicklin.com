@@ -11,6 +11,7 @@ import chocSpirits from "@/assets/choc-spirits.png";
 import fruitsOfSeaEvent from "@/assets/fruits-of-sea-event.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
+import symPort from "@/assets/sym-port.jpg";
 import threeDrinkersCognac from "@/assets/three-drinkers-cognac.jpg";
 import brandEvent from "@/assets/brand-event.jpg";
 import postChampagne from "@/assets/post-champagne.jpg";
@@ -96,13 +97,13 @@ const pastEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "Bottles & Bites: Discover Port",
+    title: "A Portuguese Sips Safari",
     date: "12 December 2025",
     venue: "Cowes, Isle of Wight",
     description:
       "An exploration of sake traditions and modern Japanese brewing, paired with seasonal dishes.",
-    image: detailSetting,
-    imageAlt: "Helena Sips Sake & Sensory Salon - Koya Bar, Soho",
+    image: symPort,
+    imageAlt: "A Portuguese Sips Safari - Symington Family Estates wines",
     status: "available",
   },
   {
