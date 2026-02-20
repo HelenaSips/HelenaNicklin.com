@@ -89,7 +89,7 @@ const upcomingEvents: EventItem[] = [
 const pastEvents: EventItem[] = [
   {
     title: "Sips Salon: Wine, Words & Chocolate",
-    date: "25 January 2026",
+    date: "8 October 2025",
     venue: "The Goring, London",
     description:
       "A Scottish celebration pairing rare whiskies with bold wines, haggis, and poetry.",
