@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 
 import handshakeImage from "@/assets/handshake-final.png";
@@ -62,6 +63,15 @@ const ContentCreationPage = () => {
                   </li>
                 ))}
               </ul>
+            </FadeInSection>
+
+            <FadeInSection>
+              <div className="text-center mt-10">
+                <p className="text-foreground/70 mb-4">Contact Helena to discuss your project</p>
+                <Link to="/contact" className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-widest uppercase hover:bg-magenta/90 transition-all">
+                  CONTACT
+                </Link>
+              </div>
             </FadeInSection>
           </div>
 
