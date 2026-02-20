@@ -41,15 +41,15 @@ const upcomingEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "Champagne & Art Masterclass",
-    date: "Friday, 5 April 2026 · 6:30 PM",
-    venue: "Soho House, Brighton",
-    price: "From £65",
+    title: "Fruits of the Sea Wine & Food Story",
+    date: "Friday, 22 May 2026 · 7:30 PM",
+    venue: "RT Café Grill, Ryde, Isle of Wight",
+    price: "£150",
     description:
-      "Explore the artistry of champagne making with grower producers. An intimate tasting paired with live watercolor demonstrations.",
+      "Chef Robert Thompson X HelenaSips — Join us for a fruits of the sea-inspired fine wine and food story, with 7 stunning courses and a flight of 5 wines.",
     image: wineCloseup,
-    imageAlt: "Helena Sips Champagne & Art Masterclass - Soho House, Brighton",
-    bookingLink: "https://dice.fm/example",
+    imageAlt: "Helena Sips Fruits of the Sea Wine & Food Story - RT Café Grill, Ryde",
+    bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
     status: "available",
   },
   {
