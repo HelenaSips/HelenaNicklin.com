@@ -26,7 +26,7 @@ interface EventItem {
   image: string;
   imageAlt: string;
   bookingLink?: string;
-  status: "available" | "sold-out";
+  status: "available" | "sold-out" | "coming-soon";
   imagePosition?: string;
 }
 
@@ -66,7 +66,7 @@ const upcomingEvents: EventItem[] = [
     image: iowWineFestival,
     imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
-    status: "available",
+    status: "coming-soon",
   },
 ];
 
@@ -152,9 +152,9 @@ const EventCard = ({
         className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-105"
         style={event.imagePosition ? { objectPosition: event.imagePosition } : undefined}
       />
-      {event.status === "sold-out" && (
+      {(event.status === "sold-out" || event.status === "coming-soon") && (
         <span className="absolute top-3 right-3 bg-primary text-primary-foreground font-heading text-xs tracking-widest uppercase px-3 py-1">
-          Sold Out
+          {event.status === "sold-out" ? "Sold Out" : "Tickets On Sale Soon!"}
         </span>
       )}
     </div>
@@ -196,6 +196,10 @@ const EventCard = ({
           {event.status === "sold-out" ? (
             <span className="inline-block w-full text-center px-6 py-3 bg-muted text-muted-foreground font-heading text-sm tracking-widest uppercase cursor-default">
               Sold Out
+            </span>
+          ) : event.status === "coming-soon" ? (
+            <span className="inline-block w-full text-center px-6 py-3 bg-accent text-primary font-heading text-sm tracking-widest uppercase cursor-default">
+              Tickets On Sale Soon!
             </span>
           ) : (
             <a
