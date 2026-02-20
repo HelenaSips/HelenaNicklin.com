@@ -6,6 +6,7 @@ import salonInterior from "@/assets/salon-interior.jpg";
 import wineCloseup from "@/assets/wine-closeup.jpg";
 import italianWineEvent from "@/assets/italian-wine-event.jpeg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
+import fruitsOfSeaEvent from "@/assets/fruits-of-sea-event.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
 import threeDrinkersCognac from "@/assets/three-drinkers-cognac.jpg";
@@ -47,8 +48,8 @@ const upcomingEvents: EventItem[] = [
     price: "£150",
     description:
       "Join Chef Robert Thompson & HelenaSips for a 'fruits of the sea' inspired fine wine and food extravaganza, featuring 7 courses and 5 wines.",
-    image: wineCloseup,
-    imageAlt: "Helena Sips Fruits of the Sea Wine & Food Story - RT Café Grill, Ryde",
+    image: fruitsOfSeaEvent,
+    imageAlt: "Chef Robert Thompson and Helena Nicklin - Fruits of the Sea Wine & Food Story",
     bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
     status: "available",
   },
