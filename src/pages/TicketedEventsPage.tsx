@@ -115,7 +115,7 @@ const pastEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "Midsummer Wine Masterclass",
+    title: "Bottles & Bites: Discover Rueda",
     date: "20 June 2025",
     venue: "Charleston Farmhouse, Sussex",
     description:
