@@ -29,11 +29,11 @@ interface EventItem {
 const upcomingEvents: EventItem[] = [
   {
     title: "An Italian Wine & Food Story",
-    date: "Chef Robert Thompson X HelenaSips",
+    date: "Saturday, 28 February 2026",
     venue: "RT Café Grill, Ryde, Isle of Wight",
     price: "£150",
     description:
-      "Join us for an Italian extravaganza featuring 7 courses and 5 wines.",
+      "Chef Robert Thompson X HelenaSips — Join us for an Italian extravaganza featuring 7 courses and 5 wines.",
     image: salonInterior,
     imageAlt: "Helena Sips An Italian Wine & Food Story - RT Café Grill, Ryde",
     bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
