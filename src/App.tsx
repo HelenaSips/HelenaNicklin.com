@@ -12,6 +12,7 @@ import NotFound from "./pages/NotFound";
 
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const EventsPage = lazy(() => import("./pages/EventsPage"));
+const TicketedEventsPage = lazy(() => import("./pages/TicketedEventsPage"));
 const PodcastPage = lazy(() => import("./pages/PodcastPage"));
 const PressPage = lazy(() => import("./pages/PressPage"));
 const MagazinePage = lazy(() => import("./pages/MagazinePage"));
@@ -42,6 +43,7 @@ const App = () => (
             <Route path="/" element={<AboutPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/events" element={<EventsPage />} />
+            <Route path="/upcoming-events" element={<TicketedEventsPage />} />
             <Route path="/podcast" element={<PodcastPage />} />
             <Route path="/press" element={<PressPage />} />
             <Route path="/magazine" element={<MagazinePage />} />
