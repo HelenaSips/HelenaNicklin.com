@@ -26,6 +26,7 @@ interface EventItem {
   imageAlt: string;
   bookingLink?: string;
   status: "available" | "sold-out";
+  imagePosition?: string;
 }
 
 const upcomingEvents: EventItem[] = [
@@ -52,6 +53,7 @@ const upcomingEvents: EventItem[] = [
     imageAlt: "Chef Robert Thompson and Helena Nicklin - Fruits of the Sea Wine & Food Story",
     bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
     status: "available",
+    imagePosition: "center 20%",
   },
   {
     title: "Isle of Wight Wine Festival",
@@ -147,6 +149,7 @@ const EventCard = ({
         alt={event.imageAlt}
         loading="lazy"
         className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-105"
+        style={event.imagePosition ? { objectPosition: event.imagePosition } : undefined}
       />
       {event.status === "sold-out" && (
         <span className="absolute top-3 right-3 bg-primary text-primary-foreground font-heading text-xs tracking-widest uppercase px-3 py-1">
