@@ -28,15 +28,15 @@ interface EventItem {
 
 const upcomingEvents: EventItem[] = [
   {
-    title: "Spring Wine & Wildflower Salon",
-    date: "Saturday, 22 March 2026 · 7:00 PM",
-    venue: "The Ned, London",
-    price: "£75 per person",
+    title: "An Italian Wine & Food Story",
+    date: "Chef Robert Thompson X HelenaSips",
+    venue: "RT Café Grill, Ryde, Isle of Wight",
+    price: "£150",
     description:
-      "An evening exploring English sparkling wines paired with seasonal British cuisine. Discover the terroir of Sussex and Kent through four exquisite wines and conversation.",
+      "Join us for an Italian extravaganza featuring 7 courses and 5 wines.",
     image: salonInterior,
-    imageAlt: "Helena Sips Spring Wine & Wildflower Salon - The Ned, London",
-    bookingLink: "https://eventbrite.com/example",
+    imageAlt: "Helena Sips An Italian Wine & Food Story - RT Café Grill, Ryde",
+    bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
     status: "available",
   },
   {
