@@ -117,7 +117,7 @@ const pastEvents: EventItem[] = [
   {
     title: "Bottles & Bites: Discover Rueda",
     date: "20 June 2025",
-    venue: "Charleston Farmhouse, Sussex",
+    venue: "Monterey Egypt Point, Cowes",
     description:
       "A Bloomsbury-inspired afternoon with natural wines, English cheese, and conversation.",
     image: postGoldenMilk,
