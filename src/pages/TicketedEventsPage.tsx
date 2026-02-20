@@ -105,13 +105,13 @@ const pastEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "Rosé & Roses Salon",
+    title: "Bottles & Bites: English Sparkling Wine",
     date: "21 August 2025",
-    venue: "Petersham Nurseries, Richmond",
+    venue: "Monterey Egypt Point, Cowes",
     description:
-      "A summer evening exploring Provence, pét-nat, and the art of the aperitif.",
+      "Join Helena for a masterclass in English sparkling wine, with 6 to taste, paired with snacks.",
     image: postChampagne,
-    imageAlt: "Helena Sips Rosé & Roses Salon - Petersham Nurseries, Richmond",
+    imageAlt: "Helena Sips Bottles & Bites: English Sparkling Wine - Monterey Egypt Point, Cowes",
     status: "available",
   },
   {
