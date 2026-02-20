@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 
-import detailSetting from "@/assets/detail-setting.jpg";
 import handshakeImage from "@/assets/handshake-final.png";
 
 const ContentCreationPage = () => {
@@ -67,20 +65,6 @@ const ContentCreationPage = () => {
             </FadeInSection>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <FadeInSection delay={0.2} className="lg:order-2">
-              <img src={detailSetting} alt="Writing and editorial" className="w-full aspect-square object-cover" />
-            </FadeInSection>
-            <FadeInSection className="lg:order-1">
-              <h2 className="mb-6 font-bold">Writing & Broadcasting</h2>
-              <p className="text-foreground/80 mb-6 leading-relaxed">
-                Helena's writing and presenting style is accessible, intelligent and filled with sensory detail. She makes complex topics feel effortless and always finds the human story behind the bottle.
-              </p>
-              <Link to="/contact" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
-                Discuss a Project
-              </Link>
-            </FadeInSection>
-          </div>
         </div>
       </section>
     </div>
