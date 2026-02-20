@@ -25,28 +25,28 @@ const ContentCreationPage = () => {
 
           <div className="max-w-3xl mx-auto mb-20 space-y-16">
             <FadeInSection>
-              <h2 className="mb-4 font-bold">Social Media</h2>
+              <h3 className="mb-4 font-bold">Social Media</h3>
               <p className="text-foreground/70 leading-relaxed">
                 Short videos, stories & posts for social media
               </p>
             </FadeInSection>
 
             <FadeInSection>
-              <h2 className="mb-4 font-bold">Magazine & Newsletters</h2>
+              <h3 className="mb-4 font-bold">Magazine & Newsletters</h3>
               <p className="text-foreground/70 leading-relaxed">
                 Long form articles on helenasips.com with subscriber newsletters
               </p>
             </FadeInSection>
 
             <FadeInSection>
-              <h2 className="mb-4 font-bold">Podcast Sponsorship</h2>
+              <h3 className="mb-4 font-bold">Podcast Sponsorship</h3>
               <p className="text-foreground/70 leading-relaxed">
                 Available in groups of 3, 5 & 10 episodes. Includes a bespoke, 30 second 'ad' read by Helena at the start of each episode, branded space on the episode show notes, a bespoke article on helenasips.com and presence in an episode newsletter with link to the article.
               </p>
             </FadeInSection>
 
             <FadeInSection>
-              <h2 className="mb-4 font-bold">Live Tasting Events</h2>
+              <h3 className="mb-4 font-bold">Live Tasting Events</h3>
               <p className="text-foreground/70 leading-relaxed mb-6">
                 Work with Helena to get liquid on lips at consumer events via:
               </p>
