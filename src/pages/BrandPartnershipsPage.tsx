@@ -23,20 +23,40 @@ const ContentCreationPage = () => {
             </div>
           </FadeInSection>
 
-          <div className="max-w-3xl mx-auto mb-20">
+          <div className="max-w-3xl mx-auto mb-20 space-y-16">
             <FadeInSection>
-              <h2 className="mb-6 font-bold">Content Creation</h2>
-              <p className="text-foreground/80 mb-6 leading-relaxed">
-                Work with Helena to create a bespoke campaign taking in some – or all – of the following:
+              <h2 className="mb-4 font-bold">Social Media</h2>
+              <p className="text-foreground/70 leading-relaxed">
+                Short videos, stories & posts for social media
               </p>
-              
+            </FadeInSection>
+
+            <FadeInSection>
+              <h2 className="mb-4 font-bold">Magazine & Newsletters</h2>
+              <p className="text-foreground/70 leading-relaxed">
+                Long form articles on helenasips.com with subscriber newsletters
+              </p>
+            </FadeInSection>
+
+            <FadeInSection>
+              <h2 className="mb-4 font-bold">Podcast Sponsorship</h2>
+              <p className="text-foreground/70 leading-relaxed">
+                Available in groups of 3, 5 & 10 episodes. Includes a bespoke, 30 second 'ad' read by Helena at the start of each episode, branded space on the episode show notes, a bespoke article on helenasips.com and presence in an episode newsletter with link to the article.
+              </p>
+            </FadeInSection>
+
+            <FadeInSection>
+              <h2 className="mb-4 font-bold">Live Tasting Events</h2>
+              <p className="text-foreground/70 leading-relaxed mb-6">
+                Work with Helena to get liquid on lips at consumer events via:
+              </p>
               <ul className="space-y-3 text-foreground/70">
                 {[
-                  "Wine and spirits writing for publications and brands",
-                  "Brand storytelling and content strategy",
-                  "Social media content creation",
-                  "Video presenting and production",
-                  "Podcast guest appearances",
+                  "Hosted Masterclasses at Festivals & Roadshows",
+                  "Bottles & Bites Masterclass Supper Clubs (Isle of Wight)",
+                  "Sensory Salons",
+                  "Corporate Entertaining",
+                  "Celebrity & Charity Events",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="text-accent mt-1">✦</span>
