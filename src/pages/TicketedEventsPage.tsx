@@ -68,8 +68,8 @@ const upcomingEvents: EventItem[] = [
       "Enjoy a masterclass in pairing 5 styles of premium chocolate to wine with Helena & The Chocolate Detective herself, Chantal Coady OBE. Tickets on sale soon!",
     image: iowWineFestival,
     imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
+    status: "coming-soon",
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
-    status: "available",
   },
   {
     title: "Chocolate & Drinkies Pairing Masterclass",
@@ -80,8 +80,8 @@ const upcomingEvents: EventItem[] = [
       "Spirits, liqueurs, port, stout? Discover which drinks pair perfectly with chocolate. A masterclass with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
     image: chocSpirits,
     imageAlt: "Chocolate & Drinkies Pairing Masterclass - Cowes Fringe",
+    status: "coming-soon",
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
-    status: "available",
   },
 ];
 
@@ -193,9 +193,14 @@ const EventCard = ({
               Sold Out
             </span>
           ) : event.status === "coming-soon" ? (
-            <span className="inline-block w-full text-center px-6 py-3 bg-accent text-primary font-heading text-sm tracking-widest uppercase cursor-default">
-              Tickets On Sale Soon!
-            </span>
+            <a
+              href={event.bookingLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full text-center px-6 py-3 bg-accent text-primary font-heading text-sm tracking-widest uppercase hover:bg-accent/90 transition-all"
+            >
+              Tickets Coming Soon!
+            </a>
           ) : (
             <a
               href={event.bookingLink}
