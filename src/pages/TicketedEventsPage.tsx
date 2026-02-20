@@ -7,6 +7,7 @@ import wineCloseup from "@/assets/wine-closeup.jpg";
 import italianWineEvent from "@/assets/italian-wine-event.jpeg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 import iowWineFestival from "@/assets/iow-wine-festival.jpg";
+import chocSpirits from "@/assets/choc-spirits.png";
 import fruitsOfSeaEvent from "@/assets/fruits-of-sea-event.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
@@ -75,7 +76,7 @@ const upcomingEvents: EventItem[] = [
     price: "£25",
     description:
       "Spirits, liqueurs, port, stout? Discover which drinks pair perfectly with chocolate. A masterclass with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
-    image: iowWineFestival,
+    image: chocSpirits,
     imageAlt: "Chocolate & Drinkies Pairing Masterclass - Cowes Fringe",
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
     status: "coming-soon",
