@@ -57,16 +57,16 @@ const upcomingEvents: EventItem[] = [
     imagePosition: "center 20%",
   },
   {
-    title: "Isle of Wight Wine Festival",
-    date: "Sunday, 20 April 2026 · 2:00 PM",
-    venue: "Ventnor Botanic Garden, Isle of Wight",
-    price: "£45",
+    title: "Wine & Chocolate Pairing Masterclass",
+    date: "Sunday, 24 May 2026 · 2:00 PM",
+    venue: "Commodores House, Cowes, Isle of Wight",
+    price: "£25",
     description:
-      "Join Helena for a relaxed afternoon masterclass celebrating island wines, local producers, and the magic of English viticulture.",
+      "Enjoy a masterclass in pairing 5 styles of premium chocolate to wine with Helena & The Chocolate Detective herself, Chantal Coady OBE. Tickets on sale soon!",
     image: iowWineFestival,
-    imageAlt: "Cowes Fringe - Isle of Wight Wine Festival with chocolate and wine",
-    bookingLink: "https://venue.com/example",
-    status: "sold-out",
+    imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
+    bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
+    status: "available",
   },
 ];
 
