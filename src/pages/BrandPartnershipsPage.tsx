@@ -18,12 +18,12 @@ const ContentCreationPage = () => {
           </FadeInSection>
 
           <FadeInSection>
-            <div className="flex justify-center mb-10">
+            <div className="flex justify-center mb-4">
               <img src={handshakeImage} alt="Brand partnerships handshake illustration" className="max-w-[10rem] w-full" />
             </div>
           </FadeInSection>
 
-          <div className="max-w-3xl mx-auto mb-20 space-y-16">
+          <div className="max-w-3xl mx-auto mb-20 space-y-8">
             <FadeInSection>
               <h3 className="mb-4 font-bold">Social Media</h3>
               <p className="text-foreground/70 leading-relaxed">
