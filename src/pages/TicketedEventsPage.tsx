@@ -15,6 +15,7 @@ import threeDrinkersCognac from "@/assets/three-drinkers-cognac.jpg";
 import brandEvent from "@/assets/brand-event.jpg";
 import postChampagne from "@/assets/post-champagne.jpg";
 import postGoldenMilk from "@/assets/post-golden-milk.jpg";
+import rueda from "@/assets/rueda.jpg";
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 
@@ -120,8 +121,8 @@ const pastEvents: EventItem[] = [
     venue: "Monterey Egypt Point, Cowes",
     description:
       "A Bloomsbury-inspired afternoon with natural wines, English cheese, and conversation.",
-    image: postGoldenMilk,
-    imageAlt: "Helena Sips Midsummer Wine Masterclass - Charleston Farmhouse, Sussex",
+    image: rueda,
+    imageAlt: "Bottles & Bites: Discover Rueda - Monterey Egypt Point, Cowes",
     status: "available",
   },
 ];
