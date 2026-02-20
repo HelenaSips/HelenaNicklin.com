@@ -101,7 +101,7 @@ const pastEvents: EventItem[] = [
     date: "12 December 2025",
     venue: "Cowes, Isle of Wight",
     description:
-      "An exploration of sake traditions and modern Japanese brewing, paired with seasonal dishes.",
+      "Join Helena for a tasting tour through some key styles of Portuguese wine from dry reds and white to various style of Port! All served with paired nibbles.",
     image: symPort,
     imageAlt: "A Portuguese Sips Safari - Symington Family Estates wines",
     status: "available",
