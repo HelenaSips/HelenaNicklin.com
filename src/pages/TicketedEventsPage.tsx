@@ -96,9 +96,9 @@ const pastEvents: EventItem[] = [
     status: "available",
   },
   {
-    title: "Sake & Sensory Salon",
+    title: "Bottles & Bites: Discover Port",
     date: "12 December 2025",
-    venue: "Koya Bar, Soho",
+    venue: "Cowes, Isle of Wight",
     description:
       "An exploration of sake traditions and modern Japanese brewing, paired with seasonal dishes.",
     image: detailSetting,
