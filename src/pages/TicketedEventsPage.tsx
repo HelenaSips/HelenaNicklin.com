@@ -6,6 +6,7 @@ import salonInterior from "@/assets/salon-interior.jpg";
 import wineCloseup from "@/assets/wine-closeup.jpg";
 import italianWineEvent from "@/assets/italian-wine-event.jpeg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
+import iowWineFestival from "@/assets/iow-wine-festival.jpg";
 import fruitsOfSeaEvent from "@/assets/fruits-of-sea-event.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
@@ -62,8 +63,8 @@ const upcomingEvents: EventItem[] = [
     price: "£45",
     description:
       "Join Helena for a relaxed afternoon masterclass celebrating island wines, local producers, and the magic of English viticulture.",
-    image: heroLifestyle,
-    imageAlt: "Helena Sips Isle of Wight Wine Festival - Ventnor Botanic Garden",
+    image: iowWineFestival,
+    imageAlt: "Cowes Fringe - Isle of Wight Wine Festival with chocolate and wine",
     bookingLink: "https://venue.com/example",
     status: "sold-out",
   },
