@@ -46,7 +46,7 @@ const upcomingEvents: EventItem[] = [
     venue: "RT Café Grill, Ryde, Isle of Wight",
     price: "£150",
     description:
-      "Chef Robert Thompson X HelenaSips — Join us for a fruits of the sea-inspired fine wine and food story, with 7 stunning courses and a flight of 5 wines.",
+      "Join Chef Robert Thompson & HelenaSips for a 'fruits of the sea' inspired fine wine and food extravaganza, featuring 7 courses and 5 wines.",
     image: wineCloseup,
     imageAlt: "Helena Sips Fruits of the Sea Wine & Food Story - RT Café Grill, Ryde",
     bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
