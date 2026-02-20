@@ -10,6 +10,7 @@ import iowWineFestival from "@/assets/iow-wine-festival.jpg";
 import chocSpirits from "@/assets/choc-spirits.png";
 import fruitsOfSeaEvent from "@/assets/fruits-of-sea-event.jpg";
 import supperClub from "@/assets/supper-club.jpg";
+import sensorySalon from "@/assets/sensory-salon.jpg";
 import detailSetting from "@/assets/detail-setting.jpg";
 import symPort from "@/assets/sym-port.jpg";
 import threeDrinkersCognac from "@/assets/three-drinkers-cognac.jpg";
@@ -87,13 +88,13 @@ const upcomingEvents: EventItem[] = [
 
 const pastEvents: EventItem[] = [
   {
-    title: "Burns Night Whisky & Wine Pairing",
+    title: "Sips Salon: Wine, Words & Chocolate",
     date: "25 January 2026",
     venue: "The Goring, London",
     description:
       "A Scottish celebration pairing rare whiskies with bold wines, haggis, and poetry.",
-    image: supperClub,
-    imageAlt: "Helena Sips Burns Night Whisky & Wine Pairing - The Goring, London",
+    image: sensorySalon,
+    imageAlt: "Sips Salon: Wine, Words & Chocolate - The Goring, London",
     status: "available",
   },
   {
