@@ -34,7 +34,7 @@ const upcomingEvents: EventItem[] = [
     venue: "RT Café Grill, Ryde, Isle of Wight",
     price: "£150",
     description:
-      "Chef Robert Thompson X HelenaSips — Join us for an Italian fine wine and fine food extravaganza, featuring 7 courses and a flight of 5 wines.",
+      "Join Chef Robert Thompson & HelenaSips for an Italian, fine wine and food extravaganza, featuring 7 courses and 5 wines.",
     image: italianWineEvent,
     imageAlt: "Helena Nicklin and Chef Robert Thompson - Italian Wine & Food Story",
     bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
@@ -178,7 +178,7 @@ const EventCard = ({
       )}
 
       <p
-        className={`text-foreground/70 leading-relaxed line-clamp-3 ${
+        className={`text-foreground/70 leading-relaxed ${
           isPast ? "text-sm" : "text-base"
         }`}
       >
