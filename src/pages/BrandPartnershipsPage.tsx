@@ -18,7 +18,7 @@ const ContentCreationPage = () => {
 
           <FadeInSection>
             <div className="flex justify-center mb-4">
-              <img src={handshakeImage} alt="Brand partnerships illustration" className="w-full max-w-md mx-auto" />
+              <img src={handshakeImage} alt="Brand partnerships illustration" className="w-full max-w-[10rem] mx-auto" />
             </div>
           </FadeInSection>
 
