@@ -38,7 +38,7 @@ const EventsPage = () => {
       {[
         {
           id: "sensory-salons",
-          img: salonInterior,
+          img: null,
           title: "Sensory Salons",
           copy: "Helena's salons are curated experiences where wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more. Hosted in luxury hotels, private venues and cultural spaces for brand partnerships and discerning private clients.",
           perfect: "Luxury hotel guest experiences, brand activations and launches, private client gatherings & cultural venue programming.",
@@ -60,10 +60,12 @@ const EventsPage = () => {
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`section-padding ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
-              <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />
-            </FadeInSection>
-            <FadeInSection delay={0.2} className={i % 2 !== 0 ? "lg:order-1" : ""}>
+            {service.img && (
+              <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
+                <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />
+              </FadeInSection>
+            )}
+            <FadeInSection delay={0.2} className={!service.img ? "lg:col-span-2" : i % 2 !== 0 ? "lg:order-1" : ""}>
               <h2 className="mb-6">{service.title}</h2>
               <p className="text-foreground/80 mb-6 leading-relaxed">{service.copy}</p>
               {service.perfect && (
