@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 import salonInterior from "@/assets/salon-interior.jpg";
-import supperClub from "@/assets/supper-club.jpg";
+import dinnerTable from "@/assets/dinner-table.png";
 import brandEvent from "@/assets/brand-event.jpg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 
@@ -39,6 +39,7 @@ const EventsPage = () => {
         {
           id: "sensory-salons",
           img: null,
+          edgeImage: dinnerTable,
           title: "Sensory Salons",
           copy: "At Helena's sensory salons, wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more. Hosted in luxury hotels and restaurants, private venues and cultural spaces, these immersive events are ideal for brands looking for certain positioning and discerning private clients seeking a unique, multi-sensory experience.",
           perfect: "Brand activations and launches, hotel guest experiences, private client gatherings & cultural venue programming.",
@@ -46,7 +47,7 @@ const EventsPage = () => {
         },
         {
           id: "bottles-and-bites",
-          img: supperClub,
+          img: null,
           title: "Bottles & Bites Masterclasses",
           copy: "Wine education perfectly paired with food. Helena guides guests through carefully selected wines, sharing stories, techniques and cultural context in an accessible, sophisticated and importantly, memorable way.",
           perfect: "Private dining experiences, corporate entertaining, VIP client events & special celebrations.",
@@ -58,29 +59,36 @@ const EventsPage = () => {
           copy: "Helena brings 23 years of drinks expertise and broadcast experience to stages, festivals and panels, offering wine & spirits masterclass hosting.",
         },
       ].map((service, i) => (
-        <section key={service.title} id={service.id} className={`section-padding ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
-          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {service.img && (
-              <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
-                <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />
+        <section key={service.title} id={service.id} className={`${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
+          <div className="section-padding">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+              {service.img && (
+                <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
+                  <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />
+                </FadeInSection>
+              )}
+              <FadeInSection delay={0.2} className={!service.img && !service.edgeImage ? "lg:col-span-2" : !service.img ? "lg:col-span-2" : i % 2 !== 0 ? "lg:order-1" : ""}>
+                <h2 className="mb-6">{service.title}</h2>
+                <p className="text-foreground/80 mb-6 leading-relaxed">{service.copy}</p>
+                {service.perfect && (
+                  <p className="text-foreground/70 mb-4"><strong className="text-foreground">Perfect for:</strong> {service.perfect}</p>
+                )}
+                {service.format && (
+                  <p className="text-foreground/70 mb-6"><strong className="text-foreground">Format:</strong> {service.format}</p>
+                )}
+                {service.id === "sensory-salons" && (
+                  <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
+                    Contact Helena
+                  </Link>
+                )}
               </FadeInSection>
-            )}
-            <FadeInSection delay={0.2} className={!service.img ? "lg:col-span-2" : i % 2 !== 0 ? "lg:order-1" : ""}>
-              <h2 className="mb-6">{service.title}</h2>
-              <p className="text-foreground/80 mb-6 leading-relaxed">{service.copy}</p>
-              {service.perfect && (
-                <p className="text-foreground/70 mb-4"><strong className="text-foreground">Perfect for:</strong> {service.perfect}</p>
-              )}
-              {service.format && (
-                <p className="text-foreground/70 mb-6"><strong className="text-foreground">Format:</strong> {service.format}</p>
-              )}
-              {service.id === "sensory-salons" && (
-                <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
-                  Contact Helena
-                </Link>
-              )}
-            </FadeInSection>
+            </div>
           </div>
+          {service.edgeImage && (
+            <FadeInSection>
+              <img src={service.edgeImage} alt={service.title} className="w-full h-[50vh] object-cover" />
+            </FadeInSection>
+          )}
         </section>
       ))}
 
