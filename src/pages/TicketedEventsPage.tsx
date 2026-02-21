@@ -84,6 +84,18 @@ const upcomingEvents: EventItem[] = [
     status: "coming-soon",
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
   },
+  {
+    title: "Lymington Seafood Festival: Various Drinks Masterclasses",
+    date: "Saturday 11 & Sunday 12 July 2025",
+    venue: "Bath Road Park, Lymington, SO41 3SE",
+    price: "From £12",
+    description:
+      "Join me and other drinks experts for a series of drinks masterclasses throughout the weekend, featuring beer, spirits and wine.",
+    image: heroLifestyle,
+    imageAlt: "Lymington Seafood Festival - Drinks Masterclasses",
+    bookingLink: "https://tickets.lymingtonseafoodfestival.co.uk/events/lymingtonseafoodfestival/1967009",
+    status: "available",
+  },
 ];
 
 const pastEvents: EventItem[] = [
