@@ -42,7 +42,7 @@ const EventsPage = () => {
           title: "Sensory Salons",
           copy: "At Helena's sensory salons, wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more. Hosted in luxury hotels and restaurants, private venues and cultural spaces, these immersive events are ideal for brands looking for certain positioning and discerning private clients seeking a unique, multi-sensory experience.",
           perfect: "Brand activations and launches, hotel guest experiences, private client gatherings & cultural venue programming.",
-          format: "90-120 minutes, fully hosted with drinks, sensory elements provided and where relevant, special guest speakers invited.",
+          format: "From a 90 minute hosted tasting with sensory elements to full, multi-sensory dinner events with special guests, Helena can put together something unique just for you.",
         },
         {
           id: "bottles-and-bites",
