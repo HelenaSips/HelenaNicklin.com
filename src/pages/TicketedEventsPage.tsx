@@ -224,7 +224,7 @@ const TicketedEventsPage = () => {
   return (
     <div className="pt-20">
       {/* Hero */}
-      <section className="relative min-h-[50vh] md:min-h-[55vh] flex items-center justify-center">
+      <section className="relative min-h-[50vh] md:min-h-[55vh] flex items-end justify-center pb-10 md:pb-14">
         <div className="absolute inset-0">
           <img
             src={eventsHero}
