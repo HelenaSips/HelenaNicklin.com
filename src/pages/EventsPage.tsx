@@ -72,7 +72,12 @@ const EventsPage = () => {
                 <p className="text-foreground/70 mb-4"><strong className="text-foreground">Perfect for:</strong> {service.perfect}</p>
               )}
               {service.format && (
-                <p className="text-foreground/70 mb-4"><strong className="text-foreground">Format:</strong> {service.format}</p>
+                <p className="text-foreground/70 mb-6"><strong className="text-foreground">Format:</strong> {service.format}</p>
+              )}
+              {service.id === "sensory-salons" && (
+                <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
+                  Contact Helena
+                </Link>
               )}
             </FadeInSection>
           </div>
