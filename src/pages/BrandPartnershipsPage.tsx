@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 
 import handshakeImage from "@/assets/handshake-final.png";
-import heroImage from "@/assets/brand-partnerships-hero.jpeg";
 
 const ContentCreationPage = () => {
   return (
@@ -19,7 +18,7 @@ const ContentCreationPage = () => {
 
           <FadeInSection>
             <div className="flex justify-center mb-4">
-              <img src={heroImage} alt="Helena hosting a wine tasting event" className="w-full max-w-4xl mx-auto aspect-[21/9] object-cover" />
+              <img src={handshakeImage} alt="Brand partnerships illustration" className="w-full max-w-md mx-auto" />
             </div>
           </FadeInSection>
 
