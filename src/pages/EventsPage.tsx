@@ -21,7 +21,7 @@ const EventsPage = () => {
       {/* Hero */}
       <section className="relative min-h-[60vh] flex items-end">
         <div className="absolute inset-0">
-          <img src={heroLifestyle} alt="Salon experience" className="w-full h-full object-cover" />
+          <img src={salonInterior} alt="Salon experience" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pb-16 w-full">
