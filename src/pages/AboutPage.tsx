@@ -145,7 +145,7 @@ const AboutPage = () => {
                   Brand Partnerships
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
-                  Let Helena come to you for ambassadorial roles & hosted tastings at festivals or private events.
+                  Create a bespoke campaign with Helena taking in your pick of socials, editorial, newsletters, podcast sponsorship and live consumer tasting events.
                 </p>
               </div>
             </div>
