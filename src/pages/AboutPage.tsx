@@ -94,7 +94,10 @@ const AboutPage = () => {
           <FadeInSection>
             <div className="text-center mb-16 max-w-3xl mx-auto">
               <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Experiences</p>
-              <h2 className="text-4xl md:text-5xl font-heading mb-6">Salons & Events</h2>
+              <h2 className="text-4xl md:text-5xl font-heading mb-4">Salons & Events</h2>
+              <p className="text-foreground/70 leading-relaxed">
+                Here are some ways you can work with Helena to showcase your drinks and brands to consumer audiences:
+              </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
