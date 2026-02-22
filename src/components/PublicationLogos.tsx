@@ -20,6 +20,9 @@ const publications: Publication[] = [
   { name: "Style of Wight", logo: "/logos/style-of-wight.jpeg" },
   { name: "Cowes Fringe", logo: "/logos/cowes-fringe.png" },
   { name: "Isle of Wight Literary Festival", logo: "/logos/iow-literary-festival.png" },
+  { name: "Chowhound", logo: "/logos/chowhound.png" },
+  { name: "Luxurious Magazine", logo: "/logos/luxurious.png" },
+  { name: "Savile Row Style Magazine", logo: "/logos/savile-row.png" },
 ];
 
 interface PublicationLogosProps {
@@ -37,7 +40,7 @@ const PublicationLogos = ({ subset, className = "" }: PublicationLogosProps) => 
     <div className={`flex flex-wrap justify-center items-center gap-3 md:gap-4 ${className}`}>
       {items.map((pub) =>
         pub.logo ? (
-          <div key={pub.name} className={`flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity ${pub.name === "The Sun" ? "h-8 md:h-10" : (pub.name === "Bottoms Up! with Alan Carr" || pub.name === "Luxury Lifestyle Magazine" || pub.name === "Cowes Fringe") ? "h-20 md:h-24" : pub.name === "Daily Mail" ? "h-20 md:h-24" : pub.name === "BA High Life" ? "h-14 md:h-16" : pub.name === "Virgin Radio" ? "h-12 md:h-14" : "h-10 md:h-12"}`} title={pub.name}>
+          <div key={pub.name} className={`flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity ${pub.name === "The Sun" ? "h-8 md:h-10" : (pub.name === "Bottoms Up! with Alan Carr" || pub.name === "Luxury Lifestyle Magazine" || pub.name === "Cowes Fringe") ? "h-20 md:h-24" : pub.name === "Daily Mail" ? "h-20 md:h-24" : pub.name === "BA High Life" ? "h-14 md:h-16" : pub.name === "Virgin Radio" ? "h-12 md:h-14" : (pub.name === "Chowhound" || pub.name === "Savile Row Style Magazine") ? "h-12 md:h-14" : pub.name === "Luxurious Magazine" ? "h-8 md:h-10" : "h-10 md:h-12"}`} title={pub.name}>
             <img
               src={pub.logo}
               alt={pub.name}
