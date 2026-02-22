@@ -62,7 +62,13 @@ const ContentCreationPage = () => {
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="text-accent mt-1">✦</span>
-                    <span>{item}</span>
+                    {item === "Sensory Salons" ? (
+                      <Link to="/events#sensory-salons" className="hover:text-[#db258f] transition-colors">
+                        {item}
+                      </Link>
+                    ) : (
+                      <span>{item}</span>
+                    )}
                   </li>
                 ))}
               </ul>
