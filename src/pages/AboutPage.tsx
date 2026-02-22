@@ -48,15 +48,25 @@ const AboutPage = () => {
             <p className="text-foreground/80 mb-6 leading-relaxed">
               An accomplished speaker with broadcast experience across major platforms and a writing portfolio spanning national and luxury publications, Helena is known for her engaging presenting style and love of combining drinks with the best things in life from fragrance and books to chocolate. She brings authority and warmth to every experience she curates.
             </p>
-            <p className="text-foreground/80 mb-6 leading-relaxed">
-              In addition to the above, Helena judges for various international drinks competitions including the IWSC, is a regular feature on expert drinks panels and is often called for commentary on the drinks industry by national radio stations and TV channels.
-            </p>
-            <p className="text-foreground/80 mb-6 leading-relaxed">
-              You can see Helena in action in her three global, drinks and food travel series, 'The Three Drinkers' on Amazon Prime, which she co-produced and co-presented. She is also currently a wine expert guest on Alan Carr & Lee Peart's video podcast Bottoms Up!
-            </p>
+
+            <div className="flex justify-end -mt-4">
+              <button
+                onClick={() => setExpanded(!expanded)}
+                className="px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
+              >
+                {expanded ? "Show Less" : "Read Full Bio"}
+              </button>
+            </div>
 
             {expanded && (
-              <div className="text-foreground/80 leading-relaxed space-y-6 mb-6">
+              <div className="text-foreground/80 leading-relaxed space-y-6 mb-6 mt-6">
+                <p>
+                  In addition to the above, Helena judges for various international drinks competitions including the IWSC, is a regular feature on expert drinks panels and is often called for commentary on the drinks industry by national radio stations and TV channels.
+                </p>
+                <p>
+                  You can see Helena in action in her three global, drinks and food travel series, 'The Three Drinkers' on Amazon Prime, which she co-produced and co-presented. She is also currently a wine expert guest on Alan Carr & Lee Peart's video podcast Bottoms Up!
+                </p>
+
                 <h3 className="mt-8 mb-4">Awards & Accolades</h3>
                 <ul className="space-y-3">
                   {awards.map((award, i) => (
@@ -71,15 +81,6 @@ const AboutPage = () => {
                 <PublicationLogos />
               </div>
             )}
-
-            <div className="flex justify-end -mt-4">
-              <button
-                onClick={() => setExpanded(!expanded)}
-                className="px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
-              >
-                {expanded ? "Show Less" : "Read Full Bio"}
-              </button>
-            </div>
             <div className="mt-4">
               <div className="gold-divider" />
             </div>
