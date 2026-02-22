@@ -113,6 +113,11 @@ const AboutPage = () => {
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Curated experiences exploring wine and other drinks alongside sensory elements such as fragrance, books & chocolate with occasional special guests.
                 </p>
+                <div className="mt-4 text-center">
+                  <Link to="/events#sensory-salons" className="inline-block px-6 py-2 bg-primary text-primary-foreground font-heading text-sm tracking-wider hover:bg-primary/90 transition-all">
+                    FIND OUT MORE
+                  </Link>
+                </div>
               </div>
 
               {/* Card 2 */}
@@ -147,6 +152,11 @@ const AboutPage = () => {
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Create a bespoke campaign with Helena taking in your pick of socials, editorial, newsletters, podcast sponsorship and live consumer tasting events.
                 </p>
+                <div className="mt-4 text-center">
+                  <Link to="/brand-partnerships" className="inline-block px-6 py-2 bg-primary text-primary-foreground font-heading text-sm tracking-wider hover:bg-primary/90 transition-all">
+                    FIND OUT MORE
+                  </Link>
+                </div>
               </div>
             </div>
 
