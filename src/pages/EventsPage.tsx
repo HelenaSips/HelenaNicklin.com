@@ -51,6 +51,7 @@ const EventsPage = () => {
           title: "Bottles & Bites Masterclasses",
           copy: "Wine and spirits education perfectly paired with food. Helena holds regular supper club style events where she lives on the Isle of Wight to an engaged, consumer audience, guiding them through carefully selected drinks, sharing stories, techniques and context in an accessible, entertaining way.",
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
+          cta: true,
         },
         {
           id: "brand-ambassador",
@@ -76,7 +77,7 @@ const EventsPage = () => {
                 {service.format && (
                   <p className="text-foreground/70 mb-6"><strong className="text-foreground">Format:</strong> {service.format}</p>
                 )}
-                {service.id === "sensory-salons" && (
+                {(service.id === "sensory-salons" || service.cta) && (
                   <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
                     Contact Helena
                   </Link>
