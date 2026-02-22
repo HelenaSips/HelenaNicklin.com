@@ -53,12 +53,6 @@ const EventsPage = () => {
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
           cta: true,
         },
-        {
-          id: "brand-ambassador",
-          img: null,
-          title: "Brand Ambassador Partnerships",
-          copy: "Helena brings 23 years of drinks expertise and broadcast experience to stages, festivals and panels, offering wine & spirits masterclass hosting.",
-        },
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
           <div className="section-padding">
