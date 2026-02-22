@@ -6,7 +6,7 @@ import PodcastGuestCarousel from "../components/PodcastGuestCarousel";
 import helenaHeadshot from "@/assets/helena-hero-about.jpg";
 import salonInterior from "@/assets/salon-interior.jpg";
 import bab1 from "@/assets/bab_1.png";
-import brandEvent from "@/assets/brand-event.jpg";
+import rueda1 from "@/assets/rueda_1.jpg";
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
   "Shortlisted: IWSC Global Wine Communicator of the Year 2026",
@@ -136,8 +136,8 @@ const AboutPage = () => {
               <div className="group cursor-pointer">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img 
-                    src={brandEvent} 
-                    alt="Brand Ambassador Partnerships" 
+                    src={rueda1} 
+                    alt="Brand Partnerships" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>

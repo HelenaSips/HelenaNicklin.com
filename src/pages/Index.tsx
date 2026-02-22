@@ -7,7 +7,7 @@ import detailSetting from "@/assets/detail-setting.jpg";
 import wineCloseup from "@/assets/wine-closeup.jpg";
 import helenaYellowDress from "@/assets/helena-yellow-dress.jpg";
 import bab1 from "@/assets/bab_1.png";
-import brandEvent from "@/assets/brand-event.jpg";
+import rueda1 from "@/assets/rueda_1.jpg";
 
 const Index = () => {
   return (
@@ -90,7 +90,7 @@ const Index = () => {
             {[
               { img: salonInterior, title: "HelenaSips Sensory Salons", desc: "Curated experiences exploring wine and other drinks in combination with the arts." },
               { img: bab1, title: "Bottles & Bites Masterclasses", desc: "Entertaining drinks masterclasses with perfectly paired dishes." },
-              { img: brandEvent, title: "Brand Ambassador Partnerships", desc: "Brand ambassador roles, hosted wine tastings and cultural events for luxury brands and venues." },
+              { img: rueda1, title: "Brand Ambassador Partnerships", desc: "Brand ambassador roles, hosted wine tastings and cultural events for luxury brands and venues." },
             ].map((item, i) => (
               <FadeInSection key={item.title} delay={i * 0.15}>
                 <div className="group cursor-pointer">
