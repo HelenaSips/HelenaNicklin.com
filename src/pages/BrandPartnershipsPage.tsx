@@ -85,7 +85,7 @@ const ContentCreationPage = () => {
                     "D.O. Rueda", "Symington Family Estates", "Toro Loco Wine", "D.O. Rías Baixas",
                     "Vins de Bordeaux", "Rémy Martin", "Courvoisier", "Guinness", "Jameson Whiskey",
                     "Waterford Whisky", "The Dalmore", "Glenmorangie", "Celliers Les Dauphins",
-                    "Fenjiu Baijiu", "Akashi-Tai Sake",
+                    "Fenjiu Baijiu", "Akashi-Tai Sake", "Seabourn Cruises",
                   ].map((client) => (
                     <span key={client} className="font-heading text-base md:text-lg tracking-wider text-foreground/40">{client}</span>
                   ))}
