@@ -99,7 +99,7 @@ const AboutPage = () => {
 
             <div className="grid md:grid-cols-3 gap-8">
               {/* Card 1 */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img 
                     src={salonInterior} 
@@ -110,18 +110,18 @@ const AboutPage = () => {
                 <Link to="/events#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Sensory Salons
                 </Link>
-                <p className="mt-3 text-foreground/70 leading-relaxed">
+                <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Curated experiences exploring wine and other drinks alongside sensory elements such as fragrance, books & chocolate with occasional special guests.
                 </p>
                 <div className="mt-4 text-center">
-                  <Link to="/events#sensory-salons" className="inline-block px-6 py-2 bg-primary text-primary-foreground font-heading text-sm tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/events#sensory-salons" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
                 </div>
               </div>
 
               {/* Card 2 */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img 
                     src={bab1} 
@@ -132,13 +132,18 @@ const AboutPage = () => {
                 <Link to="/events#bottles-and-bites" className="block text-center text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Bottles & Bites <br/>Supper Clubs
                 </Link>
-                <p className="mt-3 text-foreground/70 leading-relaxed">
+                <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Entertaining drinks masterclasses with perfectly paired dishes supper club style, to audiences of up to 30 on the Isle of Wight.
                 </p>
+                <div className="mt-4 text-center">
+                  <Link to="/events#bottles-and-bites" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                    FIND OUT MORE
+                  </Link>
+                </div>
               </div>
 
               {/* Card 3 */}
-              <div className="group cursor-pointer">
+              <div className="group cursor-pointer flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img 
                     src={rueda1} 
@@ -149,24 +154,15 @@ const AboutPage = () => {
                 <Link to="/brand-partnerships" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Brand Partnerships
                 </Link>
-                <p className="mt-3 text-foreground/70 leading-relaxed">
+                <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Create a bespoke campaign with Helena taking in your pick of socials, editorial, newsletters, podcast sponsorship and live consumer tasting events.
                 </p>
                 <div className="mt-4 text-center">
-                  <Link to="/brand-partnerships" className="inline-block px-6 py-2 bg-primary text-primary-foreground font-heading text-sm tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/brand-partnerships" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
                 </div>
               </div>
-            </div>
-
-            <div className="flex justify-center mt-10">
-              <a
-                href="/events"
-                className="px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all"
-              >
-                FIND OUT MORE
-              </a>
             </div>
             <div className="mt-6">
               <div className="gold-divider" />
