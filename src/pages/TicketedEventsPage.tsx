@@ -100,13 +100,13 @@ const upcomingEvents: EventItem[] = [
 
 const pastEvents: EventItem[] = [
   {
-    title: "Sips Salon: Wine, Words & Chocolate",
+    title: "Sensory Salon: Wine, Words & Chocolate",
     date: "8 October 2025",
     venue: "Northwood House, Cowes",
     description:
       "Enjoy the ultimate, multi-sensory evening featuring wine with Helena, words by Joanne Harris and chocolate by Chantal Coady OBE with a showcase of the fragrance made to go with Joanne's new book.",
     image: sensorySalon,
-    imageAlt: "Sips Salon: Wine, Words & Chocolate - The Goring, London",
+    imageAlt: "Sensory Salon: Wine, Words & Chocolate - The Goring, London",
     status: "available",
   },
   {
