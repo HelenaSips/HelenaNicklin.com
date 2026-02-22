@@ -107,7 +107,7 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <Link to="/events#sensory-salons" className="block text-center text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                <Link to="/events#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Sensory Salons
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
