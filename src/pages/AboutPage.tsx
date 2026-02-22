@@ -120,12 +120,12 @@ const AboutPage = () => {
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img 
                     src={bab1} 
-                    alt="Bottles & Bites Masterclasses" 
+                    alt="Bottles & Bites Supper Clubs" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <Link to="/events#bottles-and-bites" className="block text-center text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
-                  Bottles & Bites <br/>Masterclasses
+                  Bottles & Bites <br/>Supper Clubs
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Entertaining drinks masterclasses with perfectly paired dishes. Supper club style.
