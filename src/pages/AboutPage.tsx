@@ -5,7 +5,7 @@ import PublicationLogos from "../components/PublicationLogos";
 import PodcastGuestCarousel from "../components/PodcastGuestCarousel";
 import helenaHeadshot from "@/assets/helena-hero-about.jpg";
 import salonInterior from "@/assets/salon-interior.jpg";
-import supperClub from "@/assets/supper-club.jpg";
+import bab1 from "@/assets/bab_1.png";
 import brandEvent from "@/assets/brand-event.jpg";
 const awards = [
   "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
@@ -119,7 +119,7 @@ const AboutPage = () => {
               <div className="group cursor-pointer">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img 
-                    src={supperClub} 
+                    src={bab1} 
                     alt="Bottles & Bites Masterclasses" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
