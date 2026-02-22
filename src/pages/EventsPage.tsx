@@ -61,6 +61,7 @@ const EventsPage = () => {
           img: null,
           title: "Private Wine Masterclasses",
           copy: "Need to add something special to a private event? Helena can come to you to run a themed tasting before or during your meal.",
+          perfect: "Intimate groups of 6 - 25 where guests can be seated. Ideal for special birthdays, family gatherings or corporate entertaining.",
           format: "Seated tasting for circa 1.5 hrs before a lunch or dinner.",
           formatLabel: "Suggested Format",
           cta: true,
