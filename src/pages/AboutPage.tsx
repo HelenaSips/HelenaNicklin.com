@@ -111,7 +111,7 @@ const AboutPage = () => {
                   Sensory Salons
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
-                  Curated experiences exploring wine and other drinks alongside sensory elements such as fragrance, books & chocolate.
+                  Curated experiences exploring wine and other drinks alongside sensory elements such as fragrance, books & chocolate with occasional special guests.
                 </p>
               </div>
 
