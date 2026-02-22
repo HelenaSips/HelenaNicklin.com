@@ -53,6 +53,13 @@ const EventsPage = () => {
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
           cta: true,
         },
+        {
+          id: "private-wine-masterclasses",
+          img: null,
+          title: "Private Wine Masterclasses",
+          copy: "Need to add something special to a private event? Helena can come to you to run a themed tasting before or during your meal. This works best with intimate groups of 6 - 25 where guests can be seated. Perfect for special birthdays, family gatherings or corporate entertaining.",
+          cta: true,
+        },
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
           <div className="section-padding">
