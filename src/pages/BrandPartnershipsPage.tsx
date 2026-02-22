@@ -73,6 +73,22 @@ const ContentCreationPage = () => {
                 </Link>
               </div>
             </FadeInSection>
+
+            <FadeInSection>
+              <div className="mt-16">
+                <h2 className="text-center mb-12">Previous Clients Include</h2>
+                <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+                  {[
+                    "D.O. Rueda", "Symington Family Estates", "Toro Loco Wine", "D.O. Rías Baixas",
+                    "Vins de Bordeaux", "Rémy Martin", "Courvoisier", "Guinness", "Jameson Whiskey",
+                    "Waterford Whisky", "The Dalmore", "Glenmorangie", "Celliers Les Dauphins",
+                    "Fenjiu Baijiu", "Akashi-Tai Sake",
+                  ].map((client) => (
+                    <span key={client} className="font-heading text-base md:text-lg tracking-wider text-foreground/40">{client}</span>
+                  ))}
+                </div>
+              </div>
+            </FadeInSection>
           </div>
         </div>
       </section>

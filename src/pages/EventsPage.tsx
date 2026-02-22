@@ -87,20 +87,6 @@ const EventsPage = () => {
         </section>
       ))}
 
-      {/* Previous Clients */}
-      <section className="section-padding bg-background">
-        <div className="max-w-5xl mx-auto">
-          <FadeInSection>
-            <h2 className="text-center mb-12">Previous Clients Include</h2>
-            <div className="flex flex-wrap justify-center gap-6 md:gap-10">
-              {previousClients.map((client) => (
-                <span key={client} className="font-heading text-base md:text-lg tracking-wider text-foreground/40">{client}</span>
-              ))}
-            </div>
-          </FadeInSection>
-        </div>
-      </section>
-
       {/* Contact Form CTA */}
       <section className="section-padding bg-primary text-primary-foreground text-center">
         <div className="max-w-3xl mx-auto">
