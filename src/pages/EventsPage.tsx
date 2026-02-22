@@ -52,7 +52,7 @@ const EventsPage = () => {
           title: "Bottles & Bites Masterclasses",
           copy: "Wine and spirits education perfectly paired with food. Helena works with drinks brands and wine regions to offer wine and spirits masterclasses in a supper club format where she lives on the Isle of Wight, to an engaged, consumer audience of up to 30 guests.",
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
-          format: "Relaxed, 2 hour masterclass with a welcome drink, then 5 or 6 wines paired with three types of substantial nibbles with a Q&A at the end. 25 guests.",
+          format: "Relaxed, 2 hour masterclass with a welcome drink, then 5 or 6 wines paired with three types of substantial nibbles with a Q&A at the end.",
           edgeImage: privateWineMasterclass,
           cta: true,
         },
