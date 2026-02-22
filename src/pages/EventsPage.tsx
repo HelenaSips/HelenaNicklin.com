@@ -63,7 +63,7 @@ const EventsPage = () => {
           cta: true,
         },
       ].map((service, i) => (
-        <section key={service.title} id={service.id} className={`${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
+        <section key={service.title} id={service.id} className={`scroll-mt-24 ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
           <div className="section-padding">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {service.img && (
