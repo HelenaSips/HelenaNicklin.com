@@ -5,6 +5,7 @@ import salonInterior from "@/assets/salon-interior.jpg";
 import dinnerTable from "@/assets/dinner-table.png";
 import brandEvent from "@/assets/brand-event.jpg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
+import privateWineMasterclass from "@/assets/private-wine-masterclass.jpeg";
 
 const previousClients = [
   "D.O. Rueda", "Symington Family Estates", "Toro Loco Wine", "D.O. Rías Baixas",
@@ -51,6 +52,7 @@ const EventsPage = () => {
           title: "Bottles & Bites Masterclasses",
           copy: "Wine and spirits education perfectly paired with food. Helena holds regular supper club style events where she lives on the Isle of Wight to an engaged, consumer audience, guiding them through carefully selected drinks, sharing stories, techniques and context in an accessible, entertaining way.",
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
+          edgeImage: privateWineMasterclass,
           cta: true,
         },
         {
