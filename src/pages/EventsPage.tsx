@@ -39,7 +39,7 @@ const EventsPage = () => {
         {
           id: "sensory-salons",
           img: null,
-          edgeImage: null,
+          edgeImage: dinnerTable,
           title: "Sensory Salons",
           copy: "At Helena's salons, wine and spirits become the gateway to exploring joyous, sensory elements of the Art of Living, from fragrance, flowers and art to books, design and more. Hosted in luxury hotels and restaurants, private venues and cultural spaces, these immersive events are ideal for brands looking for certain positioning and discerning private clients seeking a unique, multi-sensory experience.",
           perfect: "Brand activations and launches, hotel guest experiences, private client gatherings & cultural venue programming.",
@@ -55,7 +55,7 @@ const EventsPage = () => {
         },
         {
           id: "brand-ambassador",
-          img: brandEvent,
+          img: null,
           title: "Brand Ambassador Partnerships",
           copy: "Helena brings 23 years of drinks expertise and broadcast experience to stages, festivals and panels, offering wine & spirits masterclass hosting.",
         },
