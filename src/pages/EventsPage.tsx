@@ -61,6 +61,8 @@ const EventsPage = () => {
           img: null,
           title: "Private Wine Masterclasses",
           copy: "Need to add something special to a private event? Helena can come to you to run a themed tasting before or during your meal. This works best with intimate groups of 6 - 25 where guests can be seated. Perfect for special birthdays, family gatherings or corporate entertaining.",
+          format: "Seated tasting for circa 1.5 hrs before a lunch or dinner.",
+          formatLabel: "Suggested Format",
           cta: true,
         },
       ].map((service, i) => (
@@ -79,7 +81,7 @@ const EventsPage = () => {
                   <p className="text-foreground/70 mb-4"><strong className="text-foreground">Perfect for:</strong> {service.perfect}</p>
                 )}
                 {service.format && (
-                  <p className="text-foreground/70 mb-6"><strong className="text-foreground">Format:</strong> {service.format}</p>
+                  <p className="text-foreground/70 mb-6"><strong className="text-foreground">{service.formatLabel || "Format"}:</strong> {service.format}</p>
                 )}
                 {(service.id === "sensory-salons" || service.cta) && (
                   <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
