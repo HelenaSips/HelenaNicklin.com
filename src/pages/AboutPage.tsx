@@ -141,8 +141,8 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <Link to="/events#brand-ambassador" className="block text-center text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
-                  Brand Ambassador <br/>Partnerships
+                <Link to="/brand-partnerships" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
+                  Brand Partnerships
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
                   Have wine, will travel! Let Helena come to you for ambassadorial roles & hosted tastings.
