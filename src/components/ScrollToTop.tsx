@@ -9,7 +9,8 @@ const ScrollToTop = () => {
       setTimeout(() => {
         const el = document.getElementById(hash.replace("#", ""));
         if (el) {
-          el.scrollIntoView({ behavior: "smooth" });
+          const top = el.getBoundingClientRect().top + window.scrollY - 96;
+          window.scrollTo({ top, behavior: "smooth" });
         }
       }, 100);
     } else {
