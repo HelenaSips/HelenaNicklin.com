@@ -66,6 +66,10 @@ const ContentCreationPage = () => {
                       <Link to="/events#sensory-salons" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
+                    ) : item === "Corporate Entertaining" ? (
+                      <Link to="/events#private-wine-masterclasses" className="hover:text-[#db258f] transition-colors">
+                        {item}
+                      </Link>
                     ) : (
                       <span>{item}</span>
                     )}
