@@ -145,7 +145,7 @@ const AboutPage = () => {
                   Brand Partnerships
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
-                  Have wine, will travel! Let Helena come to you for ambassadorial roles & hosted tastings.
+                  Let Helena come to you for ambassadorial roles & hosted tastings at festivals or private events.
                 </p>
               </div>
             </div>
