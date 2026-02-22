@@ -11,8 +11,11 @@ const ContentCreationPage = () => {
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Collaborate</p>
             <h1 className="text-center mb-6 font-bold">Brand Partnerships</h1>
-            <p className="text-justify max-w-3xl mx-auto text-foreground/70 mb-6">
+            <p className="text-justify max-w-3xl mx-auto text-foreground/70 mb-4">
               Helena brings an editorial eye and deep drinks knowledge to every content collaboration, from long-form features and newsletters on helenasips.com, to social content and live tasting events.
+            </p>
+            <p className="text-justify max-w-3xl mx-auto text-foreground/70 mb-6">
+              Pick & choose from the following to create your own bespoke campaign:
             </p>
           </FadeInSection>
 
