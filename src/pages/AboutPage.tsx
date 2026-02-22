@@ -128,7 +128,7 @@ const AboutPage = () => {
                   Bottles & Bites <br/>Supper Clubs
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed">
-                  Entertaining drinks masterclasses with perfectly paired dishes. Supper club style.
+                  Entertaining drinks masterclasses with perfectly paired dishes supper club style, to audiences of up to 30 on the Isle of Wight.
                 </p>
               </div>
 
