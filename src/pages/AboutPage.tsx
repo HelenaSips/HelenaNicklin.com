@@ -43,21 +43,20 @@ const AboutPage = () => {
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
             <p className="text-foreground/80 mb-6 leading-relaxed">
-              Helena Nicklin is a multi-award-winning drinks writer, broadcaster and cultural host with 23 years in wine, spirits and no-lo. She is the voice behind HelenaSips: a sensory-led drinks and culture platform blending expertise, storytelling and live experiences.
+              Helena Nicklin is a multi-award-winning drinks writer, broadcaster and cultural host with 23 years in wine, spirits and no-lo. She is the voice behind HelenaSips: a boutique, drinks media platform blending wine and spirits expertise with storytelling and live experiences.
             </p>
             <p className="text-foreground/80 mb-6 leading-relaxed">
               An accomplished speaker with broadcast experience across major platforms and a writing portfolio spanning national and luxury publications, Helena is known for her engaging presenting style and love of combining drinks with the best things in life from fragrance and books to chocolate. She brings authority and warmth to every experience she curates.
             </p>
+            <p className="text-foreground/80 mb-6 leading-relaxed">
+              In addition to the above, Helena judges for various international drinks competitions including the IWSC, is a regular feature on expert drinks panels and is often called for commentary on the drinks industry by national radio stations and TV channels.
+            </p>
+            <p className="text-foreground/80 mb-6 leading-relaxed">
+              You can see Helena in action in her three global, drinks and food travel series, 'The Three Drinkers' on Amazon Prime, which she co-produced and co-presented. She is also currently a wine expert guest on Alan Carr & Lee Peart's video podcast Bottoms Up!
+            </p>
 
             {expanded && (
               <div className="text-foreground/80 leading-relaxed space-y-6 mb-6">
-                <p>
-                  In addition to hosting drinks masterclasses and multi-sensory events, Helena judges for various international drinks competitions including the IWSC and is regularly called by national radio stations for commentary on the drinks industry.
-                </p>
-                <p>
-                  You can see Helena in action in her three global, drinks and food travel series, 'The Three Drinkers' on Amazon Prime, which she co-produced and co-presented. She is also currently a wine expert guest on Alan Carr & Lee Peart's video podcast Bottoms Up!
-                </p>
-
                 <h3 className="mt-8 mb-4">Awards & Accolades</h3>
                 <ul className="space-y-3">
                   {awards.map((award, i) => (
