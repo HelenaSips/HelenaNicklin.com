@@ -65,7 +65,7 @@ const EmailSignupPopup = () => {
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ type: "spring", duration: 0.4 }}
             onClick={(e) => e.stopPropagation()}
-            className="relative w-full max-w-[500px] bg-background border-2 border-primary rounded-lg p-8 md:p-10 shadow-xl"
+            className="relative w-full max-w-[500px] bg-background border border-[#224448] rounded-lg p-8 md:p-10 shadow-xl"
           >
             {/* Close button */}
             <button
@@ -157,7 +157,7 @@ const EmailSignupPopup = () => {
                   {/* Submit */}
                   <button
                     type="submit"
-                    className="w-full py-3 bg-secondary text-white font-heading text-base tracking-wider rounded hover:bg-secondary/90 transition-all"
+                    className="w-full py-3 bg-[#db258f] text-white font-heading text-base tracking-wider rounded hover:bg-[#c41f7e] transition-all"
                   >
                     Subscribe
                   </button>
