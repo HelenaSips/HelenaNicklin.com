@@ -157,7 +157,7 @@ const EmailSignupPopup = () => {
                   {/* Submit */}
                   <button
                     type="submit"
-                    className="w-full py-3 bg-primary text-primary-foreground font-heading text-base tracking-wider rounded hover:bg-primary/90 hover:border hover:border-plum transition-all"
+                    className="w-full py-3 bg-secondary text-white font-heading text-base tracking-wider rounded hover:bg-secondary/90 transition-all"
                   >
                     Subscribe
                   </button>
