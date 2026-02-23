@@ -26,6 +26,15 @@
 </head>
 
   <body>
+    <!-- Hidden form for Netlify form detection (required for React SPAs) -->
+    <form name="event-newsletter-signup" netlify netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="email" />
+      <input name="location" />
+      <input name="consent-source" />
+      <input name="consent-text" />
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
