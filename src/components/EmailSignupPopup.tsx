@@ -94,7 +94,8 @@ const EmailSignupPopup = () => {
                   Subscribe for event updates and drinks wisdom from the HelenaSips Magazine
                 </p>
 
-                <form onSubmit={handleSubmit} className="space-y-5">
+                <form onSubmit={handleSubmit} name="event-newsletter-signup" method="POST" data-netlify="true" className="space-y-5">
+                  <input type="hidden" name="form-name" value="event-newsletter-signup" />
                   {/* Email */}
                   <div>
                     <label htmlFor="popup-email" className="sr-only">Email address</label>
