@@ -27,23 +27,16 @@ const ContactPage = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <FadeInSection>
-              <h2 className="text-2xl mb-6">Book a Discovery Call</h2>
-              <p className="text-foreground/70 mb-8">Schedule a 15-minute call to discuss your event or partnership.</p>
-              <a href="#" className="inline-block px-8 py-3 bg-accent text-primary font-heading tracking-wider hover:bg-accent/90 transition-all">
-                Schedule on Calendly
+              <h2 className="text-2xl mb-6">Get In Touch</h2>
+              <p className="text-foreground/70 mb-8">Reach out directly to discuss your event or partnership.</p>
+              <a href="mailto:helena@helenasips.com" className="text-magenta hover:text-magenta/80 transition-colors text-lg">
+                helena@helenasips.com
               </a>
-
-              <div className="mt-12">
-                <h3 className="text-xl mb-4">Or Get In Touch Directly</h3>
-                <a href="mailto:helena@helenasips.com" className="text-magenta hover:text-magenta/80 transition-colors text-lg">
-                  helena@helenasips.com
+              <p className="mt-4">
+                <a href="https://instagram.com/helenasips" target="_blank" rel="noopener noreferrer" className="text-magenta hover:text-magenta/80 transition-colors">
+                  @helenasips
                 </a>
-                <p className="mt-4">
-                  <a href="https://instagram.com/helenasips" target="_blank" rel="noopener noreferrer" className="text-magenta hover:text-magenta/80 transition-colors">
-                    @helenasips
-                  </a>
-                </p>
-              </div>
+              </p>
             </FadeInSection>
 
             <FadeInSection delay={0.2}>
