@@ -25,7 +25,9 @@ const EmailSignupPopup = () => {
 
   const close = () => setIsOpen(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
     setConsentError(false);
@@ -39,10 +41,30 @@ const EmailSignupPopup = () => {
       return;
     }
 
-    // For now, log the data. Integration with Substack or backend can be added later.
-    console.log("Email signup:", { email, location, consent, timestamp: new Date().toISOString() });
-    setSubmitted(true);
-    setTimeout(close, 3000);
+    setSubmitting(true);
+    try {
+      const consentText = "I consent to receive email updates from HelenaSips about events, wine recommendations, and the HelenaSips Magazine. If I provide my location, it will be used for relevant local content. I can unsubscribe at any time via the link in every email.";
+      const body = new URLSearchParams({
+        "form-name": "event-newsletter-signup",
+        email,
+        location,
+        "consent-source": "Events Page Popup",
+        "consent-text": consentText,
+      });
+
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString(),
+      });
+
+      setSubmitted(true);
+      setTimeout(close, 3000);
+    } catch {
+      setError("Something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -159,9 +181,10 @@ const EmailSignupPopup = () => {
                   {/* Submit */}
                   <button
                     type="submit"
-                    className="w-full py-3 bg-[#db258f] text-white font-heading text-base tracking-wider rounded hover:bg-[#c41f7e] transition-all"
+                    disabled={submitting}
+                    className="w-full py-3 bg-[#db258f] text-white font-heading text-base tracking-wider rounded hover:bg-[#c41f7e] transition-all disabled:opacity-60"
                   >
-                    Subscribe
+                    {submitting ? "Subscribing…" : "Subscribe"}
                   </button>
                 </form>
               </>
