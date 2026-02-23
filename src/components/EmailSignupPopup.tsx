@@ -96,6 +96,8 @@ const EmailSignupPopup = () => {
 
                 <form onSubmit={handleSubmit} name="event-newsletter-signup" method="POST" data-netlify="true" className="space-y-5">
                   <input type="hidden" name="form-name" value="event-newsletter-signup" />
+                  <input type="hidden" name="consent-source" value="Events Page Popup" />
+                  <input type="hidden" name="consent-text" value="I consent to receive email updates from HelenaSips about events, wine recommendations, and the HelenaSips Magazine. If I provide my location, it will be used for relevant local content. I can unsubscribe at any time via the link in every email." />
                   {/* Email */}
                   <div>
                     <label htmlFor="popup-email" className="sr-only">Email address</label>
@@ -141,7 +143,7 @@ const EmailSignupPopup = () => {
                         className="mt-1 w-[18px] h-[18px] shrink-0 rounded-sm border border-primary accent-primary cursor-pointer"
                       />
                       <span className="text-sm leading-relaxed text-foreground/70">
-                        I consent to receive email updates from HelenaSips. You can unsubscribe anytime. See our{" "}
+                        I consent to receive email updates from HelenaSips about events, wine recommendations, and the HelenaSips Magazine. If I provide my location, it will be used for relevant local content. I can unsubscribe at any time via the link in every email. See our{" "}
                         <Link to="/privacy" className="text-plum underline hover:text-primary" onClick={close}>
                           Privacy Policy
                         </Link>.
