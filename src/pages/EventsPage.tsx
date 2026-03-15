@@ -20,7 +20,7 @@ const EventsPage = () => {
   return (
     <div className="pt-20">
       {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-end">
+      <section className="relative min-h-[40vh] md:min-h-[60vh] flex items-end">
         <div className="absolute inset-0">
           <img src={salonInterior} alt="Salon experience" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent" />
@@ -94,7 +94,7 @@ const EventsPage = () => {
           </div>
           {service.edgeImage && (
             <FadeInSection>
-              <img src={service.edgeImage} alt={service.title} className="w-full h-[50vh] object-cover" />
+              <img src={service.edgeImage} alt={service.title} className="w-full h-[35vh] md:h-[50vh] object-cover" />
             </FadeInSection>
           )}
         </section>

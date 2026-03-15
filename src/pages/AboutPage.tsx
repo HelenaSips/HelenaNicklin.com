@@ -25,7 +25,7 @@ const AboutPage = () => {
   return (
     <div>
       <section className="relative pt-20">
-        <div className="w-full aspect-[21/9] overflow-hidden">
+        <div className="w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden">
           <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full h-full object-cover" style={{ objectPosition: 'center 62%' }} />
         </div>
         <div className="absolute bottom-6 left-6 md:left-12 drop-shadow-lg max-w-lg">

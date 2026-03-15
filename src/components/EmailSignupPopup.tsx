@@ -87,7 +87,7 @@ const EmailSignupPopup = () => {
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ type: "spring", duration: 0.4 }}
             onClick={(e) => e.stopPropagation()}
-            className="relative w-full max-w-[500px] bg-background border border-[#224448] rounded-lg p-8 md:p-10 shadow-xl"
+            className="relative w-full max-w-[500px] bg-background border border-[#224448] rounded-lg p-5 sm:p-8 md:p-10 shadow-xl max-h-[90vh] overflow-y-auto"
           >
             {/* Close button */}
             <button

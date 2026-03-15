@@ -25,7 +25,7 @@ const ContactPage = () => {
             </p>
           </FadeInSection>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
             <FadeInSection>
               <h2 className="text-2xl mb-6">Get In Touch</h2>
               <p className="text-foreground/70 mb-8">Reach out directly to discuss your event or partnership.</p>

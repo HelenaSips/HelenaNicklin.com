@@ -64,10 +64,18 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -104,11 +112,18 @@ html {
 /* Plum quote style */
 .plum-quote {
   border-left: 3px solid hsl(336 19% 51%);
-  padding-left: 1.5rem;
+  padding-left: 1rem;
   font-style: italic;
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   color: hsl(336 19% 51%);
+}
+
+@media (min-width: 768px) {
+  .plum-quote {
+    padding-left: 1.5rem;
+    font-size: 1.25rem;
+  }
 }
 
 /* Section spacing */
@@ -121,7 +136,26 @@ html {
   font-family: 'Libre Baskerville', serif;
   font-weight: 500;
   letter-spacing: 0.05em;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .nav-font {
+    font-size: 16px;
+  }
+}
+
+/* Ensure images never overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve tap targets on mobile */
+@media (max-width: 767px) {
+  a, button {
+    min-height: 44px;
+  }
 }
 
 /* Hide scrollbar */

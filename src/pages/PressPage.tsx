@@ -29,20 +29,20 @@ const PressPage = () => {
             <a href="https://www.youtube.com/watch?v=0SH1XzC0ynQ&t=1232s" target="_blank" rel="noopener noreferrer" className="block overflow-hidden rounded-md">
               <img src={bottomsUpImg} alt="Bottoms Up with Alan Carr" className="w-full h-auto hover:scale-105 transition-transform duration-500" />
             </a>
-            <div className="mt-8 flex justify-start gap-4">
-              <img src={baHighLifeImg} alt="BA High Life Magazine feature" className="w-1/2 rounded-md object-contain" />
-              <img src={samNeillImg} alt="Sam Neill Delicious magazine feature" className="w-1/2 rounded-md object-contain" />
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+              <img src={baHighLifeImg} alt="BA High Life Magazine feature" className="w-full sm:w-1/2 rounded-md object-contain" />
+              <img src={samNeillImg} alt="Sam Neill Delicious magazine feature" className="w-full sm:w-1/2 rounded-md object-contain" />
             </div>
             <div className="mt-4">
               <img src={dailyMailImg} alt="Daily Mail Easter Wine Guide by Helena Nicklin" className="w-full rounded-md" />
             </div>
-            <div className="mt-4 flex gap-4">
-              <img src={threeDrinkersCognacImg} alt="The Three Drinkers in Cognac - Amazon Prime" className="w-1/2 rounded-md object-contain" />
-              <img src={threeDrinkersWhiskyImg} alt="The Three Drinkers Do Scotch Whisky" className="w-1/2 rounded-md object-contain" />
+            <div className="mt-4 flex flex-col sm:flex-row gap-4">
+              <img src={threeDrinkersCognacImg} alt="The Three Drinkers in Cognac - Amazon Prime" className="w-full sm:w-1/2 rounded-md object-contain" />
+              <img src={threeDrinkersWhiskyImg} alt="The Three Drinkers Do Scotch Whisky" className="w-full sm:w-1/2 rounded-md object-contain" />
             </div>
-            <div className="mt-4 flex gap-4">
-              <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-1/2 rounded-md object-contain" />
-              <img src={sunCheapFizzImg} alt="The Sun - Cheap Fizz champagne alternatives feature" className="w-1/2 rounded-md object-contain" />
+            <div className="mt-4 flex flex-col sm:flex-row gap-4">
+              <img src={sunDryJanImg} alt="The Sun - Dry January drinks feature by Helena Nicklin" className="w-full sm:w-1/2 rounded-md object-contain" />
+              <img src={sunCheapFizzImg} alt="The Sun - Cheap Fizz champagne alternatives feature" className="w-full sm:w-1/2 rounded-md object-contain" />
             </div>
             <div className="mt-4">
               <img src={bornToRumImg} alt="Born to Rum - Helena Nicklin rum tasting feature" className="w-full rounded-md" />

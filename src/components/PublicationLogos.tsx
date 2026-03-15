@@ -44,7 +44,7 @@ const PublicationLogos = ({ subset, className = "" }: PublicationLogosProps) => 
             <img
               src={pub.logo}
               alt={pub.name}
-              className={`h-full w-auto object-contain ${pub.name === "The Sun" ? "max-w-[100px]" : (pub.name === "Bottoms Up! with Alan Carr" || pub.name === "Luxury Lifestyle Magazine") ? "max-w-[200px]" : pub.name === "Daily Mail" ? "max-w-[280px]" : pub.name === "Amazon Prime" ? "max-w-[200px]" : pub.name === "BA High Life" ? "max-w-[180px]" : "max-w-[140px]"}`}
+              className={`h-full w-auto object-contain ${pub.name === "The Sun" ? "max-w-[70px] sm:max-w-[100px]" : (pub.name === "Bottoms Up! with Alan Carr" || pub.name === "Luxury Lifestyle Magazine") ? "max-w-[140px] sm:max-w-[200px]" : pub.name === "Daily Mail" ? "max-w-[180px] sm:max-w-[280px]" : pub.name === "Amazon Prime" ? "max-w-[140px] sm:max-w-[200px]" : pub.name === "BA High Life" ? "max-w-[120px] sm:max-w-[180px]" : "max-w-[100px] sm:max-w-[140px]"}`}
             />
           </div>
         ) : (
