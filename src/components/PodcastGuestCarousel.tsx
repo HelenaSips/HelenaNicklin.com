@@ -38,7 +38,7 @@ const PodcastGuestCarousel = () => {
 
   return (
     <div className="mt-10 overflow-hidden">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
         <AnimatePresence mode="popLayout">
           {visibleGuests.map((guest) => (
             <motion.div
