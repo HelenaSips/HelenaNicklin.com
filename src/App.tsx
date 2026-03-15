@@ -1,4 +1,5 @@
 import ScrollToTop from "./components/ScrollToTop";
+import EmailSignupPopup from "./components/EmailSignupPopup";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Toaster } from "@/components/ui/toaster";
@@ -37,6 +38,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
+        <EmailSignupPopup />
         <Navbar />
         <Suspense fallback={<Loading />}>
           <Routes>
