@@ -73,16 +73,16 @@ const upcomingEvents: EventItem[] = [
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
   },
   {
-    title: "Chocolate & Drinkies Pairing Masterclass",
+    title: "Chocolate & Spirits Pairing",
     date: "Saturday, 23 May 2026 · 6:00 PM",
     venue: "Commodores House, Cowes, Isle of Wight",
     price: "£25",
     description:
       "Spirits, liqueurs, port, stout? Discover which drinks pair perfectly with chocolate. A masterclass with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
     image: chocSpirits,
-    imageAlt: "Chocolate & Drinkies Pairing Masterclass - Cowes Fringe",
+    imageAlt: "Chocolate & Spirits Pairing - Cowes Fringe",
     status: "coming-soon",
-    bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
+    bookingLink: "https://www.ticketsource.com/cowes-fringe/fine-chocolate-spirits-pairing/e-xpovzz",
   },
   {
     title: "Lymington Seafood Festival: Various Drinks Masterclasses",
