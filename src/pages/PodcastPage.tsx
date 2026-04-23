@@ -41,7 +41,7 @@ const PodcastPage = () => {
               <span>Available on Substack, Spotify, Apple Podcasts</span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://helenasips.com" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-accent text-primary font-heading tracking-wider hover:bg-accent/90 transition-all text-center">
+              <a href="https://www.helenasips.com/s/the-helenasips-podcast" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-accent text-primary font-heading tracking-wider hover:bg-accent/90 transition-all text-center">
                 Listen on HelenaSips.com
               </a>
               <Link to="/contact" className="inline-block px-8 py-3 border border-primary-foreground/30 text-primary-foreground font-heading tracking-wider hover:bg-primary-foreground/10 transition-all text-center">
