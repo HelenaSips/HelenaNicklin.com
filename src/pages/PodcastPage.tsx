@@ -13,6 +13,7 @@ const guests = [
   { name: "Cath Kidston", role: "Designer", img: guestCathKidston, link: "https://www.helenasips.com/p/podcast-cath-kidston" },
   { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson, link: "https://www.helenasips.com/p/a-drink-with-alex-watson" },
   { name: "Vitalie Taittinger", role: "Champagne CEO", img: guestVitalie },
+  { name: "Vassos Alexander", role: "Broadcaster & Runner", link: "https://www.helenasips.com/p/podcast-vassos-alexander" },
 ];
 
 const PodcastPage = () => {
