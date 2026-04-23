@@ -93,7 +93,7 @@ const upcomingEvents: EventItem[] = [
       "Join me and other drinks experts for a series of drinks masterclasses throughout the weekend, featuring beer, spirits and wine.",
     image: heroLifestyle,
     imageAlt: "Lymington Seafood Festival - Drinks Masterclasses",
-    bookingLink: "https://tickets.lymingtonseafoodfestival.co.uk/events/lymingtonseafoodfestival/1967009",
+    bookingLink: "https://www.lymingtonseafoodfestival.co.uk/",
     status: "available",
   },
 ];
