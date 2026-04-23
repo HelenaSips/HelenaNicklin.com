@@ -70,7 +70,7 @@ const upcomingEvents: EventItem[] = [
     image: iowWineFestival,
     imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
     status: "available",
-    bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
+    bookingLink: "https://www.ticketsource.com/cowes-fringe/premium-wine-chocolate-pairing/e-emrkpm",
   },
   {
     title: "Chocolate & Spirits Pairing",
