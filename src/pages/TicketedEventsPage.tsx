@@ -66,10 +66,10 @@ const upcomingEvents: EventItem[] = [
     venue: "Commodores House, Cowes, Isle of Wight",
     price: "£25",
     description:
-      "Enjoy a masterclass in pairing 5 styles of premium chocolate to wine with Helena & The Chocolate Detective herself, Chantal Coady OBE. Tickets on sale soon!",
+      "Enjoy a masterclass in pairing 5 styles of premium chocolate to wine with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
     image: iowWineFestival,
     imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
-    status: "coming-soon",
+    status: "available",
     bookingLink: "https://www.ticketsource.co.uk/cowes-fringe",
   },
   {
@@ -81,7 +81,7 @@ const upcomingEvents: EventItem[] = [
       "Spirits, liqueurs, port, stout? Discover which drinks pair perfectly with chocolate. A masterclass with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
     image: chocSpirits,
     imageAlt: "Chocolate & Spirits Pairing - Cowes Fringe",
-    status: "coming-soon",
+    status: "available",
     bookingLink: "https://www.ticketsource.com/cowes-fringe/fine-chocolate-spirits-pairing/e-xpovzz",
   },
   {
@@ -221,7 +221,7 @@ const EventCard = ({
               rel="noopener noreferrer"
               className="inline-block w-full text-center px-6 py-3 bg-primary text-primary-foreground font-heading text-sm tracking-widest uppercase hover:bg-primary/90 transition-all"
             >
-              See More &amp; Book
+              See More &amp; Book!
             </a>
           )}
         </div>
