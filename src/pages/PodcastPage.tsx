@@ -9,7 +9,7 @@ import guestVitalie from "@/assets/guest-vitalie-taittinger.png";
 
 const guests = [
   { name: "Sam Neill", role: "Actor", img: guestSamNeill },
-  { name: "Joanne Harris", role: "Author", img: guestJoanneHarris },
+  { name: "Joanne Harris", role: "Author", img: guestJoanneHarris, link: "https://www.helenasips.com/p/podcast-joanne-harris" },
   { name: "Cath Kidston", role: "Designer", img: guestCathKidston },
   { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson },
   { name: "Vitalie Taittinger", role: "Champagne CEO", img: guestVitalie },
@@ -116,7 +116,11 @@ const PodcastPage = () => {
                   <h3 className="text-center text-xl mb-2">{guest.name}</h3>
                   <p className="text-center text-muted-foreground text-sm font-heading tracking-wider mb-4">{guest.role}</p>
                   <div className="text-center">
-                    <span className="inline-block px-5 py-2 font-heading tracking-wider text-sm" style={{ backgroundColor: '#db258f', color: '#fffdfc' }}>Listen</span>
+                    {guest.link ? (
+                      <a href={guest.link} target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2 font-heading tracking-wider text-sm" style={{ backgroundColor: '#db258f', color: '#fffdfc' }}>Listen</a>
+                    ) : (
+                      <span className="inline-block px-5 py-2 font-heading tracking-wider text-sm" style={{ backgroundColor: '#db258f', color: '#fffdfc' }}>Listen</span>
+                    )}
                   </div>
                 </div>
               </FadeInSection>
