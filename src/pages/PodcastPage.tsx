@@ -115,9 +115,6 @@ const PodcastPage = () => {
                    )}
                   <h3 className="text-center text-xl mb-2">{guest.name}</h3>
                   <p className="text-center text-muted-foreground text-sm font-heading tracking-wider mb-4">{guest.role}</p>
-                  <p className="text-center text-foreground/60 italic font-heading mb-6">
-                    "Episode coming soon..."
-                  </p>
                   <div className="text-center">
                     <span className="text-accent font-heading tracking-wider text-sm">Listen →</span>
                   </div>
