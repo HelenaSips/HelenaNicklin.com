@@ -10,7 +10,7 @@ import guestVitalie from "@/assets/guest-vitalie-taittinger.png";
 const guests = [
   { name: "Sam Neill", role: "Actor", img: guestSamNeill },
   { name: "Joanne Harris", role: "Author", img: guestJoanneHarris, link: "https://www.helenasips.com/p/podcast-joanne-harris" },
-  { name: "Cath Kidston", role: "Designer", img: guestCathKidston },
+  { name: "Cath Kidston", role: "Designer", img: guestCathKidston, link: "https://www.helenasips.com/p/podcast-cath-kidston" },
   { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson },
   { name: "Vitalie Taittinger", role: "Champagne CEO", img: guestVitalie },
 ];
