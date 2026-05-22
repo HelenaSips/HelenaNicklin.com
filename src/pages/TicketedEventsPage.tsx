@@ -36,29 +36,15 @@ interface EventItem {
 
 const upcomingEvents: EventItem[] = [
   {
-    title: "An Italian Wine & Food Story",
-    date: "Saturday, 28 February 2026 · 7:30 PM",
-    venue: "RT Café Grill, Ryde, Isle of Wight",
-    price: "£150",
+    title: "Spanish Bottles & Bites with Toro Loco!",
+    date: "Wednesday, 17 June 2026 · 7:00 PM",
+    venue: "Cowes, Isle of Wight (Venue TBD)",
+    price: "£25",
     description:
-      "Join Chef Robert Thompson & HelenaSips for an Italian, fine wine and food extravaganza, featuring 7 courses and 5 wines.",
-    image: italianWineEvent,
-    imageAlt: "Helena Nicklin and Chef Robert Thompson - Italian Wine & Food Story",
-    bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
-    status: "available",
-  },
-  {
-    title: "Fruits of the Sea Wine & Food Story",
-    date: "Friday, 22 May 2026 · 7:30 PM",
-    venue: "RT Café Grill, Ryde, Isle of Wight",
-    price: "£150",
-    description:
-      "Join Chef Robert Thompson & HelenaSips for a 'fruits of the sea' inspired fine wine and food extravaganza, featuring 7 courses and 5 wines.",
-    image: fruitsOfSeaEvent,
-    imageAlt: "Chef Robert Thompson and Helena Nicklin - Fruits of the Sea Wine & Food Story",
-    bookingLink: "https://www.robertthompson.co.uk/wine-evenings",
-    status: "available",
-    imagePosition: "center 20%",
+      "SAVE THE DATE for an evening with Helena Nicklin and Alex Forsyth for a Spanish Bottles & Bites extravaganza featuring the wines of Toro Loco and perfectly paired food!",
+    image: heroLifestyle,
+    imageAlt: "Spanish Bottles & Bites with Toro Loco",
+    status: "coming-soon",
   },
   {
     title: "Wine & Chocolate Pairing Masterclass",
@@ -99,6 +85,27 @@ const upcomingEvents: EventItem[] = [
 ];
 
 const pastEvents: EventItem[] = [
+  {
+    title: "Fruits of the Sea Wine & Food Story",
+    date: "22 May 2026",
+    venue: "RT Café Grill, Ryde, Isle of Wight",
+    description:
+      "Join Chef Robert Thompson & HelenaSips for a 'fruits of the sea' inspired fine wine and food extravaganza, featuring 7 courses and 5 wines.",
+    image: fruitsOfSeaEvent,
+    imageAlt: "Chef Robert Thompson and Helena Nicklin - Fruits of the Sea Wine & Food Story",
+    status: "available",
+    imagePosition: "center 20%",
+  },
+  {
+    title: "An Italian Wine & Food Story",
+    date: "28 February 2026",
+    venue: "RT Café Grill, Ryde, Isle of Wight",
+    description:
+      "Join Chef Robert Thompson & HelenaSips for an Italian, fine wine and food extravaganza, featuring 7 courses and 5 wines.",
+    image: italianWineEvent,
+    imageAlt: "Helena Nicklin and Chef Robert Thompson - Italian Wine & Food Story",
+    status: "available",
+  },
   {
     title: "Sensory Salon: Wine, Words & Chocolate",
     date: "8 October 2025",
@@ -206,14 +213,9 @@ const EventCard = ({
               Sold Out
             </span>
           ) : event.status === "coming-soon" ? (
-            <a
-              href={event.bookingLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block w-full text-center px-6 py-3 bg-accent text-primary font-heading text-sm tracking-widest uppercase hover:bg-accent/90 transition-all"
-            >
-              Tickets Coming Soon!
-            </a>
+            <span className="inline-block w-full text-center px-6 py-3 bg-accent text-primary font-heading text-sm tracking-widest uppercase">
+              Bookings Open Soon!
+            </span>
           ) : (
             <a
               href={event.bookingLink}
