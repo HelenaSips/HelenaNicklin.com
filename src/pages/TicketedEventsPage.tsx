@@ -44,7 +44,8 @@ const upcomingEvents: EventItem[] = [
       "SAVE THE DATE for an evening with Helena Nicklin and Alex Forsyth for a Spanish Bottles & Bites extravaganza featuring the wines of Toro Loco and perfectly paired food!",
     image: heroLifestyle,
     imageAlt: "Spanish Bottles & Bites with Toro Loco",
-    status: "coming-soon",
+    status: "available",
+    bookingLink: "https://checkout.revolut.com/pay/3c5c4ea1-0bf7-4642-957f-75d5629c9fbc",
   },
   {
     title: "Wine & Chocolate Pairing Masterclass",
@@ -223,7 +224,7 @@ const EventCard = ({
               rel="noopener noreferrer"
               className="inline-block w-full text-center px-6 py-3 bg-primary text-primary-foreground font-heading text-sm tracking-widest uppercase hover:bg-primary/90 transition-all"
             >
-              See More &amp; Book!
+              Book Now!
             </a>
           )}
         </div>
