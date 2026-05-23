@@ -45,7 +45,7 @@ const upcomingEvents: EventItem[] = [
     image: heroLifestyle,
     imageAlt: "Spanish Bottles & Bites with Toro Loco",
     status: "available",
-    bookingLink: "https://checkout.revolut.com/pay/3c5c4ea1-0bf7-4642-957f-75d5629c9fbc",
+    bookingLink: "https://checkout.revolut.com/pay/42e35f95-8009-4a1d-bf73-db30d02180d8",
   },
   {
     title: "Wine & Chocolate Pairing Masterclass",
