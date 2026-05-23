@@ -8,6 +8,7 @@ import italianWineEvent from "@/assets/italian-wine-event.jpeg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 import iowWineFestival from "@/assets/iow-wine-festival.jpg";
 import chocSpirits from "@/assets/choc-spirits.png";
+import toroLocoEvent from "@/assets/toro-loco-event.jpg";
 import fruitsOfSeaEvent from "@/assets/fruits-of-sea-event.jpg";
 import supperClub from "@/assets/supper-club.jpg";
 import sensorySalon from "@/assets/sensory-salon.jpg";
@@ -42,7 +43,7 @@ const upcomingEvents: EventItem[] = [
     price: "£25",
     description:
       "SAVE THE DATE for an evening with Helena Nicklin and Alex Forsyth for a Spanish Bottles & Bites extravaganza featuring the wines of Toro Loco and perfectly paired food!",
-    image: heroLifestyle,
+    image: toroLocoEvent,
     imageAlt: "Spanish Bottles & Bites with Toro Loco",
     status: "available",
     bookingLink: "https://checkout.revolut.com/pay/42e35f95-8009-4a1d-bf73-db30d02180d8",
