@@ -31,7 +31,7 @@ const AboutPage = () => {
         <div className="absolute bottom-6 left-6 md:left-12 drop-shadow-lg max-w-lg">
           <p className="font-body text-3xl md:text-4xl text-primary-foreground/80 tracking-wide font-bold mb-3">Helena Nicklin</p>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/80 italic tracking-wide">
-            Cultural Connector. Sensory Host.<br />Drinks Expert.
+            Drinks Expert. Writer.<br />Broadcaster & Host.
           </p>
         </div>
       </section>
