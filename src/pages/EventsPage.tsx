@@ -6,6 +6,7 @@ import dinnerTable from "@/assets/dinner-table.png";
 import brandEvent from "@/assets/brand-event.jpg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 import privateWineMasterclass from "@/assets/private-wine-masterclass.jpeg";
+import rueda1 from "@/assets/rueda_1.jpg";
 
 const previousClients = [
   "D.O. Rueda", "Symington Family Estates", "Toro Loco Wine", "D.O. Rías Baixas",
@@ -42,7 +43,7 @@ const EventsPage = () => {
           img: null,
           edgeImage: dinnerTable,
           title: "Private Wine & Spirits Tasting Events",
-          copy: "Whether you want a simple, wine or spirits tasting before or during your dinner at the venue of your choice or a full evening with wine games to break the ice, Helena can put together something unique just for you.",
+          copy: "Whether you want a wine or spirits tasting before or during your dinner or a full evening with wine games to break the ice, Helena can put together something unique just for you.",
           perfect: "Corporate events and private client gatherings for 6 - 30 people.",
           format: "Helena comes to your venue of choice. She can organise wine delivery or pick from a list.",
         },
@@ -57,10 +58,19 @@ const EventsPage = () => {
           cta: true,
         },
         {
+          id: "festivals-and-events",
+          img: null,
+          title: "Presenting at Festivals & Events",
+          copy: "Helena is an experienced wine and spirits presenter, bringing energy and passion to every session and masterclass she hosts.",
+          perfect: "Food and drinks festivals, drinks expos and trade fairs.",
+          cta: true,
+          edgeImage: rueda1,
+        },
+        {
           id: "brand-partnerships",
           img: null,
           title: "Brand Partnerships",
-          copy: "Create a bespoke campaign with Helena taking in your pick of socials, editorial, newsletters, podcast sponsorship and even live consumer tasting events.",
+          copy: "Create a bespoke campaign with Helena taking your pick of socials, website editorial, newsletters, podcast sponsorship and even live consumer tasting events.",
           perfect: "Drinks brands and wine regions wanting to get liquid on lips across various platforms.",
           ctaLink: "/brand-partnerships",
           ctaLabel: "See Options",
