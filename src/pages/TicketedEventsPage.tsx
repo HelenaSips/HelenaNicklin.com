@@ -49,30 +49,6 @@ const upcomingEvents: EventItem[] = [
     bookingLink: "https://checkout.revolut.com/pay/447ab876-7405-4faf-9ba2-ee3985e68475",
   },
   {
-    title: "Wine & Chocolate Pairing Masterclass",
-    date: "Sunday, 24 May 2026 · 2:00 PM",
-    venue: "Commodores House, Cowes, Isle of Wight",
-    price: "£25",
-    description:
-      "Enjoy a masterclass in pairing 5 styles of premium chocolate to wine with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
-    image: iowWineFestival,
-    imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
-    status: "available",
-    bookingLink: "https://www.ticketsource.com/cowes-fringe/premium-wine-chocolate-pairing/e-emrkpm",
-  },
-  {
-    title: "Chocolate & Spirits Pairing",
-    date: "Saturday, 23 May 2026 · 6:00 PM",
-    venue: "Commodores House, Cowes, Isle of Wight",
-    price: "£25",
-    description:
-      "Spirits, liqueurs, port, stout? Discover which drinks pair perfectly with chocolate. A masterclass with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
-    image: chocSpirits,
-    imageAlt: "Chocolate & Spirits Pairing - Cowes Fringe",
-    status: "available",
-    bookingLink: "https://www.ticketsource.com/cowes-fringe/fine-chocolate-spirits-pairing/e-xpovzz",
-  },
-  {
     title: "Lymington Seafood Festival: Various Drinks Masterclasses",
     date: "Saturday 11 & Sunday 12 July 2025",
     venue: "Bath Road Park, Lymington, SO41 3SE",
@@ -87,6 +63,26 @@ const upcomingEvents: EventItem[] = [
 ];
 
 const pastEvents: EventItem[] = [
+  {
+    title: "Wine & Chocolate Pairing Masterclass",
+    date: "24 May 2026",
+    venue: "Commodores House, Cowes, Isle of Wight",
+    description:
+      "Enjoy a masterclass in pairing 5 styles of premium chocolate to wine with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
+    image: iowWineFestival,
+    imageAlt: "Wine & Chocolate Pairing Masterclass - Cowes Fringe",
+    status: "available",
+  },
+  {
+    title: "Chocolate & Spirits Pairing",
+    date: "23 May 2026",
+    venue: "Commodores House, Cowes, Isle of Wight",
+    description:
+      "Spirits, liqueurs, port, stout? Discover which drinks pair perfectly with chocolate. A masterclass with Helena & The Chocolate Detective herself, Chantal Coady OBE.",
+    image: chocSpirits,
+    imageAlt: "Chocolate & Spirits Pairing - Cowes Fringe",
+    status: "available",
+  },
   {
     title: "Fruits of the Sea Wine & Food Story",
     date: "22 May 2026",
