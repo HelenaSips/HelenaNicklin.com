@@ -43,7 +43,7 @@ const EventsPage = () => {
           edgeImage: dinnerTable,
           title: "Private Wine & Spirits Tasting Events",
           copy: "Whether you want a simple, wine or spirits tasting before or during your dinner at the venue of your choice or a full evening with wine games to break the ice, Helena can put together something unique just for you.",
-          perfect: "Corporate events and private client gatherings.",
+          perfect: "Corporate events and private client gatherings for 6 - 30 people.",
           format: "Helena comes to your venue of choice. She can organise wine delivery or pick from a list.",
         },
         {
