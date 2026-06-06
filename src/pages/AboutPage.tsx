@@ -176,16 +176,16 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <span className="block text-center text-2xl font-heading leading-tight">
+                <Link to="/events#festivals-and-events" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Presenting at Festivals & Shows
-                </span>
+                </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Need a wine and spirits expert at your festival, fair or expo? Helena is a safe pair of hands, combining years of experience with passion and energy.
                 </p>
                 <div className="mt-4 text-center">
-                  <button className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/events#festivals-and-events" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
