@@ -60,7 +60,7 @@ const EventsPage = () => {
         {
           id: "festivals-and-events",
           img: null,
-          title: "Presenting at Festivals & Events",
+          title: "Presenting at Festivals & Trade Shows",
           copy: "Helena is an experienced wine and spirits presenter, bringing energy and passion to every session and masterclass she hosts.",
           perfect: "Food and drinks festivals, drinks expos and trade fairs.",
           cta: true,

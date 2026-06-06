@@ -149,9 +149,30 @@ const AboutPage = () => {
               {/* Card 3 */}
               <div className="group cursor-pointer flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
-                  <img 
-                    src={rueda1} 
-                    alt="Brand Partnerships" 
+                  <img
+                    src={salonInterior}
+                    alt="Presenting at Festivals & Events"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <span className="block text-center text-2xl font-heading leading-tight">
+                  Presenting at Festivals & Trade Shows
+                </span>
+                <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
+                  Need a wine and spirits expert at your festival, fair or expo? Helena is a safe pair of hands, combining years of professional experience with passion and energy.
+                </p>
+                <div className="mt-4 text-center">
+                  <button className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                    FIND OUT MORE
+                  </button>
+                </div>
+              </div>
+              {/* Card 4 */}
+              <div className="group cursor-pointer flex flex-col">
+                <div className="aspect-[4/3] overflow-hidden mb-6">
+                  <img
+                    src={rueda1}
+                    alt="Brand Partnerships"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
@@ -165,27 +186,6 @@ const AboutPage = () => {
                   <Link to="/brand-partnerships" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
-                </div>
-              </div>
-              {/* Card 4 */}
-              <div className="group cursor-pointer flex flex-col">
-                <div className="aspect-[4/3] overflow-hidden mb-6">
-                  <img
-                    src={salonInterior}
-                    alt="Presenting at Festivals & Events"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
-                <span className="block text-center text-2xl font-heading leading-tight">
-                  Presenting at Festivals & Events
-                </span>
-                <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
-                  Need a wine and spirits expert at your festival, fair or expo? Helena is a safe pair of hands, combining years of professional experience with passion and energy.
-                </p>
-                <div className="mt-4 text-center">
-                  <button className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
-                    FIND OUT MORE
-                  </button>
                 </div>
               </div>
             </div>
