@@ -20,7 +20,7 @@ const Footer = () => {
           <div>
             <img src={logoWhite} alt="HelenaSips" className="h-24 w-auto mb-4" />
             <p className="font-heading text-lg text-primary-foreground/70 italic">
-              Cultural Connector. Sensory Host. Drinks Expert.
+              Drinks Expert. Writer.<br />Broadcaster & Host.
             </p>
           </div>
 
