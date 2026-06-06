@@ -107,15 +107,15 @@ const AboutPage = () => {
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img
                     src={eventsHero}
-                    alt="Corporate Wine Tasting Events"
+                    alt="Private Wine Tasting Events"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <Link to="/events#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
-                  Corporate Wine Tasting Events
+                  Private Wine Tasting Events
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
-                  Got some clients to entertain? Bring Helena in to break the ice with a hosted wine tasting as part of your corporate event.
+                  Got a corporate event with clients to entertain or a special birthday coming up? Bring Helena in to break the ice with a hosted wine or spirits tasting.
                 </p>
                 <div className="mt-4 text-center">
                   <Link to="/events#sensory-salons" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
