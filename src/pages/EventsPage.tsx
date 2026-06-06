@@ -27,7 +27,7 @@ const EventsPage = () => {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pb-16 w-full">
           <FadeInSection>
-            <h1 className="text-primary-foreground mb-4">Sensory Salons & Drinks Masterclasses</h1>
+            <h1 className="text-primary-foreground mb-4">Work with Helena</h1>
             <p className="text-primary-foreground/70 text-lg max-w-2xl">
               Curated experiences for drinks and luxury brands, hotels, festivals and cultural venues
             </p>
