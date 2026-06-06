@@ -57,14 +57,13 @@ const EventsPage = () => {
           cta: true,
         },
         {
-          id: "private-wine-masterclasses",
+          id: "brand-partnerships",
           img: null,
-          title: "Private Wine Masterclasses",
-          copy: "Need to add something special to a private event? Helena can come to you to run a themed tasting before or during your meal.",
-          perfect: "Intimate groups of 6 - 25 where guests can be seated. Ideal for special birthdays, family gatherings or corporate entertaining.",
-          format: "Seated tasting for circa 1.5 hrs before a lunch or dinner.",
-          formatLabel: "Suggested Format",
-          cta: true,
+          title: "Brand Partnerships",
+          copy: "Create a bespoke campaign with Helena taking in your pick of socials, editorial, newsletters, podcast sponsorship and even live consumer tasting events.",
+          perfect: "Drinks brands and wine regions wanting to get liquid on lips across various platforms.",
+          ctaLink: "/brand-partnerships",
+          ctaLabel: "See Options",
         },
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`scroll-mt-24 ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
@@ -84,7 +83,12 @@ const EventsPage = () => {
                 {service.format && (
                   <p className="text-foreground/70 mb-6"><strong className="text-foreground">{service.formatLabel || "Format"}:</strong> {service.format}</p>
                 )}
-                {(service.id === "sensory-salons" || service.cta) && (
+                {service.ctaLink && (
+                  <Link to={service.ctaLink} className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
+                    {service.ctaLabel || "Find Out More"}
+                  </Link>
+                )}
+                {!service.ctaLink && (service.id === "sensory-salons" || service.cta) && (
                   <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
                     Contact Helena
                   </Link>
