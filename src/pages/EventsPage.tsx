@@ -7,6 +7,7 @@ import brandEvent from "@/assets/brand-event.jpg";
 import heroLifestyle from "@/assets/hero-lifestyle.jpg";
 import privateWineMasterclass from "@/assets/private-wine-masterclass.jpeg";
 import rueda1 from "@/assets/rueda_1.jpg";
+import festivalPhoto from "@/assets/festival-photo.png";
 
 const previousClients = [
   "D.O. Rueda", "Symington Family Estates", "Toro Loco Wine", "D.O. Rías Baixas",
@@ -64,7 +65,7 @@ const EventsPage = () => {
           copy: "Helena is an experienced wine and spirits presenter, bringing energy and passion to every session and masterclass she hosts.",
           perfect: "Food and drinks festivals, drinks expos and trade fairs.",
           cta: true,
-          edgeImage: rueda1,
+          edgeImage: festivalPhoto,
         },
         {
           id: "brand-partnerships",

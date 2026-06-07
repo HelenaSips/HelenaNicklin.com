@@ -8,6 +8,7 @@ import salonInterior from "@/assets/salon-interior.jpg";
 import bab1 from "@/assets/bab_1.png";
 import rueda1 from "@/assets/rueda_1.jpg";
 import eventsHero from "@/assets/events-hero.jpg";
+import festivalPhoto from "@/assets/festival-photo.png";
 const awards = [
   "Top 100 Most Influential People in Drinks 2026, 2025, 2024, 2023 and 2022",
   "Shortlisted: IWSC Global Wine Communicator of the Year 2026",
@@ -171,7 +172,7 @@ const AboutPage = () => {
               <div className="group cursor-pointer flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img
-                    src={salonInterior}
+                    src={festivalPhoto}
                     alt="Presenting at Festivals & Shows"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
