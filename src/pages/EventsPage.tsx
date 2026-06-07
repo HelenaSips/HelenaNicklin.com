@@ -55,7 +55,7 @@ const EventsPage = () => {
           copy: "Wine and spirits education perfectly paired with food. Helena works with drinks brands and wine regions to offer wine and spirits masterclasses in a supper club format where she lives on the Isle of Wight, to an engaged, consumer audience of up to 30 guests.",
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
           format: "Relaxed, 2 hour masterclass with Q&A featuring up to 6 wines paired with substantial nibbles or a simple meal.",
-          edgeImage: privateWineMasterclass,
+          edgeImage: festivalPhoto,
           cta: true,
         },
         {
@@ -65,7 +65,7 @@ const EventsPage = () => {
           copy: "Helena is an experienced wine and spirits presenter, bringing energy and passion to every session and masterclass she hosts.",
           perfect: "Food and drinks festivals, drinks expos and trade fairs.",
           cta: true,
-          edgeImage: festivalPhoto,
+          edgeImage: rueda1,
         },
         {
           id: "brand-partnerships",
