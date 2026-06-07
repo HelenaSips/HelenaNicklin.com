@@ -77,8 +77,8 @@ const EventsPage = () => {
         },
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`scroll-mt-24 ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
-          <div className="px-6 md:px-12 py-10 md:py-14">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="py-10 md:py-14">
+            <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {service.img && (
                 <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
                   <img src={service.img} alt={service.title} className="w-full aspect-[4/3] object-cover" />

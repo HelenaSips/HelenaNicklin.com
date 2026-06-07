@@ -30,7 +30,7 @@ const AboutPage = () => {
           <img src={helenaHeadshot} alt="Helena Nicklin" className="w-full h-full object-cover" style={{ objectPosition: 'center 62%' }} />
         </div>
         <div className="absolute bottom-6 left-6 md:left-12 drop-shadow-lg max-w-lg">
-          <p className="font-body text-3xl md:text-4xl text-primary-foreground/80 tracking-wide font-bold mb-3">Helena Nicklin</p>
+          <h1 className="font-heading text-primary-foreground/90 mb-3">Helena Nicklin</h1>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/80 italic tracking-wide">
             Drinks Expert. Writer.<br />Broadcaster & Host.
           </p>
@@ -39,7 +39,7 @@ const AboutPage = () => {
       <div className="w-full h-[6px] bg-magenta" />
 
       {/* Bio */}
-      <section className="section-padding !pt-7 md:!pt-10 lg:!pt-12 !pb-2 md:!pb-4 lg:!pb-6 bg-background">
+      <section className="section-padding !pt-3 md:!pt-5 lg:!pt-6 !pb-1 md:!pb-2 lg:!pb-3 bg-background">
         <div className="max-w-4xl mx-auto">
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">About Helena</p>
