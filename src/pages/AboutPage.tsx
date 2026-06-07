@@ -111,14 +111,14 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <Link to="/events#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
+                <Link to="/work-with-helena#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Private Wine Tasting Events
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Got a corporate event with clients to entertain or a special birthday coming up? Bring Helena in to break the ice with a hosted wine or spirits tasting.
                 </p>
                 <div className="mt-4 text-center">
-                  <Link to="/events#sensory-salons" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/work-with-helena#sensory-salons" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
                 </div>
@@ -133,14 +133,14 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <Link to="/events#bottles-and-bites" className="block text-center text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
+                <Link to="/work-with-helena#bottles-and-bites" className="block text-center text-2xl font-heading leading-tight group-hover:text-magenta transition-colors">
                   Bottles & Bites <br/>Supper Clubs
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Entertaining drinks masterclasses with perfectly paired dishes supper club style, to audiences of up to 30 on the Isle of Wight.
                 </p>
                 <div className="mt-4 text-center">
-                  <Link to="/events#bottles-and-bites" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/work-with-helena#bottles-and-bites" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
                 </div>
@@ -176,14 +176,14 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <Link to="/events#festivals-and-events" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
+                <Link to="/work-with-helena#festivals-and-events" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Presenting at Festivals & Shows
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Need a wine and spirits expert at your festival, fair or expo? Helena is a safe pair of hands, combining years of experience with passion and energy.
                 </p>
                 <div className="mt-4 text-center">
-                  <Link to="/events#festivals-and-events" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/work-with-helena#festivals-and-events" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
                 </div>

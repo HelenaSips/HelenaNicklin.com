@@ -110,7 +110,7 @@ const Index = () => {
 
           <FadeInSection>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-14">
-              <Link to="/events" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all text-center">
+              <Link to="/work-with-helena" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all text-center">
                 See More
               </Link>
               <a href="mailto:helena@helenasips.com" className="inline-block px-8 py-3 border border-primary text-primary font-heading tracking-wider hover:bg-primary hover:text-primary-foreground transition-all text-center">

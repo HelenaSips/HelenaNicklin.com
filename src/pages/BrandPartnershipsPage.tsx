@@ -63,15 +63,15 @@ const ContentCreationPage = () => {
                   <li key={i} className="flex items-start gap-3">
                     <span className="text-accent mt-1">✦</span>
                     {item === "Bottles & Bites Masterclass Supper Clubs (Isle of Wight)" ? (
-                      <Link to="/events#bottles-and-bites" className="hover:text-[#db258f] transition-colors">
+                      <Link to="/work-with-helena#bottles-and-bites" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
                     ) : item === "Sensory Salons" ? (
-                      <Link to="/events#sensory-salons" className="hover:text-[#db258f] transition-colors">
+                      <Link to="/work-with-helena#sensory-salons" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
                     ) : item === "Corporate Entertaining" ? (
-                      <Link to="/events#private-wine-masterclasses" className="hover:text-[#db258f] transition-colors">
+                      <Link to="/work-with-helena#private-wine-masterclasses" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
                     ) : (

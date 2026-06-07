@@ -6,6 +6,7 @@ import guestJoanneHarris from "@/assets/guest-joanne-harris.jpg";
 import guestCathKidston from "@/assets/guest-cath-kidston.png";
 import guestAlexWatson from "@/assets/guest-alex-watson.jpg";
 import guestVitalie from "@/assets/guest-vitalie-taittinger.png";
+import guestVassos from "@/assets/guest-vassos-alexander.jpg";
 
 const guests = [
   { name: "Sam Neill", role: "Actor", img: guestSamNeill, comingSoon: true },
@@ -13,7 +14,7 @@ const guests = [
   { name: "Cath Kidston", role: "Designer", img: guestCathKidston, link: "https://www.helenasips.com/p/podcast-cath-kidston" },
   { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson, link: "https://www.helenasips.com/p/a-drink-with-alex-watson" },
   { name: "Vitalie Taittinger", role: "Champagne CEO", img: guestVitalie, comingSoon: true },
-  { name: "Vassos Alexander", role: "Broadcaster & Runner", link: "https://www.helenasips.com/p/podcast-vassos-alexander" },
+  { name: "Vassos Alexander", role: "Broadcaster & Runner", img: guestVassos, link: "https://www.helenasips.com/p/podcast-vassos-alexander" },
 ];
 
 const PodcastPage = () => {

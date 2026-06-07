@@ -3,7 +3,7 @@ import logoWhite from "@/assets/helenasips-logo-new.png";
 
 const footerLinks = [
   { label: "About", href: "/about" },
-  { label: "Salons & Events", href: "/events" },
+  { label: "Work With Helena", href: "/work-with-helena" },
   { label: "Podcast", href: "/podcast" },
   { label: "In The Press", href: "/press" },
   { label: "Magazine", href: "/magazine" },
