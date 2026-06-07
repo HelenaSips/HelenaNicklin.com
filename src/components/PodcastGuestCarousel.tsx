@@ -5,6 +5,7 @@ import guestJoanneHarris from "@/assets/guest-joanne-harris.jpg";
 import guestCathKidston from "@/assets/guest-cath-kidston.png";
 import guestVassosAlexander from "@/assets/guest-vassos-alexander.jpg";
 import guestAlexWatson from "@/assets/guest-alex-watson.jpg";
+import guestJessEnnisHill from "@/assets/guest-jess-ennis-hill.png";
 
 const guests = [
   { name: "Sam Neill", role: "Actor", img: guestSamNeill },
@@ -12,6 +13,7 @@ const guests = [
   { name: "Cath Kidston", role: "Designer", img: guestCathKidston },
   { name: "Vassos Alexander", role: "Broadcaster & Writer", img: guestVassosAlexander },
   { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson },
+  { name: "Dame Jess Ennis-Hill", role: "Olympic Champion", img: guestJessEnnisHill },
 ];
 
 const PodcastGuestCarousel = () => {
