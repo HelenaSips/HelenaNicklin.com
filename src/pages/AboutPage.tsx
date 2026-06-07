@@ -9,7 +9,7 @@ import bab1 from "@/assets/bab_1.png";
 import rueda1 from "@/assets/rueda_1.jpg";
 import eventsHero from "@/assets/events-hero.jpg";
 const awards = [
-  "Top 100 Most Influential People in Drinks 2025, 2024, 2023 and 2022",
+  "Top 100 Most Influential People in Drinks 2026, 2025, 2024, 2023 and 2022",
   "Shortlisted: IWSC Global Wine Communicator of the Year 2026",
   "Winner 'Best cultural contribution to the spirits industry 2025' — The Three Drinkers in Cognac",
   "Winner 'Best contribution to wine & spirits tourism 2022' — The Three Drinkers in Ireland",

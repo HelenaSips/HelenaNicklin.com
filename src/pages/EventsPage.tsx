@@ -23,14 +23,14 @@ const EventsPage = () => {
       {/* Hero */}
       <section className="relative min-h-[40vh] md:min-h-[60vh] flex items-end">
         <div className="absolute inset-0">
-          <img src={salonInterior} alt="Salon experience" className="w-full h-full object-cover" />
+          <img src={privateWineMasterclass} alt="Helena presenting" className="w-full h-full object-cover object-[center_20%]" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pb-16 w-full">
           <FadeInSection>
             <h1 className="text-primary-foreground mb-4">Work with Helena</h1>
             <p className="text-primary-foreground/70 text-lg max-w-2xl">
-              Curated experiences for drinks and luxury brands, hotels, festivals and cultural venues
+              Work with Helena to entertain clients or showcase your drinks, regions and brands to consumer audiences.
             </p>
           </FadeInSection>
         </div>
@@ -53,7 +53,7 @@ const EventsPage = () => {
           title: "Bottles & Bites Supper Clubs",
           copy: "Wine and spirits education perfectly paired with food. Helena works with drinks brands and wine regions to offer wine and spirits masterclasses in a supper club format where she lives on the Isle of Wight, to an engaged, consumer audience of up to 30 guests.",
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
-          format: "Relaxed, 2 hour masterclass with a welcome drink, then 5 or 6 wines paired with three types of substantial nibbles with a Q&A at the end.",
+          format: "Relaxed, 2 hour masterclass with Q&A featuring up to 6 wines paired with substantial nibbles or a simple meal.",
           edgeImage: privateWineMasterclass,
           cta: true,
         },
@@ -77,7 +77,7 @@ const EventsPage = () => {
         },
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`scroll-mt-24 ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
-          <div className="section-padding">
+          <div className="px-6 md:px-12 py-10 md:py-14">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {service.img && (
                 <FadeInSection className={i % 2 !== 0 ? "lg:order-2" : ""}>
