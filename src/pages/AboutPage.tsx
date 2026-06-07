@@ -202,7 +202,7 @@ const AboutPage = () => {
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">The HelenaSips Podcast</p>
             <p className="text-foreground/80 leading-relaxed">
-              COMING SOON! Intimate conversations with successful creatives exploring how they structure their lives for joy through the lens of their personal rituals.
+              Intimate conversations with successful creatives exploring how they structure their lives for joy through the lens of their personal rituals.
             </p>
 
             <PodcastGuestCarousel />
