@@ -21,7 +21,7 @@ const ContactPage = () => {
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Connect</p>
             <h1 className="text-center mb-4">Let's Connect</h1>
             <p className="text-center text-foreground/70 max-w-2xl mx-auto mb-16">
-              Whether you want to be part of a sensory salon, get your liquid on customer lips or are interested in a content partnership, I'd love to hear from you.
+              Whether you want to get your brand in front of real wine drinkers and liquid on customer lips - or are interested in a content partnership or podcast sponsorship, I'd love to hear from you.
             </p>
           </FadeInSection>
 
