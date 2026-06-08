@@ -59,16 +59,13 @@ const ContactPage = () => {
                   </div>
                 ))}
                 <div>
-                  <label className="block text-sm font-heading tracking-wider text-foreground/70 mb-2">Event Type</label>
-                  <select
+                  <label className="block text-sm font-heading tracking-wider text-foreground/70 mb-2">Contacting about...</label>
+                  <input
+                    type="text"
                     value={formData.eventType}
                     onChange={(e) => setFormData({ ...formData, eventType: e.target.value })}
-                    className="w-full px-4 py-3 bg-secondary border border-border text-foreground focus:outline-none focus:border-accent"
-                  >
-                    {["Sensory Salon", "Supper Club", "Speaking", "Brand Partnership", "Other"].map((opt) => (
-                      <option key={opt} value={opt}>{opt}</option>
-                    ))}
-                  </select>
+                    className="w-full px-4 py-3 bg-secondary border border-border text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-accent"
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-heading tracking-wider text-foreground/70 mb-2">Message</label>
