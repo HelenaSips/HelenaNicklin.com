@@ -9,7 +9,7 @@ import guestJessEnnisHill from "@/assets/guest-jess-ennis-hill.png";
 import guestVassos from "@/assets/guest-vassos-alexander.jpg";
 
 const guests = [
-  { name: "Sam Neill", role: "Actor", img: guestSamNeill, comingSoon: true },
+  { name: "Sam Neill", role: "Actor", img: guestSamNeill, link: "https://www.helenasips.com/p/a-drink-with-sam-neill" },
   { name: "Joanne Harris", role: "Author", img: guestJoanneHarris, link: "https://www.helenasips.com/p/podcast-joanne-harris" },
   { name: "Cath Kidston", role: "Designer", img: guestCathKidston, link: "https://www.helenasips.com/p/podcast-cath-kidston" },
   { name: "Alex Watson", role: "Gin Maker", img: guestAlexWatson, link: "https://www.helenasips.com/p/a-drink-with-alex-watson" },
