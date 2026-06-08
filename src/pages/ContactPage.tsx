@@ -3,7 +3,7 @@ import FadeInSection from "../components/FadeInSection";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
-    name: "", email: "", company: "", eventType: "Sensory Salon", message: "",
+    name: "", email: "", company: "", eventType: "", message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
