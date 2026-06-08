@@ -95,8 +95,8 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto">
           <FadeInSection>
             <div className="text-center mb-16 max-w-3xl mx-auto">
-              <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Work With Helena</p>
-              <h2 className="text-4xl md:text-5xl font-heading mb-4">Events & Partnerships</h2>
+              <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4">Events & Partnerships</p>
+              <h2 className="text-4xl md:text-5xl font-heading mb-4">Work with Helena</h2>
               <p className="text-foreground/70 leading-relaxed">
                 Here are some ways you can work with Helena to entertain clients or showcase your drinks and brands to consumer audiences:
               </p>
