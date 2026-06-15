@@ -45,8 +45,7 @@ const upcomingEvents: EventItem[] = [
       "SAVE THE DATE for an evening with Helena Nicklin and Alex Forsyth for a Spanish Bottles & Bites extravaganza featuring the wines of Toro Loco and perfectly paired food!",
     image: toroLocoEvent,
     imageAlt: "Spanish Bottles & Bites with Toro Loco",
-    status: "available",
-    bookingLink: "https://checkout.revolut.com/pay/447ab876-7405-4faf-9ba2-ee3985e68475",
+    status: "sold-out",
   },
   {
     title: "Lymington Seafood Festival: Various Drinks Masterclasses",
@@ -207,8 +206,8 @@ const EventCard = ({
       {!isPast && (
         <div className="mt-auto pt-5">
           {event.status === "sold-out" ? (
-            <span className="inline-block w-full text-center px-6 py-3 bg-muted text-muted-foreground font-heading text-sm tracking-widest uppercase cursor-default">
-              Sold Out
+            <span className="inline-block w-full text-center px-6 py-3 bg-magenta text-white font-heading text-sm tracking-widest uppercase cursor-default">
+              Sold Out!
             </span>
           ) : event.status === "coming-soon" ? (
             <span className="inline-block w-full text-center px-6 py-3 bg-accent text-primary font-heading text-sm tracking-widest uppercase">
