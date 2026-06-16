@@ -38,7 +38,7 @@ interface EventItem {
 const upcomingEvents: EventItem[] = [
   {
     title: "Spanish Bottles & Bites with Toro Loco!",
-    date: "Wednesday, 17 June 2026 · 7:00 PM",
+    date: "Wednesday, 17 June 2026 · 7:00 PM Arrival for 7:30 PM Sit Down",
     venue: "Cowes, Isle of Wight (Venue TBD)",
     price: "£25",
     description:
