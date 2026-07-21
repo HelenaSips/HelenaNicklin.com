@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation as useRouterLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 const EmailSignupPopup = () => {
+  const routerLocation = useRouterLocation();
+  const isMediaKitPage = routerLocation.pathname === "/media-kit";
+
   const [isOpen, setIsOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [location, setLocation] = useState("");
@@ -13,6 +16,7 @@ const EmailSignupPopup = () => {
   const [consentError, setConsentError] = useState(false);
 
   useEffect(() => {
+    if (isMediaKitPage) return;
     const hasSeenPopup = sessionStorage.getItem("emailPopupSeen");
     if (!hasSeenPopup) {
       const timer = setTimeout(() => {
@@ -21,7 +25,11 @@ const EmailSignupPopup = () => {
       }, 8000);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [isMediaKitPage]);
+
+  useEffect(() => {
+    if (isMediaKitPage) setIsOpen(false);
+  }, [isMediaKitPage]);
 
   const close = () => setIsOpen(false);
 

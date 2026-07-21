@@ -5,13 +5,13 @@ import logoWhite from "@/assets/helenasips-logo-new.png";
 
 const navLinks = [
   { label: "About Helena", href: "/about" },
-  { label: "Work With Helena", href: "/work-with-helena" },
+  { label: "Work With Helena", href: "/work-with-helena", children: [{ label: "Media Pack", href: "/media-kit" }] },
   { label: "Upcoming Events", href: "/upcoming-events" },
   { label: "Brand Partnerships", href: "/brand-partnerships" },
   { label: "Podcast", href: "/podcast" },
   { label: "In The Press", href: "/press" },
   { label: "Magazine", href: "/magazine" },
-  { label: "Contact", href: "/contact", children: [{ label: "Media Pack", href: "/media-kit" }] },
+  { label: "Contact", href: "/contact" },
 ];
 
 const Navbar = () => {

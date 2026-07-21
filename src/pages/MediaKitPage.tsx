@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Download } from "lucide-react";
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import FadeInSection from "../components/FadeInSection";
@@ -100,6 +100,13 @@ const MediaKitPage = () => {
   const [password, setPassword] = useState("");
   const [authenticated, setAuthenticated] = useState(false);
   const [error, setError] = useState(false);
+
+  useEffect(() => {
+    if (authenticated && window.location.hash) {
+      const el = document.querySelector(window.location.hash);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [authenticated]);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -378,7 +385,7 @@ const MediaKitPage = () => {
       </section>
 
       {/* Supper Club */}
-      <section className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-background">
+      <section id="supper-club" className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-background scroll-mt-24">
         <div className="max-w-4xl mx-auto">
           <FadeInSection>
             <h2 className="text-center mb-6">Bottles &amp; Bites Supper Club Masterclasses</h2>

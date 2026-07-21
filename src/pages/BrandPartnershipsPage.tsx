@@ -56,7 +56,7 @@ const ContentCreationPage = () => {
                 {[
                   "Hosted Masterclasses at Festivals & Roadshows",
                   "Bottles & Bites Masterclass Supper Clubs (Isle of Wight)",
-                  "Sensory Salons",
+                  "Private Tasting Events",
                   "Corporate Entertaining",
                   "Celebrity & Charity Events",
                 ].map((item, i) => (
@@ -66,7 +66,7 @@ const ContentCreationPage = () => {
                       <Link to="/work-with-helena#bottles-and-bites" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
-                    ) : item === "Sensory Salons" ? (
+                    ) : item === "Private Tasting Events" ? (
                       <Link to="/work-with-helena#sensory-salons" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
@@ -84,7 +84,12 @@ const ContentCreationPage = () => {
 
             <FadeInSection>
               <div className="text-center mt-10">
-                <p className="text-foreground/70 mb-4 font-bold">Contact Helena to discuss your project</p>
+                <p className="text-foreground/70 mb-4 font-bold">
+                  Contact Helena to discuss your project or get the password to the{" "}
+                  <Link to="/media-kit" className="text-magenta hover:text-magenta/80 transition-colors">
+                    media kit
+                  </Link>
+                </p>
                 <Link to="/contact" className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-widest uppercase hover:bg-magenta/90 transition-all">
                   CONTACT
                 </Link>
