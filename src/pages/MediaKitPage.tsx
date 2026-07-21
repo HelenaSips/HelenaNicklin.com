@@ -5,6 +5,7 @@ import FadeInSection from "../components/FadeInSection";
 import PodcastGuestCarousel from "../components/PodcastGuestCarousel";
 import helenaHeadshot from "@/assets/helena-headshot.jpg";
 import supperClubImg from "@/assets/private-wine-masterclass.jpeg";
+import gigInGardenImg from "@/assets/gig-in-the-garden.jpg";
 import hsPodcastLogo from "@/assets/hspodcast-logo.jpg";
 
 const MEDIA_PACK_PDF = "/media-kit/HelenaSips-Media-Pack-2026.pdf";
@@ -32,8 +33,8 @@ const workWithHelena = [
     desc: "Launched April 2026, this podcast explores conversations with successful creatives about what makes them tick, over a glass of something delicious. Episode sponsorship is available in various bundles.",
   },
   {
-    title: "Your Drinks at High-Profile Charity Events",
-    desc: "Helena often donates her time to raise money for good causes, such as DJ Chris Evans' Gig in the Garden or high-profile auctions. Showcase your brand or region via a donation of stock.",
+    title: "Private Tastings & Corporate Events",
+    desc: "Helena is an experienced wine communicator who can run full masterclass tastings solo or join forces with brands or other clients. Prices range according to scope and location. Contact her to discuss your needs.",
   },
 ];
 
@@ -412,6 +413,19 @@ const MediaKitPage = () => {
               <span className="font-heading font-bold text-3xl">£2,495</span>
               <span className="opacity-80 text-sm">plus stock (3 bottles of each wine shown)</span>
             </div>
+          </FadeInSection>
+        </div>
+      </section>
+
+      {/* Charity Events */}
+      <section className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-secondary">
+        <div className="max-w-3xl mx-auto text-center">
+          <FadeInSection>
+            <h2 className="mb-6">Your Drinks at High-Profile Charity Events</h2>
+            <img src={gigInGardenImg} alt="Helena at DJ Chris Evans' Gig in the Garden charity event" className="w-full h-auto mb-8" />
+            <p className="text-foreground/70">
+              Helena often donates her time to raise money for good causes, such as DJ Chris Evans' Gig in the Garden or high-profile charity auctions. Showcase your brand or region via a donation of stock.
+            </p>
           </FadeInSection>
         </div>
       </section>
