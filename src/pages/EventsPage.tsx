@@ -56,8 +56,8 @@ const EventsPage = () => {
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
           format: "Relaxed, 2 hour masterclass with Q&A featuring up to 6 wines paired with substantial nibbles or a simple meal.",
           edgeImage: festivalPhoto,
-          ctaLink: "/media-kit#supper-club",
-          ctaLabel: "See More",
+          ctaLink: "/contact",
+          ctaLabel: "Request Media Kit to See More",
         },
         {
           id: "festivals-and-events",
