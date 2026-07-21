@@ -144,10 +144,10 @@ const MediaKitPage = () => {
   return (
     <div className="pt-20">
       {/* Header */}
-      <section className="pt-10 md:pt-14 lg:pt-16 pb-12 px-6 md:px-12 lg:px-20 bg-secondary">
+      <section className="pt-16 md:pt-20 lg:pt-24 pb-14 px-6 md:px-12 lg:px-20 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Press &amp; Partnerships</p>
+            <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-6 text-center">Work With Helena</p>
             <h1 className="text-center mb-4">Media Kit</h1>
             <div className="flex justify-center">
               <a
@@ -318,16 +318,16 @@ const MediaKitPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 items-center">
             <FadeInSection delay={0.15}>
-              <div className="h-72">
+              <div className="h-[26rem]">
                 <ResponsiveContainer width="100%" height="100%">
-                  <PieChart margin={{ top: 10, right: 10, bottom: 10, left: 10 }}>
+                  <PieChart margin={{ top: 20, right: 60, bottom: 20, left: 60 }}>
                     <Pie
                       data={audienceRegions}
                       dataKey="value"
                       nameKey="name"
                       cx="50%"
                       cy="50%"
-                      outerRadius={55}
+                      outerRadius="80%"
                       paddingAngle={2}
                       stroke="#fdf9f4"
                       strokeWidth={2}
