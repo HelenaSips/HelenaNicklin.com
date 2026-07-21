@@ -163,7 +163,7 @@ const MediaKitPage = () => {
                 className="inline-flex items-center gap-3 px-8 py-3 bg-magenta text-white font-heading tracking-widest uppercase text-sm hover:bg-magenta/90 transition-all"
               >
                 <Download size={18} />
-                Download Media Pack (PDF)
+                Download Media Kit (PDF)
               </a>
             </div>
           </FadeInSection>
