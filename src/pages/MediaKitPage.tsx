@@ -45,7 +45,7 @@ const audienceStatsPrimary = [
 
 const audienceStatsSecondary = [
   { num: "6,074", platform: "LinkedIn", sub: "Connections" },
-  { num: "4,005", platform: "Threads", sub: "Followers" },
+  { num: "4,294", platform: "Threads", sub: "Followers" },
   { num: "920", platform: "YouTube", sub: "Subscribers" },
   { num: "427", platform: "Newsletter Subscribers", sub: "*NEW" },
 ];
@@ -89,7 +89,7 @@ const renderAudienceLabel = (props: {
 };
 
 const supperClubIncludes = [
-  "An entertaining, educational wine masterclass for 20–30 people, presented by Helena.",
+  "An entertaining, educational wine masterclass for 25 people, presented by Helena.",
   "Wines served with expertly paired food, from small snacks to full dinners.",
   "Online article with stockist details, shared via QR code with all attendees.",
   "Roundup Instagram reel of the event, plus 3–5 Instagram stories.",
