@@ -353,8 +353,8 @@ const MediaKitPage = () => {
             </FadeInSection>
             <FadeInSection delay={0.2}>
               <h3 className="mb-4">Series One Audience</h3>
-              <p className="text-foreground/70 leading-relaxed">
-                Average unique listens per episode for Series One is currently <span className="font-heading font-bold text-2xl text-magenta">418</span>, putting it in the top 10% of non celebrity-hosted podcasts.
+              <p className="text-foreground/70 leading-relaxed text-justify">
+                Listens for Series 1 are changing all the time but current figures already put it in the top 15% of non-celebrity hosted podcasts!
               </p>
             </FadeInSection>
           </div>
