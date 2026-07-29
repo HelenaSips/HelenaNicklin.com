@@ -58,7 +58,7 @@ const rates = [
 ];
 
 const podcastRates = [
-  { price: "£180", label: "1 Episode" },
+  { price: "£295", label: "1 Episode" },
   { price: "£495", label: "3 Episodes" },
   { price: "£750", label: "5 Episodes" },
 ];
