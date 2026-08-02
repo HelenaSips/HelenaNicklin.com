@@ -363,10 +363,10 @@ const MediaKitPage = () => {
             <FadeInSection>
               <h3 className="mb-4">Sponsorship</h3>
               <p className="text-foreground/70 mb-4">
-                Series 2 sponsorship includes a 30-second ad read by Helena at the start of each episode, with a brief sponsor shout-out halfway through, directing listeners to the show notes for brand information and a link to a longer-form article on helenasips.com. This article is also shared separately via socials.
+                Series 2 sponsorship includes a 30-second ad read by Helena at the start of each episode, with a brief sponsor shout-out halfway through. The episode show notes will feature banners, logo and a paragraph on the client with a CTA link to the client's website.
               </p>
               <p className="text-foreground/70">
-                Each episode has its own newsletter, where we can add banners, brand information and links back to the article. The brand's logo also features on the static social posts, with the brand tagged.
+                Each episode also has its own newsletter, where we can also add banners, logos, brand information and links back to the client's website.
               </p>
             </FadeInSection>
             <FadeInSection delay={0.15}>
