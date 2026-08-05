@@ -25,7 +25,7 @@ const Index = () => {
               Helena<br />Nicklin
             </h1>
             <p className="font-heading text-xl md:text-2xl text-primary-foreground/80 italic tracking-wide mb-10 max-w-lg">
-              Cultural Connector. Sensory Host. Drinks Expert.
+              Drinks Expert. Writer. Broadcaster & Host.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
