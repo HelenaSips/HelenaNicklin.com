@@ -25,7 +25,7 @@ const PressPage = () => {
           <FadeInSection delay={0.2}>
             <PublicationLogos className="mb-6" />
             <p className="text-center text-foreground/60 text-sm max-w-3xl mx-auto mb-4">
-              Helena Nicklin has written for {PUBLICATIONS.join(", ")}, amongst others. She has broadcast on Amazon Prime, BBC Radio 4, GB News, TalkTV and Virgin Radio.
+              Helena Nicklin has written for {PUBLICATIONS.join(", ")}, amongst others. She has broadcast on Amazon Prime, Channel 4 and various radio stations, including the BBC, GB News, TalkTV and Virgin Radio.
             </p>
             <p className="text-center mb-20">
               <Link to="/writing" className="text-magenta hover:text-magenta/80 transition-colors font-heading tracking-wider">
