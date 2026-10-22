@@ -7,6 +7,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PageMeta from "./components/PageMeta";
 import { lazy, Suspense } from "react";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -31,12 +32,12 @@ const Loading = () => (
   </div>
 );
 
-const App = () => (
+export const AppShell = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+        <PageMeta />
         <ScrollToTop />
         <EmailSignupPopup />
         <Navbar />
@@ -58,9 +59,14 @@ const App = () => (
           </Routes>
         </Suspense>
         <Footer />
-      </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
+);
+
+const App = () => (
+  <BrowserRouter>
+    <AppShell />
+  </BrowserRouter>
 );
 
 export default App;
