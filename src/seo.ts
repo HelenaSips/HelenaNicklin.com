@@ -85,7 +85,7 @@ export const PERSON_SCHEMA = {
   description: PAGE_META["/"].description,
   address: { "@type": "PostalAddress", addressRegion: "Isle of Wight", addressCountry: "GB" },
   knowsAbout: ["Wine", "Spirits", "No and low alcohol drinks", "Wine tasting", "Event hosting", "Drinks writing"],
-  memberOf: { "@type": "Organization", name: "Circle of Wine Writers" },
+  memberOf: { "@type": "Organization", name: "Les Dames d'Escoffier" },
   award: [
     "Top 100 Most Influential People in Drinks 2022, 2023, 2024, 2025 and 2026",
     "Best cultural contribution to the spirits industry 2025 (The Three Drinkers in Cognac)",
@@ -96,7 +96,6 @@ export const PERSON_SCHEMA = {
     "https://www.helenasips.com",
     "https://substack.com/@helenasips",
     "https://instagram.com/helenasips",
-    "https://thethreedrinkers.com/aidy-helena",
   ],
 };
 
