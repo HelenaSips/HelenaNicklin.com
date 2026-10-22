@@ -53,6 +53,11 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "Media Kit | Helena Nicklin",
     description: "Helena Nicklin's media kit and rates for partners.",
   },
+  "/writing": {
+    title: "Drinks Writer for Hire: Commissions & Expert Comment | Helena Nicklin",
+    description:
+      "Award-winning drinks writer Helena Nicklin writes for the Daily Mail, The Sun, BA High Life, Decanter, Club Oenologique and more. Commission features, guides and expert comment.",
+  },
   "/privacy": {
     title: "Privacy Policy | Helena Nicklin",
     description: "Privacy policy for helenanicklin.com.",
@@ -73,8 +78,39 @@ export const SITEMAP_ROUTES = [
   "/podcast",
   "/press",
   "/magazine",
+  "/writing",
   "/contact",
 ];
+
+export const PUBLICATIONS = [
+  "The Daily Mail", "The Sun", "BA High Life", "Decanter", "Club Oenologique",
+  "Delicious", "The Tonic", "Luxury Lifestyle Magazine", "Luxurious Magazine", "Princess Yachts Magazine",
+];
+
+export type Faq = { q: string; a: string };
+
+export const FAQS: Record<string, Faq[]> = {
+  "/work-with-helena": [
+    { q: "Where does Helena host events?", a: "On the Isle of Wight, in London, anywhere on the UK mainland and abroad." },
+    { q: "Can Helena host a virtual wine tasting?", a: "Yes. Virtual tastings work brilliantly for remote teams and clients in different places." },
+    { q: "How many guests can a tasting be for?", a: "Private and corporate tastings suit 6 to 30 guests. Bottles & Bites supper clubs take up to 30. Planning something bigger? Get in touch." },
+    { q: "Do I need to supply the wine?", a: "No. Helena can organise the wine delivery, or you can pick from a list." },
+    { q: "Is it just wine?", a: "No. Helena hosts wine, spirits and no and low alcohol tastings." },
+    { q: "How do I book Helena?", a: "Use the contact page or email helena@helenasips.com with your date, location and guest numbers." },
+  ],
+  "/brand-partnerships": [
+    { q: "What kinds of brands does Helena work with?", a: "Wine, spirits and no and low alcohol brands, wine regions and lifestyle brands with a drinks story to tell." },
+    { q: "Can a campaign include live events?", a: "Yes. Hosted masterclasses at festivals and roadshows, Bottles & Bites supper clubs, private tastings, corporate entertaining and celebrity and charity events." },
+    { q: "What does podcast sponsorship include?", a: "Packages of 3, 5 or 10 episodes, each with a bespoke 30 second ad read by Helena, branded space in the show notes, a bespoke article on helenasips.com and a newsletter feature." },
+    { q: "How do I see rates?", a: "Contact Helena for the password to her media kit." },
+  ],
+  "/writing": [
+    { q: "What does Helena write about?", a: "Wine, spirits, no and low alcohol drinks, food and drink pairing, drinks travel and the art of living well." },
+    { q: "Does Helena write for brands as well as publications?", a: "Yes. Brand copy and long-form content, plus articles on helenasips.com as part of a brand partnership." },
+    { q: "Can Helena give expert comment?", a: "Yes. For print, online, TV, radio and podcasts." },
+    { q: "How do I commission Helena?", a: "Email helena@helenasips.com with your brief, word count and deadline." },
+  ],
+};
 
 export const PERSON_SCHEMA = {
   "@context": "https://schema.org",

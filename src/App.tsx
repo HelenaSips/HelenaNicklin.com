@@ -23,6 +23,7 @@ const MediaKitPage = lazy(() => import("./pages/MediaKitPage"));
 const BrandPartnershipsPage = lazy(() => import("./pages/BrandPartnershipsPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
+const WritingPage = lazy(() => import("./pages/WritingPage"));
 
 const queryClient = new QueryClient();
 
@@ -53,6 +54,7 @@ export const AppShell = () => (
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/media-kit" element={<MediaKitPage />} />
             <Route path="/brand-partnerships" element={<BrandPartnershipsPage />} />
+            <Route path="/writing" element={<WritingPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/terms" element={<TermsPage />} />
             <Route path="*" element={<NotFound />} />

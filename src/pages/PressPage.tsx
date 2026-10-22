@@ -1,5 +1,7 @@
 import FadeInSection from "../components/FadeInSection";
 import PublicationLogos from "../components/PublicationLogos";
+import { Link } from "react-router-dom";
+import { PUBLICATIONS } from "@/seo";
 import bottomsUpImg from "../assets/bottoms-up-alan-carr.jpg";
 import baHighLifeImg from "../assets/ba-high-life.jpg";
 import samNeillImg from "../assets/delicious-sam-neill.jpg";
@@ -21,7 +23,15 @@ const PressPage = () => {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <PublicationLogos className="mb-20" />
+            <PublicationLogos className="mb-6" />
+            <p className="text-center text-foreground/60 text-sm max-w-3xl mx-auto mb-4">
+              Helena Nicklin has written for {PUBLICATIONS.join(", ")}. She has broadcast on Amazon Prime, BBC Radio 4, GB News, TalkTV and Virgin Radio.
+            </p>
+            <p className="text-center mb-20">
+              <Link to="/writing" className="text-magenta hover:text-magenta/80 transition-colors font-heading tracking-wider">
+                Commission Helena →
+              </Link>
+            </p>
           </FadeInSection>
 
           <FadeInSection>

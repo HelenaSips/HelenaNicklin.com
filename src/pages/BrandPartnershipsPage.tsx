@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
+import FaqSection from "../components/FaqSection";
 
 import handshakeImage from "@/assets/handshake-final.png";
 
@@ -11,6 +12,9 @@ const ContentCreationPage = () => {
           <FadeInSection>
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Collaborate</p>
             <h1 className="text-center mb-6 font-bold">Brand Partnerships</h1>
+            <p className="text-justify max-w-3xl mx-auto text-foreground/80 text-lg mb-4">
+              Helena Nicklin partners with wine, spirits and no-lo brands and wine regions to create content and live experiences that get liquid on lips. Clients include Rémy Martin, Guinness, Symington Family Estates and Glenmorangie.
+            </p>
             <p className="text-justify max-w-3xl mx-auto text-foreground/70 mb-4">
               Helena brings an editorial eye and deep drinks knowledge to every content collaboration, from long-form features and newsletters on helenasips.com, to social content and live tasting events.
             </p>
@@ -114,6 +118,8 @@ const ContentCreationPage = () => {
           </div>
         </div>
       </section>
+
+      <FaqSection page="/brand-partnerships" className="bg-secondary/50" />
     </div>
   );
 };

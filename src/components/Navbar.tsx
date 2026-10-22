@@ -5,7 +5,7 @@ import logoWhite from "@/assets/helenasips-logo-new.png";
 
 const navLinks = [
   { label: "About Helena", href: "/about" },
-  { label: "Work With Helena", href: "/work-with-helena", children: [{ label: "Media Kit", href: "/media-kit" }] },
+  { label: "Work With Helena", href: "/work-with-helena", children: [{ label: "Writing & Commissions", href: "/writing" }, { label: "Media Kit", href: "/media-kit" }] },
   { label: "Upcoming Events", href: "/upcoming-events" },
   { label: "Brand Partnerships", href: "/brand-partnerships" },
   { label: "Podcast", href: "/podcast" },

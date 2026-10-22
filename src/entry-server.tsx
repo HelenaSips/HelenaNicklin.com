@@ -16,4 +16,4 @@ export function render(url: string): Promise<string> {
     );
   });
 }
-export { PAGE_META, SITEMAP_ROUTES, PERSON_SCHEMA, SITE_URL, metaFor } from "./seo";
+export { PAGE_META, SITEMAP_ROUTES, PERSON_SCHEMA, SITE_URL, metaFor, FAQS } from "./seo";
