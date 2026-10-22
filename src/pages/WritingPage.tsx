@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import FadeInSection from "../components/FadeInSection";
 import FaqSection from "../components/FaqSection";
 import PublicationLogos from "../components/PublicationLogos";
-import { PUBLICATIONS } from "@/seo";
 
 const services = [
   {
@@ -36,7 +35,7 @@ const WritingPage = () => {
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Commission</p>
             <h1 className="text-center mb-6 font-bold">Writing & Commissions</h1>
             <p className="text-center max-w-3xl mx-auto text-foreground/80 text-lg mb-4">
-              Helena Nicklin is an award-winning drinks writer. Her work has appeared in the Daily Mail, The Sun, BA High Life, Decanter, Club Oenologique and Delicious.
+              Helena Nicklin is an award-winning drinks writer. Her work has appeared in the Daily Mail, The Sun, BA High Life, Decanter, Club Oenologique, Delicious, The Tonic, Luxury Lifestyle Magazine, Luxurious Magazine and Princess Yachts Magazine, amongst others.
             </p>
             <p className="text-center max-w-3xl mx-auto text-foreground/70 mb-12">
               Wine, spirits and no-lo, written so anyone can enjoy it. Editors and brands: send your brief.
@@ -44,10 +43,8 @@ const WritingPage = () => {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <PublicationLogos className="mb-6" />
-            <p className="text-center text-foreground/60 text-sm max-w-3xl mx-auto mb-16">
-              Published in: {PUBLICATIONS.join(", ")}.
-            </p>
+            <PublicationLogos className="mb-6" subset={["Daily Mail", "The Sun", "Decanter", "BA High Life", "Delicious Magazine", "Luxury Lifestyle Magazine", "The Tonic", "Luxurious Magazine"]} />
+            <div className="mb-16" />
           </FadeInSection>
 
           <div className="max-w-3xl mx-auto space-y-10 mb-16">
