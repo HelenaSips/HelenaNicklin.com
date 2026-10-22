@@ -13,7 +13,7 @@ const ContentCreationPage = () => {
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Collaborate</p>
             <h1 className="text-center mb-6 font-bold">Brand Partnerships</h1>
             <p className="text-justify max-w-3xl mx-auto text-foreground/80 text-lg mb-4">
-              Helena Nicklin partners with wine, spirits and no-lo brands and wine regions to create content and live experiences that get liquid on lips. Clients include Rémy Martin, Guinness, Symington Family Estates and Glenmorangie.
+              Helena Nicklin partners with drinks brands (wine, spirits and no-lo), lifestyle brands and wine regions to create content and live experiences that get liquid on lips. Clients include Rémy Martin Cognac, Silverhand Wine Estate, Symington Family Estates and Glenmorangie.
             </p>
             <p className="text-justify max-w-3xl mx-auto text-foreground/70 mb-4">
               Helena brings an editorial eye and deep drinks knowledge to every content collaboration, from long-form features and newsletters on helenasips.com, to social content and live tasting events.

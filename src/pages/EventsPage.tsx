@@ -35,7 +35,7 @@ const EventsPage = () => {
               Work with Helena to entertain clients or showcase your drinks, regions and brands to consumer audiences.
             </p>
             <p className="text-primary-foreground/70 text-lg max-w-2xl mt-3">
-              Helena Nicklin hosts corporate wine tastings, private tasting events, drinks masterclasses and festival sessions. On the Isle of Wight, in London, across the UK and abroad. Or virtually, wherever your guests are.
+              Helena Nicklin hosts corporate wine tastings, private tasting events, drinks masterclasses and festival sessions on the Isle of Wight, in London, across the UK and abroad. She can also work virtually, wherever your guests are.
             </p>
           </FadeInSection>
         </div>
@@ -47,10 +47,10 @@ const EventsPage = () => {
           id: "sensory-salons",
           img: null,
           edgeImage: dinnerTable,
-          title: "Corporate & Private Wine Tastings",
+          title: "Corporate & Private Wine Tasting Events",
           copy: "Whether you want a wine or spirits tasting before or during your dinner or a full evening with wine games to break the ice, Helena can put together something unique just for you.",
           perfect: "Corporate events and private client gatherings for 6 - 30 people.",
-          format: "Helena comes to your venue of choice, on the Isle of Wight, in London, anywhere in the UK or abroad. She can organise wine delivery or pick from a list. Virtual tastings are available too.",
+          format: "Helena comes to your venue of choice, on the Isle of Wight, in London, anywhere in the UK or potentially, abroad. She can organise wine delivery or pick from a list. Virtual tastings are available too.",
         },
         {
           id: "bottles-and-bites",

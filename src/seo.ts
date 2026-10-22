@@ -91,17 +91,17 @@ export type Faq = { q: string; a: string };
 
 export const FAQS: Record<string, Faq[]> = {
   "/work-with-helena": [
-    { q: "Where does Helena host events?", a: "On the Isle of Wight, in London, anywhere on the UK mainland and abroad." },
+    { q: "Where does Helena host events?", a: "On the Isle of Wight, in London, anywhere on the UK mainland and potentially abroad." },
     { q: "Can Helena host a virtual wine tasting?", a: "Yes. Virtual tastings work brilliantly for remote teams and clients in different places." },
-    { q: "How many guests can a tasting be for?", a: "Private and corporate tastings suit 6 to 30 guests. Bottles & Bites supper clubs take up to 30. Planning something bigger? Get in touch." },
-    { q: "Do I need to supply the wine?", a: "No. Helena can organise the wine delivery, or you can pick from a list." },
+    { q: "How many guests can a tasting be for?", a: "Private and corporate tastings suit 6 to 30 guests best. Supper clubs take up to 30. Planning something bigger? Get in touch!" },
+    { q: "Do I need to supply the wine?", a: "No, but you can if you prefer. Helena can organise wine delivery if needed, or she can pick bottles to a set budget from a list." },
     { q: "Is it just wine?", a: "No. Helena hosts wine, spirits and no and low alcohol tastings." },
     { q: "How do I book Helena?", a: "Use the contact page or email helena@helenasips.com with your date, location and guest numbers." },
   ],
   "/brand-partnerships": [
-    { q: "What kinds of brands does Helena work with?", a: "Wine, spirits and no and low alcohol brands, wine regions and lifestyle brands with a drinks story to tell." },
-    { q: "Can a campaign include live events?", a: "Yes. Hosted masterclasses at festivals and roadshows, Bottles & Bites supper clubs, private tastings, corporate entertaining and celebrity and charity events." },
-    { q: "What does podcast sponsorship include?", a: "Packages of 3, 5 or 10 episodes, each with a bespoke 30 second ad read by Helena, branded space in the show notes, a bespoke article on helenasips.com and a newsletter feature." },
+    { q: "What kinds of brands does Helena work with?", a: "Any form of drinks brands, food, wine regions and lifestyle brands. Past non-wine collaborators have included perfumery brands, fresh and faux flowers, chocolate, cheese, fashion, art, musicians, crystals and fine jewellery." },
+    { q: "Can a campaign include live events?", a: "Yes. Hosted masterclasses at venues, festivals and roadshows, supper clubs, private tastings, corporate entertaining and celebrity and charity events." },
+    { q: "What does podcast sponsorship include?", a: "Packages of 3, 5 or 10 episodes, each with a bespoke 30-second ad read by Helena, branded space in the show notes, a bespoke article on helenasips.com and a newsletter feature as standard. Other options, including live events, can be discussed." },
     { q: "How do I see rates?", a: "Contact Helena for the password to her media kit." },
   ],
   "/writing": [

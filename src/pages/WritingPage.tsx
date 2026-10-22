@@ -13,16 +13,16 @@ const services = [
     copy: "Conversations with winemakers, drinks pioneers and creative people who love a glass, from champagne houses to Hollywood actors.",
   },
   {
-    title: "Travel & Lifestyle",
-    copy: "Wine regions, drinks destinations and the art of living well, for travel, luxury and lifestyle titles.",
+    title: "Travel & Lifestyle Writing",
+    copy: "Wine and spirits travel guides for travel, luxury and lifestyle titles.",
   },
   {
     title: "Brand Copy & Content",
     copy: "Long-form articles, newsletters and copy for drinks brands and wine regions, written with an editor's eye.",
   },
   {
-    title: "Expert Comment",
-    copy: "Need a drinks voice for a story, segment or episode? Helena gives expert comment for print, online, TV, radio and podcasts.",
+    title: "Expert Commentary",
+    copy: "Need a drinks voice for a story, segment or episode? Helena gives expert drinks commentary for print, online, TV, radio and podcasts.",
   },
 ];
 
@@ -35,7 +35,7 @@ const WritingPage = () => {
             <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-4 text-center">Commission</p>
             <h1 className="text-center mb-6 font-bold">Writing & Commissions</h1>
             <p className="text-center max-w-3xl mx-auto text-foreground/80 text-lg mb-4">
-              Helena Nicklin is an award-winning drinks writer. Her work has appeared in the Daily Mail, The Sun, BA High Life, Decanter, Club Oenologique, Delicious, The Tonic, Luxury Lifestyle Magazine, Luxurious Magazine and Princess Yachts Magazine, amongst others.
+              Helena Nicklin is an award-winning drinks writer and copywriter. Her written work has appeared in the Daily Mail, The Sun, BA High Life, Decanter, Club Oenologique, Delicious, The Tonic, Luxury Lifestyle Magazine and Savile Row Magazine amongst others.
             </p>
             <p className="text-center max-w-3xl mx-auto text-foreground/70 mb-12">
               Wine, spirits and no-lo, written so anyone can enjoy it. Editors and brands: send your brief.
@@ -43,7 +43,7 @@ const WritingPage = () => {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <PublicationLogos className="mb-6" subset={["Daily Mail", "The Sun", "Decanter", "BA High Life", "Delicious Magazine", "Luxury Lifestyle Magazine", "The Tonic", "Luxurious Magazine"]} />
+            <PublicationLogos className="mb-6" subset={["Daily Mail", "The Sun", "Decanter", "BA High Life", "Delicious Magazine", "Luxury Lifestyle Magazine", "The Tonic", "Savile Row Style Magazine"]} />
             <div className="mb-16" />
           </FadeInSection>
 
@@ -59,7 +59,7 @@ const WritingPage = () => {
           <FadeInSection>
             <div className="text-center">
               <p className="text-foreground/70 mb-4 font-bold">
-                Send your brief, word count and deadline to{" "}
+                Send your brief or any questions to{" "}
                 <a href="mailto:helena@helenasips.com" className="text-magenta hover:text-magenta/80 transition-colors">
                   helena@helenasips.com
                 </a>
