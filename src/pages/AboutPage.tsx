@@ -108,12 +108,12 @@ const AboutPage = () => {
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img
                     src={eventsHero}
-                    alt="Private Wine Tasting Events"
+                    alt="Corporate & Private Wine Tasting Events"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <Link to="/work-with-helena#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
-                  Private Wine Tasting Events
+                  Corporate &amp; Private Wine Tasting Events
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Got a corporate event with clients to entertain or a special birthday coming up? Bring Helena in to break the ice with a hosted wine or spirits tasting.
@@ -152,15 +152,15 @@ const AboutPage = () => {
                 <div className="aspect-[4/3] overflow-hidden mb-6">
                   <img
                     src={rueda1}
-                    alt="Brand Partnerships"
+                    alt="Digital Brand Partnerships"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
                 <Link to="/brand-partnerships" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
-                  Brand Partnerships
+                  Digital Brand Partnerships
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
-                  Create a bespoke campaign with Helena taking in your pick of socials, editorial, newsletters, podcast sponsorship and live consumer tasting events.
+                  Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website, newsletters, podcast and consumer tasting events.
                 </p>
                 <div className="mt-4 text-center">
                   <Link to="/brand-partnerships" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
