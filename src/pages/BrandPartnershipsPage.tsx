@@ -71,11 +71,11 @@ const ContentCreationPage = () => {
                         {item}
                       </Link>
                     ) : item === "Private Tasting Events" ? (
-                      <Link to="/work-with-helena#sensory-salons" className="hover:text-[#db258f] transition-colors">
+                      <Link to="/work-with-helena#corporate-private-wine-tasting-events" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
                     ) : item === "Corporate Entertaining" ? (
-                      <Link to="/work-with-helena#private-wine-masterclasses" className="hover:text-[#db258f] transition-colors">
+                      <Link to="/work-with-helena#corporate-private-wine-tasting-events" className="hover:text-[#db258f] transition-colors">
                         {item}
                       </Link>
                     ) : (

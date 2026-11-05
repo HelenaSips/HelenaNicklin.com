@@ -112,14 +112,14 @@ const AboutPage = () => {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <Link to="/work-with-helena#sensory-salons" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
+                <Link to="/work-with-helena#corporate-private-wine-tasting-events" className="block text-center text-2xl font-heading leading-tight hover:text-magenta transition-colors">
                   Corporate &amp; Private Wine Tasting Events
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
                   Got a corporate event with clients to entertain or a special birthday coming up? Bring Helena in to break the ice with a hosted wine or spirits tasting.
                 </p>
                 <div className="mt-4 text-center">
-                  <Link to="/work-with-helena#sensory-salons" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
+                  <Link to="/work-with-helena#corporate-private-wine-tasting-events" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
                     FIND OUT MORE
                   </Link>
                 </div>

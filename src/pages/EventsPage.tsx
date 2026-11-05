@@ -44,7 +44,7 @@ const EventsPage = () => {
       {/* Three Services */}
       {[
         {
-          id: "sensory-salons",
+          id: "corporate-private-wine-tasting-events",
           img: null,
           edgeImage: dinnerTable,
           title: "Corporate & Private Wine Tasting Events",
@@ -75,8 +75,8 @@ const EventsPage = () => {
         {
           id: "brand-partnerships",
           img: null,
-          title: "Brand Partnerships",
-          copy: "Create a bespoke campaign with Helena taking your pick of socials, website editorial, newsletters, podcast sponsorship and even live consumer tasting events.",
+          title: "Digital Brand Partnerships",
+          copy: "Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website, newsletters, podcast and consumer tasting events.",
           perfect: "Drinks brands and wine regions wanting to get liquid on lips across various platforms.",
           ctaLink: "/brand-partnerships",
           ctaLabel: "See Options",
@@ -104,7 +104,7 @@ const EventsPage = () => {
                     {service.ctaLabel || "Find Out More"}
                   </Link>
                 )}
-                {!service.ctaLink && (service.id === "sensory-salons" || service.cta) && (
+                {!service.ctaLink && (service.id === "corporate-private-wine-tasting-events" || service.cta) && (
                   <Link to="/contact" className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
                     Contact Helena
                   </Link>
