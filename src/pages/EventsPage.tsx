@@ -75,7 +75,7 @@ const EventsPage = () => {
           copy: "Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website and newsletters.",
           perfect: "Drinks brands and wine regions wanting to get liquid on lips across Helena's various digital platforms.",
           ctaLink: "/brand-partnerships",
-          ctaLabel: "See Options",
+          ctaLabel: "Get Price List",
           edgeImage: festivalPhoto,
         },
         {
