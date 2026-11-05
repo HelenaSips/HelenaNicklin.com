@@ -25,16 +25,16 @@ const workWithHelena = [
     desc: "Paid collaborations with drinks and lifestyle brands over social media platforms, as well as via written articles on helenasips.com and in Helena's newsletters.",
   },
   {
-    title: "Liquid on Lips: Supper Club",
-    desc: "Helena's regular Bottles & Bites events on the Isle of Wight put your brand or region in front of real consumers, with paired food. Available as an exclusive, branded event or part of a wider collaboration with other brands.",
+    title: "Bottles & Bites Supper Club Masterclasses",
+    desc: "Put your brand or region in front of real consumers and get liquid on lips at Helena's regular drinks masterclass supper club events on the Isle of Wight. Available as an exclusive, branded event or part of a wider collaboration with other brands.",
   },
   {
     title: "The HelenaSips Podcast: Sponsorship",
     desc: "Launched April 2026, this podcast explores conversations with successful creatives about what makes them tick, over a glass of something delicious. Episode sponsorship is available in various bundles.",
   },
   {
-    title: "Private Tastings & Corporate Events",
-    desc: "Helena is an experienced wine communicator who can run full masterclass tastings solo or join forces with brands or other clients. Prices range according to scope and location. Contact her to discuss your needs.",
+    title: "Corporate & Private Wine Tasting Events",
+    desc: "Helena is an experienced wine communicator who can run full masterclass tastings solo or join forces with brands or other clients. Prices start at £950 but range according to scope and location. Contact her to discuss your needs.",
   },
 ];
 
