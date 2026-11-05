@@ -89,12 +89,38 @@ const renderAudienceLabel = (props: {
   );
 };
 
-const supperClubIncludes = [
-  "An entertaining, educational wine masterclass for 25 people, presented by Helena.",
-  "Wines served with expertly paired food, from small snacks to full dinners.",
-  "Online article with stockist details, shared via QR code with all attendees.",
-  "Roundup Instagram reel of the event, plus 3–5 Instagram stories.",
-  "1x Instagram carousel with a branded CTA end image and link in bio.",
+const supperClubOptions = [
+  {
+    option: "Option 1",
+    name: "Grape",
+    intro: "Make sure only your products are showcased by sponsoring a whole supper club event. You get to choose which bottles are shown (with guidance from Helena) and each will be served with expertly paired food, from small snacks to full dinners - food included. Attendees will also receive digital notes including stockist details, the menu and further information, shared via a QR code on the night.",
+    items: [] as string[],
+    price: "£1,875",
+  },
+  {
+    option: "Option 2",
+    name: "Bunch",
+    intro: "Maximise the experience with dedicated social media posts around the event, combining everything in Option 1 with the following:",
+    items: [
+      "Round-up Instagram reel of the night",
+      "Digital notes become a dedicated subscriber newsletter article",
+      "Article shared on LinkedIn, X & Threads",
+      "3 x Instagram stories with links to the article",
+      "Instagram carousel grid post with up to 5 x still photos with branded end image.",
+    ],
+    price: "£2,495",
+  },
+  {
+    option: "Option 3",
+    name: "Vine",
+    intro: "The vine option is the full brand shebang: the supper club masterclass with a 360 degree digital campaign around it. As well as everything in the ‘Bunch’ package, you’ll get:",
+    items: [
+      "2 x Editorial Reels, such as a One Minute Wine Ace explainer, a food & drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.",
+      "2 x Editorial Articles on helenasips.com. Subjects TBD by you, shared on your preferred dates.",
+      "Shares of articles via Instagram stories and carousels, over Threads, X and LinkedIn.",
+    ],
+    price: "£4,295",
+  },
 ];
 
 const MediaKitPage = () => {
@@ -394,26 +420,37 @@ const MediaKitPage = () => {
           </FadeInSection>
           <FadeInSection>
             <p className="text-foreground/70">
-              Helena hosts exclusive, consumer-focused Bottles &amp; Bites drinks masterclasses with food on the Isle of Wight. As part of this, your brand will get:
+              Helena hosts exclusive, consumer-focused Bottles &amp; Bites drinks masterclasses with food for up to 30 people on the Isle of Wight. Choose from these options:
             </p>
           </FadeInSection>
-          <FadeInSection delay={0.1}>
-            <ul className="space-y-3 text-foreground/70 mt-6">
-              {supperClubIncludes.map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="text-magenta mt-1">✦</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </FadeInSection>
-          <FadeInSection delay={0.2}>
-            <div className="mt-8 bg-primary text-primary-foreground p-6 flex flex-wrap justify-between items-center gap-3">
-              <span>Per masterclass</span>
-              <span className="font-heading font-bold text-3xl">£2,495</span>
-              <span className="opacity-80 text-sm">plus stock (3 bottles of each wine shown)</span>
-            </div>
-          </FadeInSection>
+          <div className="mt-8 space-y-8">
+            {supperClubOptions.map((opt, i) => (
+              <FadeInSection key={opt.name} delay={0.1 * i}>
+                <div className="border border-border bg-card">
+                  <div className="p-6 md:p-8">
+                    <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-2">{opt.option}</p>
+                    <h3 className="mb-4">‘{opt.name}’</h3>
+                    <p className="text-foreground/70 leading-relaxed">{opt.intro}</p>
+                    {opt.items.length > 0 && (
+                      <ul className="space-y-3 text-foreground/70 mt-5">
+                        {opt.items.map((item) => (
+                          <li key={item} className="flex items-start gap-3">
+                            <span className="text-magenta mt-1">✦</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                  <div className="bg-primary text-primary-foreground px-6 md:px-8 py-5 flex flex-wrap justify-between items-center gap-3">
+                    <span>Cost</span>
+                    <span className="font-heading font-bold text-3xl">{opt.price}</span>
+                    <span className="opacity-80 text-sm">+ stock (3 bottles of each wine shown)</span>
+                  </div>
+                </div>
+              </FadeInSection>
+            ))}
+          </div>
         </div>
       </section>
 
