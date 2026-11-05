@@ -61,8 +61,8 @@ const EventsPage = () => {
           formatLabel: "What’s included?",
           format: "These events last around three hours and include a relaxed masterclass with Q&A featuring up to 6 wines, which are then paired with substantial nibbles or a full meal.",
           extra: [
-            "Digital notes are given to attendees as standard, which include a list of the wines tasted with stockist details, the menu and further information. This sits on Helenasips.com under ‘Events’ and is accessed by a QR code available on the night.",
-            "There’s an option to add on extra digital coverage in the form of 3 Instagram stories (with links to the digital notes), one carousel post and one reel after the event.",
+            { text: "Digital notes are given to attendees as standard, which include a list of the wines tasted with stockist details, the menu and further information. This sits on Helenasips.com under ‘Events’ and is accessed by a QR code available on the night." },
+            { label: "Optional add-on:", text: "Make the event go further with extra digital coverage in the form of a subscriber newsletter article version of the digital notes, 3 x Instagram stories (with links to the article), a carousel post with 4 x pictures and description on the grid and one Instagram reel after the event." },
           ],
           edgeImage: festivalPhoto,
           ctaLink: "/contact",
@@ -105,7 +105,9 @@ const EventsPage = () => {
                   <p className="text-foreground/70 mb-6"><strong className="text-foreground">{service.formatLabel ? service.formatLabel : "Format:"}</strong> {service.format}</p>
                 )}
                 {service.extra?.map((para) => (
-                  <p key={para} className="text-foreground/70 mb-6 leading-relaxed">{para}</p>
+                  <p key={para.text} className="text-foreground/70 mb-6 leading-relaxed">
+                    {para.label && <strong className="text-foreground">{para.label}</strong>} {para.text}
+                  </p>
                 ))}
                 {service.ctaLink && (
                   <Link to={service.ctaLink} className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
