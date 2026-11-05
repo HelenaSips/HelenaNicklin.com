@@ -58,9 +58,9 @@ const rates = [
 ];
 
 const podcastRates = [
-  { price: "£295", label: "1 Episode" },
-  { price: "£495", label: "3 Episodes" },
-  { price: "£750", label: "5 Episodes" },
+  { price: "£3,750", each: "£1,250 each", label: "3 Episodes" },
+  { price: "£5,750", each: "£1,150 each", label: "5 Episodes" },
+  { price: "£9,750", each: "£975 each", label: "Full Series of 10 Episodes" },
 ];
 
 const audienceRegions = [
@@ -389,20 +389,20 @@ const MediaKitPage = () => {
             <FadeInSection>
               <h3 className="mb-4">Sponsorship</h3>
               <p className="text-foreground/70 mb-4">
-                Series 2 sponsorship includes a 30-second ad read by Helena at the start of each episode, with a brief sponsor shout-out halfway through. The episode show notes will feature banners, logo and a paragraph on the client with a CTA link to the client's website.
+                Sponsorship of the podcast includes a 30-second ad read by Helena at the start of each episode with a brief sponsor shout-out halfway through. The episode show notes will feature banners, logo and a paragraph on the client with a CTA link to the client's website or a dedicated sponsor page on helenasips.com if preferred.
               </p>
               <p className="text-foreground/70">
-                Each episode also has its own newsletter, where we can also add banners, logos, brand information and links back to the client's website.
+                Each episode also has its own newsletter, where we can also add banners with logos, brand information and links back to the client's website or page.
               </p>
             </FadeInSection>
             <FadeInSection delay={0.15}>
-              <h3 className="mb-4">Early-Bird Rates</h3>
-              <p className="text-foreground/70 mb-6">As a new venture, first sponsors are rewarded with lower early-bird rates:</p>
-              <div className="grid grid-cols-3 gap-3">
+              <h3 className="mb-6">Podcast Sponsorship Rates</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {podcastRates.map((r, i) => (
-                  <div key={i} className="bg-primary text-primary-foreground p-4 text-center">
+                  <div key={i} className="bg-primary text-primary-foreground p-4 text-center flex flex-col justify-center">
+                    <p className="text-xs uppercase tracking-wider opacity-80 mb-2">{r.label}</p>
                     <p className="font-heading font-bold text-xl">{r.price}</p>
-                    <p className="text-xs uppercase tracking-wider opacity-80 mt-1">{r.label}</p>
+                    <p className="text-sm opacity-80 mt-1">({r.each})</p>
                   </div>
                 ))}
               </div>
