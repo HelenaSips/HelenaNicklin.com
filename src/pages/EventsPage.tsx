@@ -58,10 +58,15 @@ const EventsPage = () => {
           title: "Bottles & Bites Supper Clubs",
           copy: "Wine and spirits education perfectly paired with food. Helena works with drinks brands and wine regions to offer wine and spirits masterclasses in a supper club format where she lives on the Isle of Wight, to an engaged, consumer audience of up to 30 guests.",
           perfect: "Getting liquid on lips for drinks brands and wine regions.",
-          format: "Relaxed, 2 hour masterclass with Q&A featuring up to 6 wines paired with substantial nibbles or a simple meal.",
+          formatLabel: "What’s included?",
+          format: "These events last around three hours and include a relaxed masterclass with Q&A featuring up to 6 wines, which are then paired with substantial nibbles or a full meal.",
+          extra: [
+            "Digital notes are given to attendees as standard, which include a list of the wines tasted with stockist details, the menu and further information. This sits on Helenasips.com under ‘Events’ and is accessed by a QR code available on the night.",
+            "There’s an option to add on extra digital coverage in the form of 3 Instagram stories (with links to the digital notes), one carousel post and one reel after the event.",
+          ],
           edgeImage: festivalPhoto,
           ctaLink: "/contact",
-          ctaLabel: "Request Media Kit to See More",
+          ctaLabel: "Get Price List",
         },
         {
           id: "festivals-and-events",
@@ -97,8 +102,11 @@ const EventsPage = () => {
                   <p className="text-foreground/70 mb-4"><strong className="text-foreground">Perfect for:</strong> {service.perfect}</p>
                 )}
                 {service.format && (
-                  <p className="text-foreground/70 mb-6"><strong className="text-foreground">{service.formatLabel || "Format"}:</strong> {service.format}</p>
+                  <p className="text-foreground/70 mb-6"><strong className="text-foreground">{service.formatLabel ? service.formatLabel : "Format:"}</strong> {service.format}</p>
                 )}
+                {service.extra?.map((para) => (
+                  <p key={para} className="text-foreground/70 mb-6 leading-relaxed">{para}</p>
+                ))}
                 {service.ctaLink && (
                   <Link to={service.ctaLink} className="inline-block px-8 py-3 bg-[#db258f] text-white font-heading text-base tracking-wider hover:bg-[#db258f]/90 transition-all">
                     {service.ctaLabel || "Find Out More"}
