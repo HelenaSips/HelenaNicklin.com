@@ -160,7 +160,7 @@ const AboutPage = () => {
                   Digital Brand Partnerships
                 </Link>
                 <p className="mt-3 text-foreground/70 leading-relaxed flex-grow">
-                  Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website, newsletters, podcast and consumer tasting events.
+                  Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website and newsletters.
                 </p>
                 <div className="mt-4 text-center">
                   <Link to="/brand-partnerships" className="inline-block px-8 py-3 bg-primary text-primary-foreground font-heading tracking-wider hover:bg-primary/90 transition-all">
