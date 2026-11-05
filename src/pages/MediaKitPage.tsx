@@ -39,22 +39,22 @@ const workWithHelena = [
 ];
 
 const audienceStatsPrimary = [
-  { num: "24.1K", platform: "Instagram @HelenaSips", sub: "79% aged 25–54 · 52.8% Women / 47.2% Men" },
+  { num: "24.4K", platform: "Instagram @HelenaSips", sub: "79% aged 25–54 · 52.8% Women / 47.2% Men" },
   { num: "1,084", platform: "TikTok @HelenaSips", sub: "Evenly spread 18–55+ · 35% Women / 65% Men" },
-  { num: "7,645", platform: "X (Twitter)", sub: "Followers" },
+  { num: "7,574", platform: "X (Twitter)", sub: "Followers" },
 ];
 
 const audienceStatsSecondary = [
-  { num: "6,074", platform: "LinkedIn", sub: "Connections" },
+  { num: "6,931", platform: "LinkedIn", sub: "Connections" },
   { num: "4,294", platform: "Threads", sub: "Followers" },
   { num: "920", platform: "YouTube", sub: "Subscribers" },
-  { num: "427", platform: "Newsletter Subscribers", sub: "*NEW" },
+  { num: "479", platform: "Newsletter Subscribers", sub: "*NEW" },
 ];
 
 const rates = [
-  { title: "Short Video / Reel", desc: "Posted to TikTok, YouTube Shorts + Instagram (reel, grid & stories)", price: "£560" },
-  { title: "Still Posts", desc: "Up to 3 images if a carousel. Posted to Instagram (grid + stories) + Pinterest", price: "£300" },
-  { title: "Online Article & Newsletter", desc: "Written on helenasips.com; shared to LinkedIn, Instagram, X, Threads, Bluesky and the email newsletter", price: "£485" },
+  { title: "Short Video / Reel", desc: "Posted to Instagram (reel, grid & stories) + YouTube Shorts", price: "£560" },
+  { title: "Still Posts", desc: "Single, still posts or up to 5 images if a carousel. Posted to Instagram (grid + stories)", price: "£300" },
+  { title: "Online Article & Newsletter", desc: "Written on helenasips.com and shared to LinkedIn, Instagram, X, Threads, and the email subscriber newsletter", price: "£485" },
 ];
 
 const podcastRates = [
