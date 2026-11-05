@@ -35,33 +35,29 @@ interface EventItem {
   imagePosition?: string;
 }
 
-const upcomingEvents: EventItem[] = [
-  {
-    title: "Spanish Bottles & Bites with Toro Loco!",
-    date: "Wednesday, 17 June 2026 · 7:00 PM Arrival for 7:30 PM Sit Down",
-    venue: "Cowes, Isle of Wight (Venue TBD)",
-    price: "£25",
-    description:
-      "SAVE THE DATE for an evening with Helena Nicklin and Alex Forsyth for a Spanish Bottles & Bites extravaganza featuring the wines of Toro Loco and perfectly paired food!",
-    image: toroLocoEvent,
-    imageAlt: "Spanish Bottles & Bites with Toro Loco",
-    status: "sold-out",
-  },
+const upcomingEvents: EventItem[] = [];
+
+const pastEvents: EventItem[] = [
   {
     title: "Lymington Seafood Festival: Various Drinks Masterclasses",
-    date: "Saturday 11 & Sunday 12 July 2025",
+    date: "Saturday 11 & Sunday 12 July 2026",
     venue: "Bath Road Park, Lymington, SO41 3SE",
-    price: "From £12",
     description:
       "Join me and other drinks experts for a series of drinks masterclasses throughout the weekend, featuring beer, spirits and wine.",
     image: heroLifestyle,
     imageAlt: "Lymington Seafood Festival - Drinks Masterclasses",
-    bookingLink: "https://www.lymingtonseafoodfestival.co.uk/",
     status: "available",
   },
-];
-
-const pastEvents: EventItem[] = [
+  {
+    title: "Spanish Bottles & Bites with Toro Loco!",
+    date: "Wednesday, 17 June 2026",
+    venue: "Cowes, Isle of Wight",
+    description:
+      "An evening with Helena Nicklin and Alex Forsyth for a Spanish Bottles & Bites extravaganza featuring the wines of Toro Loco and perfectly paired food!",
+    image: toroLocoEvent,
+    imageAlt: "Spanish Bottles & Bites with Toro Loco",
+    status: "available",
+  },
   {
     title: "Wine & Chocolate Pairing Masterclass",
     date: "24 May 2026",
@@ -261,13 +257,25 @@ const TicketedEventsPage = () => {
           <FadeInSection>
             <h2 className="text-center mb-10">What's Coming Up</h2>
           </FadeInSection>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {upcomingEvents.map((event, i) => (
-              <FadeInSection key={event.title} delay={i * 0.1}>
-                <EventCard event={event} />
-              </FadeInSection>
-            ))}
-          </div>
+          {upcomingEvents.length === 0 ? (
+            <FadeInSection>
+              <p className="text-center text-foreground/60 text-lg max-w-xl mx-auto">
+                New events are in the works. Check back soon, or{" "}
+                <Link to="/contact" className="text-plum underline underline-offset-4">
+                  get in touch
+                </Link>{" "}
+                to hear first.
+              </p>
+            </FadeInSection>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {upcomingEvents.map((event, i) => (
+                <FadeInSection key={event.title} delay={i * 0.1}>
+                  <EventCard event={event} />
+                </FadeInSection>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
