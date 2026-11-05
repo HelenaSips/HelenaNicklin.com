@@ -330,8 +330,51 @@ const MediaKitPage = () => {
         </div>
       </section>
 
+      {/* Supper Club */}
+      <section id="supper-club" className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-secondary scroll-mt-24">
+        <div className="max-w-4xl mx-auto">
+          <FadeInSection>
+            <h2 className="text-center mb-6">Bottles &amp; Bites Supper Club Masterclasses</h2>
+            <img src={supperClubImg} alt="Bottles & Bites supper club masterclass" className="w-full h-80 object-cover mb-8" />
+          </FadeInSection>
+          <FadeInSection>
+            <p className="text-foreground/70">
+              Helena hosts exclusive, consumer-focused Bottles &amp; Bites drinks masterclasses with food for up to 30 people on the Isle of Wight. Choose from these options:
+            </p>
+          </FadeInSection>
+          <div className="mt-8 space-y-8">
+            {supperClubOptions.map((opt, i) => (
+              <FadeInSection key={opt.name} delay={0.1 * i}>
+                <div className="border border-border bg-card">
+                  <div className="p-6 md:p-8">
+                    <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-2">{opt.option}</p>
+                    <h3 className="mb-4">‘{opt.name}’</h3>
+                    <p className="text-foreground/70 leading-relaxed">{opt.intro}</p>
+                    {opt.items.length > 0 && (
+                      <ul className="space-y-3 text-foreground/70 mt-5">
+                        {opt.items.map((item) => (
+                          <li key={item} className="flex items-start gap-3">
+                            <span className="text-magenta mt-1">✦</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                  <div className="bg-primary text-primary-foreground px-6 md:px-8 py-5 flex flex-wrap justify-between items-center gap-3">
+                    <span>Cost</span>
+                    <span className="font-heading font-bold text-3xl">{opt.price}</span>
+                    <span className="opacity-80 text-sm">+ stock (3 bottles of each wine shown)</span>
+                  </div>
+                </div>
+              </FadeInSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Podcast */}
-      <section className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-secondary">
+      <section className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-background">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
             <div className="flex items-center justify-center gap-4 mb-4">
@@ -407,49 +450,6 @@ const MediaKitPage = () => {
                 ))}
               </div>
             </FadeInSection>
-          </div>
-        </div>
-      </section>
-
-      {/* Supper Club */}
-      <section id="supper-club" className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-background scroll-mt-24">
-        <div className="max-w-4xl mx-auto">
-          <FadeInSection>
-            <h2 className="text-center mb-6">Bottles &amp; Bites Supper Club Masterclasses</h2>
-            <img src={supperClubImg} alt="Bottles & Bites supper club masterclass" className="w-full h-80 object-cover mb-8" />
-          </FadeInSection>
-          <FadeInSection>
-            <p className="text-foreground/70">
-              Helena hosts exclusive, consumer-focused Bottles &amp; Bites drinks masterclasses with food for up to 30 people on the Isle of Wight. Choose from these options:
-            </p>
-          </FadeInSection>
-          <div className="mt-8 space-y-8">
-            {supperClubOptions.map((opt, i) => (
-              <FadeInSection key={opt.name} delay={0.1 * i}>
-                <div className="border border-border bg-card">
-                  <div className="p-6 md:p-8">
-                    <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-2">{opt.option}</p>
-                    <h3 className="mb-4">‘{opt.name}’</h3>
-                    <p className="text-foreground/70 leading-relaxed">{opt.intro}</p>
-                    {opt.items.length > 0 && (
-                      <ul className="space-y-3 text-foreground/70 mt-5">
-                        {opt.items.map((item) => (
-                          <li key={item} className="flex items-start gap-3">
-                            <span className="text-magenta mt-1">✦</span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                  <div className="bg-primary text-primary-foreground px-6 md:px-8 py-5 flex flex-wrap justify-between items-center gap-3">
-                    <span>Cost</span>
-                    <span className="font-heading font-bold text-3xl">{opt.price}</span>
-                    <span className="opacity-80 text-sm">+ stock (3 bottles of each wine shown)</span>
-                  </div>
-                </div>
-              </FadeInSection>
-            ))}
           </div>
         </div>
       </section>
