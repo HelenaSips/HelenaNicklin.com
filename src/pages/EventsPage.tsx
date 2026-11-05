@@ -64,9 +64,19 @@ const EventsPage = () => {
             { text: "Digital notes are given to attendees as standard, which include a list of the wines tasted with stockist details, the menu and further information. This sits on Helenasips.com under ‘Events’ and is accessed by a QR code available on the night." },
             { label: "Optional add-on:", text: "Make the event go further with extra digital coverage in the form of a subscriber newsletter article version of the digital notes, 3 x Instagram stories (with links to the article), a carousel post with 4 x pictures and description on the grid and one Instagram reel after the event." },
           ],
-          edgeImage: festivalPhoto,
+          edgeImage: rueda1,
           ctaLink: "/contact",
           ctaLabel: "Get Price List",
+        },
+        {
+          id: "brand-partnerships",
+          img: null,
+          title: "Digital Brand Partnerships",
+          copy: "Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website and newsletters.",
+          perfect: "Drinks brands and wine regions wanting to get liquid on lips across Helena's various digital platforms.",
+          ctaLink: "/brand-partnerships",
+          ctaLabel: "See Options",
+          edgeImage: festivalPhoto,
         },
         {
           id: "festivals-and-events",
@@ -75,16 +85,6 @@ const EventsPage = () => {
           copy: "Helena is an experienced wine and spirits presenter, bringing energy and passion to every session and masterclass she hosts.",
           perfect: "Food and drinks festivals, drinks expos and trade fairs.",
           cta: true,
-          edgeImage: rueda1,
-        },
-        {
-          id: "brand-partnerships",
-          img: null,
-          title: "Digital Brand Partnerships",
-          copy: "Create a bespoke, multi-channel sponsorship campaign across Helena's socials, website, newsletters, podcast and consumer tasting events.",
-          perfect: "Drinks brands and wine regions wanting to get liquid on lips across various platforms.",
-          ctaLink: "/brand-partnerships",
-          ctaLabel: "See Options",
         },
       ].map((service, i) => (
         <section key={service.title} id={service.id} className={`scroll-mt-24 ${i % 2 === 0 ? "bg-background" : "bg-secondary/50"}`}>
