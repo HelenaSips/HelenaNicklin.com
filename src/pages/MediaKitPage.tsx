@@ -93,13 +93,16 @@ const supperClubOptions = [
   {
     option: "Option 1",
     name: "Grape",
-    intro: "Make sure only your products are showcased by sponsoring a whole supper club event. You get to choose which bottles are shown (with guidance from Helena) and each will be served with expertly paired food, from small snacks to full dinners - food included. Attendees will also receive digital notes including stockist details, the menu and further information, shared via a QR code on the night.",
+    suffix: "Shared Event",
+    intro: "If sponsoring a full event is too much or it’s more appropriate to work with separate producers and brands, your product can still take part in a smaller, two-course meal with the masterclass. All location, food and cheffing costs are included, your product will be included in the digital notes for attendees, shared via a QR code on the night and in an Instagram reel of the event. Up to 6 wines and 1 welcome drink will be showcased. You can take more than one slot.",
     items: [] as string[],
-    price: "£1,875",
+    price: "£250",
+    priceNote: "per slot + 3 bottles of each product shown",
   },
   {
     option: "Option 2",
     name: "Bunch",
+    suffix: "Whole Event",
     intro: "Make sure only your products are showcased by sponsoring a whole supper club event. You get to choose which bottles are shown (with guidance from Helena) and each will be served with expertly paired food over a multi-course dinner.",
     itemsHeading: "What’s included:",
     items: [
@@ -113,6 +116,7 @@ const supperClubOptions = [
   {
     option: "Option 3",
     name: "Vine",
+    suffix: "Whole Event",
     intro: "Maximise the supper club experience with a full digital campaign around it. As well as everything in the ‘Bunch’ package above, you’ll get:",
     items: [
       "Instagram carousel grid post of event with 5 x still photos incl. branded end image.",
@@ -361,7 +365,7 @@ const MediaKitPage = () => {
                   <div className="p-6 md:p-8">
                     <h3 className="mb-4 text-xl md:text-2xl flex flex-wrap items-baseline gap-x-3">
                       <span className="text-magenta tracking-widest uppercase">{opt.option}</span>
-                      <span>‘{opt.name}’</span>
+                      <span>‘{opt.name}’{"suffix" in opt && opt.suffix ? ` ${opt.suffix}` : ""}</span>
                     </h3>
                     <p className="text-foreground/70 leading-relaxed">{opt.intro}</p>
                     {"itemsHeading" in opt && opt.itemsHeading && (
@@ -380,7 +384,7 @@ const MediaKitPage = () => {
                   </div>
                   <div className="bg-primary text-primary-foreground px-6 md:px-8 py-5 flex flex-wrap items-baseline gap-x-4 gap-y-1">
                     <span className="font-heading font-bold text-3xl">{opt.price}</span>
-                    <span className="opacity-80 text-sm">+ stock (3 bottles of each wine shown)</span>
+                    <span className="opacity-80 text-sm">{"priceNote" in opt && opt.priceNote ? opt.priceNote : "+ stock (3 bottles of each wine shown)"}</span>
                   </div>
                 </div>
               </FadeInSection>
