@@ -28,10 +28,14 @@
   .footer { position: absolute; left: 57.6pt; right: 58.2pt; top: 571pt; display: flex; justify-content: space-between; font-size: 8pt; letter-spacing: .1em; color: var(--muted); text-transform: uppercase; }
 
   /* Work with Helena */
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt 18pt; margin-top: 20pt; height: 432pt; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14pt 18pt; margin-top: 18pt; height: 318pt; }
   .grid2 .card { padding: 26pt 24pt; display: flex; flex-direction: column; justify-content: center; }
   .grid2 h3 { margin-bottom: 8pt; }
   .grid2 p { font-size: 9.5pt; line-height: 1.55; }
+  .client-quote { text-align: center; margin: 22pt auto 0; max-width: 560pt; }
+  .client-quote .mark { font-family: 'Libre Baskerville', serif; font-size: 30pt; line-height: .6; color: var(--magenta); display: block; height: 16pt; }
+  .client-quote q { quotes: none; font-family: 'Libre Baskerville', serif; font-style: italic; font-size: 13pt; line-height: 1.55; color: var(--plum); display: block; }
+  .client-quote .who { margin-top: 8pt; font-size: 9pt; letter-spacing: .08em; color: var(--muted); }
 
   /* Audience */
   .stats { margin-top: 110pt; display: grid; gap: 18pt; }
@@ -58,19 +62,22 @@
   .opt .body { padding: 18pt 22pt 16pt; flex: 1; }
   .opt .label { font-size: 8.5pt; letter-spacing: .14em; text-transform: uppercase; color: var(--magenta); margin-bottom: 4pt; }
   .opt h3 { margin-bottom: 8pt; }
+  .opt h3 .num { color: var(--magenta); font-weight: 400; letter-spacing: .12em; text-transform: uppercase; margin-right: 8pt; }
+  .opt .incl { font-weight: 600; margin-top: 8pt; }
   .opt p { font-size: 9.5pt; line-height: 1.55; }
   .opt ul { list-style: none; margin-top: 8pt; }
   .opt li { font-size: 9.5pt; line-height: 1.5; padding-left: 14pt; position: relative; margin-top: 5pt; }
   .opt li::before { content: '✦'; position: absolute; left: 0; top: 0; color: var(--magenta); font-size: 8pt; }
-  .bar { background: var(--green); color: var(--bg); display: flex; justify-content: space-between; align-items: center; padding: 12pt 22pt; border-radius: 0 0 2pt 2pt; }
+  .bar { background: var(--green); color: var(--bg); display: flex; align-items: baseline; gap: 12pt; padding: 12pt 22pt; border-radius: 0 0 2pt 2pt; }
   .bar .lbl { font-size: 10pt; }
   .bar .amt { font-family: 'Libre Baskerville', serif; font-weight: 700; font-size: 20pt; }
   .bar .stock { font-size: 8.5pt; color: var(--peach); }
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20pt; margin-top: 30pt; height: 370pt; }
   .cols .opt { margin-top: 0; }
   .cols .opt .body { padding: 24pt 26pt 18pt; }
-  .cols .opt p, .cols .opt li { font-size: 10.5pt; line-height: 1.6; }
-  .cols .opt li { margin-top: 7pt; }
+  .cols .opt .body { padding: 20pt 22pt 14pt; }
+  .cols .opt p, .cols .opt li { font-size: 9.5pt; line-height: 1.5; }
+  .cols .opt li { margin-top: 5pt; }
 
   /* Podcast sponsorship */
   .spons { max-width: 586pt; margin: 50pt auto 0; }
@@ -102,6 +109,11 @@
       <div class="card"><h3>Bottles &amp; Bites Supper Club Masterclasses</h3><p>Put your brand or region in front of real consumers and get liquid on lips at Helena's regular drinks masterclass supper club events on the Isle of Wight. Available as an exclusive, branded event or part of a wider collaboration with other brands.</p></div>
       <div class="card"><h3>The HelenaSips Podcast: Sponsorship</h3><p>Launched April 2026, this podcast explores conversations with successful creatives about what makes them tick, over a glass of something delicious. Episode sponsorship is available in various bundles.</p></div>
       <div class="card"><h3>Corporate &amp; Private Wine Tasting Events</h3><p>Helena is an experienced wine communicator who can run full masterclass tastings solo or join forces with brands or other clients. Prices start at £950 but range according to scope and location. Contact her to discuss your needs.</p></div>
+    </div>
+    <div class="client-quote">
+      <span class="mark">“</span>
+      <q>Helena always over-delivers, comes up with really creative ideas that fit perfectly with the brand’s ethos and is a total pleasure to work with!</q>
+      <div class="who">— Emma Roberts, Eviva Comms</div>
     </div>
   </div>
   <div class="footer"><span>HelenaSips Media Kit</span><span>04</span></div>
@@ -155,11 +167,10 @@
     <p class="intro">Helena hosts exclusive, consumer-focused Bottles &amp; Bites drinks masterclasses with food for up to 30 people on the Isle of Wight. Choose from these options:</p>
     <div class="card opt">
       <div class="body">
-        <div class="label">Option 1</div>
-        <h3>‘Grape’</h3>
-        <p>Make sure only your products are showcased by sponsoring a whole supper club event. You get to choose which bottles are shown (with guidance from Helena) and each will be served with expertly paired food, from small snacks to full dinners - food included. Attendees will also receive digital notes including stockist details, the menu and further information, shared via a QR code on the night.</p>
+        <h3><span class="num">Option 1</span>‘Grape’ Shared Event</h3>
+        <p>If sponsoring a full event is too much or it’s more appropriate to work with separate producers and brands, your product can still feature in the masterclass with a paired, two-course meal. All location, food and cheffing costs are included. Your product will also be included in the digital notes for attendees, shared via QR code on the night as well as in an Instagram reel of the event. Up to 6 wines and 1 welcome drink will be showcased. You can take more than one slot.</p>
       </div>
-      <div class="bar"><span class="lbl">Cost</span><span class="amt">£1,875</span><span class="stock">+ stock (3 bottles of each wine shown)</span></div>
+      <div class="bar"><span class="amt">£250</span><span class="stock">per slot + 3 bottles of each product shown</span></div>
     </div>
   </div>
   <div class="footer"><span>HelenaSips Media Kit</span><span>07</span></div>
@@ -174,31 +185,33 @@
     <div class="cols">
       <div class="card opt">
         <div class="body">
-          <div class="label">Option 2</div>
-          <h3>‘Bunch’</h3>
-          <p>Maximise the experience with dedicated social media posts around the event, combining everything in Option 1 with the following:</p>
+          <h3><span class="num">Option 2</span>‘Bunch’ Whole Event</h3>
+          <p>Make sure only your products are showcased by sponsoring a whole supper club event. You get to choose which bottles are shown (with guidance from Helena) and each will be served with expertly paired food over a multi-course dinner.</p>
+          <p class="incl">What’s included:</p>
           <ul>
-            <li>Round-up Instagram reel of the night</li>
-            <li>Digital notes become a dedicated subscriber newsletter article</li>
-            <li>Article shared on LinkedIn, X &amp; Threads</li>
-            <li>3 x Instagram stories with links to the article</li>
-            <li>Instagram carousel grid post with up to 5 x still photos with branded end image.</li>
+            <li>3 hour event with an expert masterclass led by Helena Nicklin showcasing your product.</li>
+            <li>Substantial, multi-course, food pairing menu.</li>
+            <li>All location, food and cheffing costs.</li>
+            <li>Article-style digital notes for attendees shared via a QR code on the night.</li>
+            <li>Sum up Instagram reel of the event.</li>
+            <li>3 Instagram stories with link to digital notes.</li>
           </ul>
         </div>
-        <div class="bar"><span class="lbl">Cost</span><span class="amt">£2,495</span><span class="stock">+ stock (3 bottles of each wine shown)</span></div>
+        <div class="bar"><span class="amt">£1,995</span><span class="stock">+ stock (3 bottles of each wine shown)</span></div>
       </div>
       <div class="card opt">
         <div class="body">
-          <div class="label">Option 3</div>
-          <h3>‘Vine’</h3>
-          <p>The vine option is the full brand shebang: the supper club masterclass with a 360 degree digital campaign around it. As well as everything in the ‘Bunch’ package, you’ll get:</p>
+          <h3><span class="num">Option 3</span>‘Vine’ Whole Event</h3>
+          <p>Maximise the supper club experience with a full digital campaign around it. As well as everything in the ‘Bunch’ package above, you’ll get:</p>
           <ul>
-            <li>2 x Editorial Reels, such as a One Minute Wine Ace explainer, a food &amp; drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.</li>
-            <li>2 x Editorial Articles on helenasips.com. Subjects TBD by you, shared on your preferred dates.</li>
-            <li>Shares of articles via Instagram stories and carousels, over Threads, X and LinkedIn.</li>
+            <li>Instagram carousel grid post of event with 5 x still photos incl. branded end image.</li>
+            <li>1 x editorial drinks article (e.g. One Minute Wine Ace explainer, food &amp; drinks pairing recipe or a cocktail). Subjects TBD by you, shared on your preferred dates.</li>
+            <li>Article shared over LinkedIn, X, Threads and Stories.</li>
+            <li>Article goes out as a subscriber newsletter.</li>
+            <li>1 x Editorial Instagram reel, such as a One Minute Wine Ace explainer, a food &amp; drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.</li>
           </ul>
         </div>
-        <div class="bar"><span class="lbl">Cost</span><span class="amt">£4,295</span><span class="stock">+ stock (3 bottles of each wine shown)</span></div>
+        <div class="bar"><span class="amt">£2,895</span><span class="stock">+ stock (3 bottles of each wine shown)</span></div>
       </div>
     </div>
   </div>
