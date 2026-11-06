@@ -286,6 +286,21 @@ const MediaKitPage = () => {
         </div>
       </section>
 
+      {/* Client quote */}
+      <section className="pb-12 md:pb-16 px-6 md:px-12 lg:px-20 bg-background">
+        <FadeInSection>
+          <figure className="max-w-3xl mx-auto text-center">
+            <span className="block text-magenta font-heading text-6xl leading-none mb-2" aria-hidden="true">“</span>
+            <blockquote className="plum-quote !border-l-0 !pl-0 !text-xl md:!text-2xl leading-relaxed">
+              Helena always over-delivers, comes up with really creative ideas that fit perfectly with the brand’s ethos and is a total pleasure to work with!
+            </blockquote>
+            <figcaption className="mt-6 text-sm text-muted-foreground font-heading tracking-wider">
+              — Emma Roberts, Eviva Comms
+            </figcaption>
+          </figure>
+        </FadeInSection>
+      </section>
+
       {/* Digital Audience */}
       <section className="py-10 md:py-14 lg:py-16 px-6 md:px-12 lg:px-20 bg-secondary">
         <div className="max-w-5xl mx-auto">
