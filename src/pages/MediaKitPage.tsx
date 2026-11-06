@@ -100,26 +100,28 @@ const supperClubOptions = [
   {
     option: "Option 2",
     name: "Bunch",
-    intro: "Maximise the experience with dedicated social media posts around the event, combining everything in Option 1 with the following:",
+    intro: "Make sure only your products are showcased by sponsoring a whole supper club event. You get to choose which bottles are shown (with guidance from Helena) and each will be served with expertly paired food over a multi-course dinner.",
+    itemsHeading: "What’s included:",
     items: [
-      "Round-up Instagram reel of the night",
-      "Digital notes become a dedicated subscriber newsletter article",
-      "Article shared on LinkedIn, X & Threads",
-      "3 x Instagram stories with links to the article",
-      "Instagram carousel grid post with up to 5 x still photos with branded end image.",
+      "3 hour event with an expert masterclass led by Helena Nicklin showcasing your product.",
+      "All location, food and cheffing costs.",
+      "Digital notes for attendees shared via a QR code on the night.",
+      "Sum up Instagram reel of the event with at least 3 Instagram stories.",
     ],
     price: "£2,495",
   },
   {
     option: "Option 3",
     name: "Vine",
-    intro: "The vine option is the full brand shebang: the supper club masterclass with a 360 degree digital campaign around it. As well as everything in the ‘Bunch’ package, you’ll get:",
+    intro: "Maximise the supper club experience with a full digital campaign around it. As well as everything in the ‘Bunch’ package above, you’ll get:",
     items: [
-      "2 x Editorial Reels, such as a One Minute Wine Ace explainer, a food & drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.",
-      "2 x Editorial Articles on helenasips.com. Subjects TBD by you, shared on your preferred dates.",
-      "Shares of articles via Instagram stories and carousels, over Threads, X and LinkedIn.",
+      "Instagram carousel grid post of event with 5 x still photos incl. branded end image.",
+      "1 x editorial drinks article (e.g. One Minute Wine Ace explainer, food & drinks pairing recipe or a cocktail). Subjects TBD by you, shared on your preferred dates.",
+      "Article shared over LinkedIn, X, Threads and Stories.",
+      "Article goes out as a subscriber newsletter.",
+      "1 x Editorial Instagram reel, such as a One Minute Wine Ace explainer, a food & drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.",
     ],
-    price: "£4,295",
+    price: "£3,495",
   },
 ];
 
@@ -362,6 +364,9 @@ const MediaKitPage = () => {
                       <span>‘{opt.name}’</span>
                     </h3>
                     <p className="text-foreground/70 leading-relaxed">{opt.intro}</p>
+                    {"itemsHeading" in opt && opt.itemsHeading && (
+                      <p className="text-foreground/70 font-semibold mt-5">{opt.itemsHeading}</p>
+                    )}
                     {opt.items.length > 0 && (
                       <ul className="space-y-3 text-foreground/70 mt-5">
                         {opt.items.map((item) => (
