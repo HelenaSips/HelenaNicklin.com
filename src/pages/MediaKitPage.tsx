@@ -94,7 +94,7 @@ const supperClubOptions = [
     option: "Option 1",
     name: "Grape",
     suffix: "Shared Event",
-    intro: "If sponsoring a full event is too much or it’s more appropriate to work with separate producers and brands, your product can still take part in a smaller, two-course meal with the masterclass. All location, food and cheffing costs are included, your product will be included in the digital notes for attendees, shared via a QR code on the night and in an Instagram reel of the event. Up to 6 wines and 1 welcome drink will be showcased. You can take more than one slot.",
+    intro: "If sponsoring a full event is too much or it’s more appropriate to work with separate producers and brands, your product can still feature in the masterclass with a paired, two-course meal. All location, food and cheffing costs are included. Your product will also be included in the digital notes for attendees, shared via QR code on the night as well as in an Instagram reel of the event. Up to 6 wines and 1 welcome drink will be showcased. You can take more than one slot.",
     items: [] as string[],
     price: "£250",
     priceNote: "per slot + 3 bottles of each product shown",
