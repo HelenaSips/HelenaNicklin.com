@@ -107,6 +107,7 @@ const supperClubOptions = [
     itemsHeading: "What’s included:",
     items: [
       "3 hour event with an expert masterclass led by Helena Nicklin showcasing your product.",
+      "Substantial, multi-course, food pairing menu.",
       "All location, food and cheffing costs.",
       "Digital notes for attendees shared via a QR code on the night.",
       "Sum up Instagram reel of the event with at least 3 Instagram stories.",
