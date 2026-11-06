@@ -265,6 +265,16 @@ const MediaKitPage = () => {
               </FadeInSection>
             ))}
           </div>
+          <div className="text-center mt-10">
+            <a
+              href="/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 bg-magenta text-white font-heading tracking-wider hover:bg-magenta/90 transition-all"
+            >
+              Contact
+            </a>
+          </div>
         </div>
       </section>
 
@@ -347,8 +357,10 @@ const MediaKitPage = () => {
               <FadeInSection key={opt.name} delay={0.1 * i}>
                 <div className="border border-border bg-card">
                   <div className="p-6 md:p-8">
-                    <p className="text-magenta font-heading tracking-widest uppercase text-sm mb-2">{opt.option}</p>
-                    <h3 className="mb-4">‘{opt.name}’</h3>
+                    <h3 className="mb-4 text-xl md:text-2xl flex flex-wrap items-baseline gap-x-3">
+                      <span className="text-magenta tracking-widest uppercase">{opt.option}</span>
+                      <span>‘{opt.name}’</span>
+                    </h3>
                     <p className="text-foreground/70 leading-relaxed">{opt.intro}</p>
                     {opt.items.length > 0 && (
                       <ul className="space-y-3 text-foreground/70 mt-5">
@@ -361,8 +373,7 @@ const MediaKitPage = () => {
                       </ul>
                     )}
                   </div>
-                  <div className="bg-primary text-primary-foreground px-6 md:px-8 py-5 flex flex-wrap justify-between items-center gap-3">
-                    <span>Cost</span>
+                  <div className="bg-primary text-primary-foreground px-6 md:px-8 py-5 flex flex-wrap items-baseline gap-x-4 gap-y-1">
                     <span className="font-heading font-bold text-3xl">{opt.price}</span>
                     <span className="opacity-80 text-sm">+ stock (3 bottles of each wine shown)</span>
                   </div>
