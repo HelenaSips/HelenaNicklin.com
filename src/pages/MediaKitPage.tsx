@@ -109,10 +109,11 @@ const supperClubOptions = [
       "3 hour event with an expert masterclass led by Helena Nicklin showcasing your product.",
       "Substantial, multi-course, food pairing menu.",
       "All location, food and cheffing costs.",
-      "Digital notes for attendees shared via a QR code on the night.",
-      "Sum up Instagram reel of the event with at least 3 Instagram stories.",
+      "Article-style digital notes for attendees shared via a QR code on the night.",
+      "Sum up Instagram reel of the event.",
+      "3 Instagram stories with link to digital notes.",
     ],
-    price: "£2,495",
+    price: "£1,995",
   },
   {
     option: "Option 3",
@@ -126,7 +127,7 @@ const supperClubOptions = [
       "Article goes out as a subscriber newsletter.",
       "1 x Editorial Instagram reel, such as a One Minute Wine Ace explainer, a food & drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.",
     ],
-    price: "£3,495",
+    price: "£2,795",
   },
 ];
 
