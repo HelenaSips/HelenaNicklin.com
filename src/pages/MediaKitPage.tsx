@@ -127,7 +127,7 @@ const supperClubOptions = [
       "Article goes out as a subscriber newsletter.",
       "1 x Editorial Instagram reel, such as a One Minute Wine Ace explainer, a food & drinks pairing recipe or a cocktail. Subjects TBD by you, shared on your preferred dates.",
     ],
-    price: "£2,795",
+    price: "£2,895",
   },
 ];
 
